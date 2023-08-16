@@ -88,8 +88,6 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-             {% render 'junip-product-review', product: product %} 
-
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
@@ -547,8 +545,6 @@
               {% render 'icon-with-text',
                 block: block
               %}
-            {%- when 'reviews' -%}
-              {% render 'junip-product-review', product: product %}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -2015,11 +2011,6 @@
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
         }
       ]
-    },
-    {
-      "type": "reviews",
-      "name": "t:sections.main-product.blocks.reviews.name",
-      "limit": 1
     }
   ],
   "settings": [
