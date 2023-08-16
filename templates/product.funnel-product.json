@@ -58,6 +58,11 @@
             "icon_3": "heart",
             "heading_3": ""
           }
+        },
+        "eb3bb3e9-f2ac-46bd-ba42-70dbb97abb87": {
+          "type": "reviews",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -68,7 +73,8 @@
         "variant_picker",
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
         "buy_buttons",
-        "272f259b-4aad-4298-92f2-a98154f59a11"
+        "272f259b-4aad-4298-92f2-a98154f59a11",
+        "eb3bb3e9-f2ac-46bd-ba42-70dbb97abb87"
       ],
       "settings": {
         "enable_sticky_info": false,
