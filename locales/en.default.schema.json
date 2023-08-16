@@ -2296,6 +2296,9 @@
               "label": "Third heading"
             }
           }
+        },
+        "reviews": {
+          "name": "Reviews"
         }
       },
       "settings": {
