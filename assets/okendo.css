@@ -1,5 +1,16 @@
+[data-oke-star-rating] {
+  visibility: hidden;
+  min-height: 27px;
+}
+
 .oke-sr-count-number, .oke-sr-label-text {
   visibility: hidden;
+}
+
+.oke-sr-rating {
+  display: inline !important;
+  font-weight: var(--font-body-weight-bold, 600);
+  margin-right: 4px;
 }
 
 .oke-sr-count {
@@ -11,7 +22,8 @@
   content: var(--happy-customers);
   visibility: visible;
   position: absolute;
-  top: 2px;
+  top: 1px;
+  vertical-align: middle;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
