@@ -1,6 +1,54 @@
 {
   "layout": "funnel",
   "sections": {
+    "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf": {
+      "type": "image-banner",
+      "blocks": {
+        "703f7608-0c82-4cf0-b6f3-ea8e3b904c37": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>You Sleep <em>All Night<\/em> When They Sleep With <em>Lulla Doll<\/em><\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "6f73d2eb-44ec-4087-adae-1293c11c3b1f": {
+          "type": "text",
+          "settings": {
+            "text": "The sleeping companion <strong>backed by science<\/strong> to help kids 0-36+ months get a <em>full night<\/em> of <strong>uninterrupted rest<\/strong>.",
+            "text_style": "body"
+          }
+        },
+        "63c9abbc-b5d9-4785-ad31-2909ed878b98": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "RESTORE YOUR SLEEP",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "703f7608-0c82-4cf0-b6f3-ea8e3b904c37",
+        "6f73d2eb-44ec-4087-adae-1293c11c3b1f",
+        "63c9abbc-b5d9-4785-ad31-2909ed878b98"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -111,10 +159,431 @@
         "padding_bottom": 28
       }
     },
-    "1692191928df0c0757": {
+    "f698cc71-350b-42bd-a78f-2f131c289fc4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16236965560507__f698cc71-350b-42bd-a78f-2f131c289fc4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Trusted By Thousands<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__f698cc71-350b-42bd-a78f-2f131c289fc4-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "f36c727e-8c75-4227-ba2c-e69fca511066": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16236965560507__f36c727e-8c75-4227-ba2c-e69fca511066-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_for_Columns_5_400w_px_x_250_hpx.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "“OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept.”- Mother’s Name",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "f51613d4-1d5d-46a1-a247-e728f76df4cb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b250ff4d1a10f64903720f91941552e8.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "“Yes it is such a great thing I love it so much yes yes yes  popcorn yes yer’s Name",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__f36c727e-8c75-4227-ba2c-e69fca511066-slide-1",
+        "f51613d4-1d5d-46a1-a247-e728f76df4cb"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "numbers",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Testimonials for Lulla Doll"
+      }
+    },
+    "1054f7f4-3610-4cb9-bb69-0e8d4908d05c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16236965560507__1054f7f4-3610-4cb9-bb69-0e8d4908d05c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Parents of children who use <strong>Lulla Doll <\/strong>say they get <strong>up to 90%<\/strong> of their sleep back",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__1054f7f4-3610-4cb9-bb69-0e8d4908d05c-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "83b975e0-4650-4f80-8dbc-961214470eb0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>3 Years of Research<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>To create the award winning sleep doll that helps children through their early stages in life.<\/h2>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1",
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lullaoutfitbunny.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4ac705bc-274d-4cb3-9a61-e1424f7f05b5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Benefits <em>Proven by Studies<\/em><\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "dc5ebd70-3f8f-4465-ae80-d98601301419": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Full Nights Rest<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thousands of parents say their children sleep all night with Lulla. Crucial for brain development and growth at a young age.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-heading-1",
+        "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_for_Columns_2_400w_px_x_300_hpx.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "82e64d89-4c1a-47ae-9aa6-9bfb0bcc66e4": {
+      "type": "image-with-text",
+      "blocks": {
+        "2f89e68e-1c59-42be-85b4-138869d40fe6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Human Closeness<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "77628efe-ce85-4417-9cbf-0cfe7e8aa5d6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lulla's material absorbs your natural scent, further giving your child the feeling of human closeness with their mother.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "2f89e68e-1c59-42be-85b4-138869d40fe6",
+        "77628efe-ce85-4417-9cbf-0cfe7e8aa5d6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LullaFoxoutfit2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d44c38cd-9b29-4876-97cf-833d5973494d": {
+      "type": "image-with-text",
+      "blocks": {
+        "327a4a48-37b9-4f1a-b5cd-c4d8662fa46f": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Backed by Research<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "b132ffec-1479-4c1e-8839-c207c56658d1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Research shows that children are soothed to sleep by the sounds of breathing and heartbeat by Lulla Doll.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "d029e7db-f16b-40f9-96aa-1d59cb9e85d0": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET LULLA DOLL",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "327a4a48-37b9-4f1a-b5cd-c4d8662fa46f",
+        "b132ffec-1479-4c1e-8839-c207c56658d1",
+        "d029e7db-f16b-40f9-96aa-1d59cb9e85d0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LullaFoxoutfit2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b856698a-8718-4c46-a833-42b484d7c0b6": {
+      "type": "rich-text",
+      "blocks": {
+        "35c7ec07-44a1-451a-919a-0acc06cf1ecd": {
+          "type": "heading",
+          "settings": {
+            "heading": "The <strong>only<\/strong> sleeping companion <em>backed by studies<\/em> that has <strong>won international awards<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "35c7ec07-44a1-451a-919a-0acc06cf1ecd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "91a611cf-c313-4fe0-87c3-9df91fe58437": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16236965560507__91a611cf-c313-4fe0-87c3-9df91fe58437-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong><em>Lulla Doll Companion<\/em> vs Sleep Toys<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__91a611cf-c313-4fe0-87c3-9df91fe58437-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "373bec9c-66ab-4762-b9df-513d6946b341": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16236965560507__373bec9c-66ab-4762-b9df-513d6946b341-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>How it Works<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__373bec9c-66ab-4762-b9df-513d6946b341-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it machine washable?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes<\/p>",
+            "page": ""
+          }
+        },
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ages is it suitable for?",
+            "icon": "question_mark",
+            "row_content": "<p>0-36+ Months<\/p>",
+            "page": ""
+          }
+        },
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a return policy?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes<\/p>",
+            "page": ""
+          }
+        },
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are shipping times?",
+            "icon": "question_mark",
+            "row_content": "<p>Not sure<\/p>",
+            "page": ""
+          }
+        },
+        "6fbb814f-864c-4067-a3d1-559bb06cab33": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does it need batteries?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-1",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-2",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4",
+        "6fbb814f-864c-4067-a3d1-559bb06cab33"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "accent-2",
+        "container_color_scheme": "accent-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1692621038513382cd": {
       "type": "apps",
       "blocks": {
-        "296018e0-2c14-4e01-a8dc-cf0014dc8d8a": {
+        "bc341b12-9a8b-4ef3-951c-cec399a30716": {
           "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
             "product": "{{product}}",
@@ -123,7 +592,7 @@
         }
       },
       "block_order": [
-        "296018e0-2c14-4e01-a8dc-cf0014dc8d8a"
+        "bc341b12-9a8b-4ef3-951c-cec399a30716"
       ],
       "settings": {
         "include_margins": true
@@ -131,8 +600,21 @@
     }
   },
   "order": [
+    "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf",
     "main",
     "related-products",
-    "1692191928df0c0757"
+    "f698cc71-350b-42bd-a78f-2f131c289fc4",
+    "f36c727e-8c75-4227-ba2c-e69fca511066",
+    "1054f7f4-3610-4cb9-bb69-0e8d4908d05c",
+    "83b975e0-4650-4f80-8dbc-961214470eb0",
+    "4ac705bc-274d-4cb3-9a61-e1424f7f05b5",
+    "dc5ebd70-3f8f-4465-ae80-d98601301419",
+    "82e64d89-4c1a-47ae-9aa6-9bfb0bcc66e4",
+    "d44c38cd-9b29-4876-97cf-833d5973494d",
+    "b856698a-8718-4c46-a833-42b484d7c0b6",
+    "91a611cf-c313-4fe0-87c3-9df91fe58437",
+    "373bec9c-66ab-4762-b9df-513d6946b341",
+    "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
+    "1692621038513382cd"
   ]
 }
