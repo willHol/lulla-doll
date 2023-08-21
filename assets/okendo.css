@@ -1,6 +1,7 @@
 [data-oke-star-rating] {
   visibility: hidden;
   min-height: 27px;
+  margin-top: 1rem;
 }
 
 .oke-sr-count-number, .oke-sr-label-text {
@@ -13,17 +14,12 @@
   margin-right: 4px;
 }
 
-.oke-sr-count {
-  position: relative;
-}
-
 .oke-sr-count::before {
   content: "Join 4,095+ Happy Parents";
   content: var(--happy-customers);
   visibility: visible;
-  position: absolute;
-  top: 1px;
+  height: 100%;
   vertical-align: middle;
   white-space: nowrap;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
