@@ -12,6 +12,11 @@
   display: inline !important;
   font-weight: var(--font-body-weight-bold, 600);
   margin-right: 4px;
+  min-width: 28px;
+}
+
+.oke-sr-stars {
+  min-width: 104px;
 }
 
 .oke-sr-count::before {
