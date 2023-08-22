@@ -506,3 +506,40 @@
 .custom-shape-divider-bottom-1692675641 .shape-fill {
     fill: #FFFFFF;
 }
+/* end shapedivider.app */
+
+[data-scroll-to-product-button] {
+  cursor: pointer !important;
+  transition: none;
+}
+
+a[data-scroll-to-product-button] {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: 900; /* TODO: Consider making a variable */
+  text-transform: uppercase;
+  font-family: inherit;
+  letter-spacing: 0.3rem;
+}
+
+a[data-scroll-to-product-button]::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(var(--color-shadow));
+  border-radius: inherit;
+  transform: translate3d(0, 0.6rem, -1rem);
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+/* Empty to override theme default */
+a[data-scroll-to-product-button]::after {}
