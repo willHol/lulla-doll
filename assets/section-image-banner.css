@@ -426,6 +426,11 @@
   margin-bottom: 0;
 }
 
+.banner__heading.h1 em {
+  font-style: normal;
+  background-color: #FFE0EF; /* TODO: Remove hard-coding */
+}
+
 .banner__box .banner__heading + * {
   margin-top: 1rem;
 }
