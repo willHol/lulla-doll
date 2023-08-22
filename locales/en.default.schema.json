@@ -1281,6 +1281,9 @@
             "button_link_1": {
               "label": "First button link"
             },
+            "button_data_attribute_1": {
+              "label": "Button data attribute"
+            },
             "button_style_secondary_1": {
               "label": "Use outline button style"
             },
