@@ -4,16 +4,18 @@
 
 <div class="as-seen-in__container">
   {% for block in section.blocks %}
-    <div class="as-seen-in__logo-item">
-      {% comment %} TODO: Implement `srcset` responsive images {% endcomment %}
-      <img
-        src="{{ block.settings.logo_image | image_url }}"
-        height="auto"
-        width="auto"
-        loading="lazy"
-        alt="{{ block.settings.alt | escape }}"
-      >
-    </div>
+    {% if block.settings.logo_image != blank %}
+      <div class="as-seen-in__logo-item">
+        {% comment %} TODO: Implement `srcset` responsive images {% endcomment %}
+        <img
+          src="{{ block.settings.logo_image | image_url }}"
+          height="auto"
+          width="auto"
+          loading="lazy"
+          alt="{{ block.settings.alt | escape }}"
+        >
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
