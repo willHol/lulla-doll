@@ -9,6 +9,7 @@ as-seen-in {
 
 .as-seen-in__container {
   position: relative;
+  padding-bottom: calc(var(--as-seen-in-divider-height) + 2rem); /* TODO: Replace with setting */
 }
 
 :not(.slider-active) .as-seen-in__logo-item {
@@ -33,7 +34,7 @@ as-seen-in {
 
 .as-seen-in__heading {
   font-weight: 900; /* TODO: Remove hard-coding */
-  margin-top: calc(var(--font-heading-scale) * 2.4rem);
+  margin-top: 4rem; /* TODO: Replace with setting */
 }
 
 .custom-shape-divider-bottom-1692989591 {
@@ -51,8 +52,10 @@ as-seen-in {
     display: block;
     width: calc(100% + 1.3px);
     height: 35px;
+    height: var(--as-seen-in-divider-height);
 }
 
 .custom-shape-divider-bottom-1692989591 .shape-fill {
+  fill: transparent;
   fill: var(--as-seen-in-divider-color);
 }
