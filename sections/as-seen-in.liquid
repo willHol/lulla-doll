@@ -1,28 +1,69 @@
 {{ 'component-as-seen-in.css' | asset_url | stylesheet_tag }}
+{{ 'swiper-bundle-10.2.0.min.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.swiper_enabled %}
+  <script
+    src="{{ 'swiper-bundle-10.2.0.min.js' | asset_url }}"
+    defer="defer"
+  ></script>
+{% endif %}
 
 <script src="{{ 'as-seen-in.js' | asset_url }}" defer="defer"></script>
 
-<div class="as-seen-in__container">
-  {% for block in section.blocks %}
-    {% if block.settings.logo_image != blank %}
-      <div class="as-seen-in__logo-item">
-        {% comment %} TODO: Implement `srcset` responsive images {% endcomment %}
-        <img
-          src="{{ block.settings.logo_image | image_url }}"
-          height="auto"
-          width="auto"
-          loading="lazy"
-          alt="{{ block.settings.alt | escape }}"
-        >
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+{% style %}
+  as-seen-in.section-{{section.id }} {
+    --as-seen-in-section-max-height: {{ section.settings.max_height }};
+    --as-seen-in-image-aspect-ratio: {{ section.settings.image_aspect_ratio }};
+  }
+{% endstyle %}
+
+<as-seen-in
+  class="swiper section-{{ section.id }}"
+  {% if section.settings.swiper_enabled %}
+    data-swiper-enabled
+  {% endif %}
+>
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      {% if block.settings.logo_image != blank %}
+        <div class="swiper-slide as-seen-in__logo-item">
+          {% comment %} TODO: Implement `srcset` responsive images {% endcomment %}
+          <img
+            src="{{ block.settings.logo_image | image_url }}"
+            height="auto"
+            width="auto"
+            loading="lazy"
+            alt="{{ block.settings.alt | escape }}"
+          >
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</as-seen-in>
 
 {% schema %}
 {
   "name": "t:sections.as-seen-in.name",
-  "settings": [],
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "swiper_enabled",
+      "label": "Enable Swiper", // TODO: i18n
+      "default": false
+    },
+    {
+      "type": "number",
+      "id": "max_height",
+      "label": "Max Height (rem)",
+      "default": "auto"
+    },
+    {
+      "type": "text",
+      "id": "image_aspect_ratio",
+      "label": "Image Aspect Ratio (1 / 1, 1 / 3, etc.)",
+      "default": "auto"
+    }
+  ],
   "blocks": [
     {
       "type": "logo",
@@ -31,13 +72,13 @@
         {
           "type": "image_picker",
           "id": "logo_image",
-          "label": "Logo Image"
+          "label": "Logo Image" // TODOY: i18n
         },
         {
           "type": "text",
           "id": "alt",
-          "label": "Alt Text",
-          "default": "Logo"
+          "label": "Alt Text", // TODO: i18n
+          "default": "Logo" // TODO: i18n
         }
       ]
     }

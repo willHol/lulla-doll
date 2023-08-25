@@ -252,6 +252,29 @@ function waitForElementToExist(selector) {
   });
 }
 
+function waitForProperty(propertyName, callback, interval = 50, maxAttempts = 100) {
+  let attempts = 0;
+
+  function checkProperty() {
+    attempts++;
+
+    // Check if the property is defined on the window object
+    if (window[propertyName] !== undefined) {
+      callback(true);
+      return;
+    }
+
+    // If the property is still not defined and we haven't reached the max attempts, try again
+    if (attempts < maxAttempts) {
+      setTimeout(checkProperty, interval);
+    } else {
+      callback(false); // Indicate failure after max attempts
+    }
+  }
+
+  checkProperty();
+}
+
 /*
  * Shopify Common JS
  *

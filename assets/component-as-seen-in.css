@@ -1,21 +1,24 @@
-.as-seen-in__container {
+as-seen-in {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-height: var(--as-seen-in-section-max-height);
 }
 
-.as-seen-in__logo-item {
-  margin: 10px;
+:not(.slider-active) .as-seen-in__logo-item {
+  display: inline-block;
+  flex: 1 0 calc(25% - 10px); /* This will allow up to 4 logos per line on mobile, accounting for the margin */
+  margin: 5px; /* TODO: replace 10px & 5px with css variables */
+  padding: 0;
 }
 
-@media (max-width: 768px) {
-  .as-seen-in__container {
-    overflow-x: auto;
-    display: block;
-    white-space: nowrap;
-  }
 
-  .as-seen-in__logo-item {
-    display: inline-block;
-  }
+:not(.slider-active) .as-seen-in__logo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%;
+  max-height: var(--as-seen-in-section-max-height);
+  aspect-ratio: var(--as-seen-in-img-aspect-ratio);
 }
