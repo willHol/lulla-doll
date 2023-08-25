@@ -1,0 +1,44 @@
+{{ 'component-as-seen-in.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'as-seen-in.js' | asset_url }}" defer="defer"></script>
+
+<div class="as-seen-in__container">
+  {% for block in section.blocks %}
+    <div class="as-seen-in__logo-item">
+      {% comment %} TODO: Implement `srcset` responsive images {% endcomment %}
+      <img
+        src="{{ block.settings.logo_image | image_url }}"
+        height="auto"
+        width="auto"
+        loading="lazy"
+        alt="{{ block.settings.alt | escape }}"
+      >
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.as-seen-in.name",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Add Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "Logo Image"
+        },
+        {
+          "type": "text",
+          "id": "alt",
+          "label": "Alt Text",
+          "default": "Logo"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
