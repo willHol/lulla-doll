@@ -524,9 +524,7 @@
     "as-seen-in": {
       "name": "As Seen In",
       "presets": {
-        "default": {
-          "name": "Default"
-        }
+        "name": "As Seen In"
       }
     },
     "collage": {
