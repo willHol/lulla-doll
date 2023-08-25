@@ -2277,6 +2277,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   margin: 0;
   letter-spacing: 0.1rem;
   min-height: 3.8rem;
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
 
 .announcement-bar__message svg.icon-discount-percentage {

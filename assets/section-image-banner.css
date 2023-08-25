@@ -558,3 +558,7 @@ a[data-scroll-to-product-button]::after {}
     height: 1.5rem;
     transform: translateY(-2px);
 }
+
+.banner__text {
+  font-size: 1.7rem;
+}
