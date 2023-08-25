@@ -51,6 +51,47 @@
         "show_text_below": true
       }
     },
+    "f859c100-07cd-40ac-b216-645261b9e0b3": {
+      "type": "as-seen-in",
+      "blocks": {
+        "c2194b40-4f1b-4248-8dcb-9dc4f763338c": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/2_3.png",
+            "alt": "Logo"
+          }
+        },
+        "5ab48408-dbc2-4d56-a247-28d475904fd3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/1_2_c2e5274b-ed82-443d-b767-158a011ec499.png",
+            "alt": "Logo"
+          }
+        },
+        "89e82b71-86d4-4943-8b7c-7ab8d5464d66": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/awards3_large_9a5daa40-5523-4d3c-9aff-56c9163aba9d.png",
+            "alt": "Logo"
+          }
+        },
+        "e6edcd52-dabd-4a43-8d2c-f568283fd536": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/400_x_300_Awards_2.jpg",
+            "alt": "Logo"
+          }
+        }
+      },
+      "block_order": [
+        "c2194b40-4f1b-4248-8dcb-9dc4f763338c",
+        "5ab48408-dbc2-4d56-a247-28d475904fd3",
+        "89e82b71-86d4-4943-8b7c-7ab8d5464d66",
+        "e6edcd52-dabd-4a43-8d2c-f568283fd536"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -603,6 +644,7 @@
   },
   "order": [
     "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf",
+    "f859c100-07cd-40ac-b216-645261b9e0b3",
     "main",
     "related-products",
     "f698cc71-350b-42bd-a78f-2f131c289fc4",
