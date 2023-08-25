@@ -525,6 +525,11 @@
       "name": "As Seen In",
       "presets": {
         "name": "As Seen In"
+      },
+      "blocks": {
+        "logo": {
+          "name": "Logo"
+        }
       }
     },
     "collage": {
