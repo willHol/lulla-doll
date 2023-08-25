@@ -3,12 +3,13 @@ as-seen-in {
   flex-wrap: wrap;
   justify-content: center;
   max-height: var(--as-seen-in-section-max-height);
+  background-color: var(--color-background);
 }
 
 :not(.slider-active) .as-seen-in__logo-item {
   display: inline-block;
-  flex: 1 0 calc(25% - 10px); /* This will allow up to 4 logos per line on mobile, accounting for the margin */
-  margin: 5px; /* TODO: replace 10px & 5px with css variables */
+  flex: 1 1 calc(25% - 10px); /* This will allow up to 4 logos per line on mobile, accounting for the margin */
+  padding: 0.2rem 3rem; /* TODO: replace 10px & 5px with css variables */
   padding: 0;
 }
 
@@ -18,7 +19,7 @@ as-seen-in {
   height: auto;
   display: block;
   margin: 0 auto; 
-  max-width: 100%;
+  max-width: 100px;
   max-height: var(--as-seen-in-section-max-height);
   aspect-ratio: var(--as-seen-in-img-aspect-ratio);
 }
