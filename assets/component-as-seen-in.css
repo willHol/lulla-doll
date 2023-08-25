@@ -3,14 +3,21 @@ as-seen-in {
   flex-wrap: wrap;
   justify-content: center;
   max-height: var(--as-seen-in-section-max-height);
+  max-width: var(--page-width);
   background-color: var(--color-background);
+}
+
+.as-seen-in__container {
+  position: relative;
 }
 
 :not(.slider-active) .as-seen-in__logo-item {
   display: inline-block;
   flex: 1 1 calc(25% - 10px); /* This will allow up to 4 logos per line on mobile, accounting for the margin */
   padding: 0.2rem 3rem; /* TODO: replace 10px & 5px with css variables */
+  margin: 0 1rem;
   padding: 0;
+  gap: 3rem;
 }
 
 
@@ -22,4 +29,30 @@ as-seen-in {
   max-width: 100px;
   max-height: var(--as-seen-in-section-max-height);
   aspect-ratio: var(--as-seen-in-img-aspect-ratio);
+}
+
+.as-seen-in__heading {
+  font-weight: 900; /* TODO: Remove hard-coding */
+  margin-top: calc(var(--font-heading-scale) * 2.4rem);
+}
+
+.custom-shape-divider-bottom-1692989591 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692989591 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 35px;
+}
+
+.custom-shape-divider-bottom-1692989591 .shape-fill {
+  fill: var(--as-seen-in-divider-color);
 }

@@ -560,5 +560,5 @@ a[data-scroll-to-product-button]::after {}
 }
 
 .banner__text {
-  font-size: 1.7rem;
+  font-size: 1.7rem;; 
 }

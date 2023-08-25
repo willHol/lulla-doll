@@ -11,18 +11,22 @@
 <script src="{{ 'as-seen-in.js' | asset_url }}" defer="defer"></script>
 
 {% style %}
-  as-seen-in.section-{{section.id }} {
+  as-seen-in.section-{{ section.id }} {
     --as-seen-in-section-max-height: {{ section.settings.max_height }};
     --as-seen-in-image-aspect-ratio: {{ section.settings.image_aspect_ratio }};
+    --as-seen-in-divider-color: {{ section.settings.divider_color }};
   }
 {% endstyle %}
 
 <as-seen-in
-  class="swiper section-{{ section.id }} color-{{ section.settings.color_scheme }}"
+  class="page-width as-seen-in__container section-{{ section.id }} color-{{ section.settings.color_scheme }}"
   {% if section.settings.swiper_enabled %}
     data-swiper-enabled
   {% endif %}
 >
+  <div class="as-seen-in__heading h2">
+    {{ section.settings.heading | escape }}
+  </div>
   <div class="swiper-wrapper">
     {% for block in section.blocks %}
       {% if block.settings.logo_image != blank %}
@@ -39,12 +43,26 @@
       {% endif %}
     {% endfor %}
   </div>
+  {% comment %} shapedivider.app {% endcomment %}
+  {% if section.settings.divider_enabled %}
+    <div class="custom-shape-divider-bottom-1692989591">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  {% endif %}
 </as-seen-in>
 
 {% schema %}
 {
   "name": "t:sections.as-seen-in.name",
   "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading", // TODO: i18n
+      "default": "Featured In" // TODO: i18n
+    },
     {
       "type": "checkbox",
       "id": "swiper_enabled",
@@ -68,6 +86,28 @@
       "id": "color_scheme",
       "label": "Color Scheme", // TODO: i18n
       "default": "background-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "divider_enabled",
+      "label": "Enable Divider", // TODO: i18n
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Choose a background color", // TODO: i18n
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Vertical", // TODO: i18n
+      "default": 16
     }
   ],
   "blocks": [
