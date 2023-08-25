@@ -15,6 +15,7 @@
     --as-seen-in-section-max-height: {{ section.settings.max_height }};
     --as-seen-in-image-aspect-ratio: {{ section.settings.image_aspect_ratio }};
     --as-seen-in-divider-color: {{ section.settings.divider_color }};
+    --as-seen-in-divider-height: {{ section.settings.divider_height }}px;
   }
 {% endstyle %}
 
@@ -98,6 +99,16 @@
       "id": "divider_color",
       "label": "Choose a background color", // TODO: i18n
       "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "divider_height",
+      "label": "Divider Height (px)", // TODO: i18n
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 35
     }
   ],
   "blocks": [
