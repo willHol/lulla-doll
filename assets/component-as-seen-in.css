@@ -1,0 +1,21 @@
+.as-seen-in__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.as-seen-in__logo-item {
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .as-seen-in__container {
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .as-seen-in__logo-item {
+    display: inline-block;
+  }
+}

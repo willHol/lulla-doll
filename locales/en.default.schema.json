@@ -521,6 +521,9 @@
         "name": "Apps"
       }
     },
+    "as-seen-in": {
+      "name": "As Seen In"
+    },
     "collage": {
       "name": "Collage",
       "settings": {
