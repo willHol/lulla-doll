@@ -90,6 +90,13 @@
         "e6edcd52-dabd-4a43-8d2c-f568283fd536"
       ],
       "settings": {
+        "heading": "Featured In",
+        "swiper_enabled": false,
+        "max_height": "auto",
+        "image_aspect_ratio": "auto",
+        "color_scheme": "background-2",
+        "divider_enabled": true,
+        "divider_color": "#ffffff"
       }
     },
     "main": {
