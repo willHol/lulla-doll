@@ -543,3 +543,17 @@ a[data-scroll-to-product-button]::before {
 
 /* Empty to override theme default */
 a[data-scroll-to-product-button]::after {}
+
+.button--arrow::after {
+  content: url("data:image/svg+xml,%3Csvg fill='white' xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='icon icon--wide icon-arrow-left' viewBox='0 0 50 15'%3E%3Cpath d='M50 5.38v4.25H15V15L0 7.5 15 0v5.38Z'/%3E%3C/svg%3E");
+  display: inline-block;
+  color: white;
+  position: absolute;
+  left: 100%; 
+  top: 0; 
+  transform: translateY(-3px) scaleX(-1);
+  white-space: nowrap;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}

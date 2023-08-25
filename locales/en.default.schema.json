@@ -1287,6 +1287,9 @@
             "button_style_secondary_1": {
               "label": "Use outline button style"
             },
+            "button_has_arrow_1": {
+              "label": "Show arrow"
+            },
             "button_label_2": {
               "label": "Second button label",
               "info": "Leave the label blank to hide the button."
