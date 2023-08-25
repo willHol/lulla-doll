@@ -94,9 +94,10 @@
         "swiper_enabled": false,
         "max_height": "auto",
         "image_aspect_ratio": "auto",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-2",
         "divider_enabled": true,
-        "divider_color": "#ffffff"
+        "divider_color": "#ffffff",
+        "divider_height": 35
       }
     },
     "main": {
