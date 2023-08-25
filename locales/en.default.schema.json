@@ -522,7 +522,12 @@
       }
     },
     "as-seen-in": {
-      "name": "As Seen In"
+      "name": "As Seen In",
+      "presets": {
+        "default": {
+          "name": "Default"
+        }
+      }
     },
     "collage": {
       "name": "Collage",
