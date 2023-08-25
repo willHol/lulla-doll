@@ -20,6 +20,7 @@ class AsSeenIn extends HTMLElement {
       }
 
       this.classList.add('slider-active');
+      this.classList.add('swiper');
 
       this.swiper = new Swiper('.swiper', {
         direction: 'horizontal',
