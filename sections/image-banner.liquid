@@ -123,6 +123,8 @@
         {%- case block.type -%}
           {%- when '@app' -%}
             {%- render block -%}
+          {%- when 'value_statements' -%}
+            {%- render 'value-statements' -%}
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
@@ -374,8 +376,11 @@
   ],
   "blocks": [
     {
-      "type": "@app",
-      "limit": 1
+      "type": "@app"
+    },
+    {
+      "type": "value_statements",
+      "name": "Value Statements" /* TODO: ii18n */
     },
     {
       "type": "heading",
