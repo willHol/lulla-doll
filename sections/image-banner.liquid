@@ -121,6 +121,8 @@
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
+          {%- when '@app' -%}
+            {%- render block -%}
           {%- when 'heading' -%}
             <h2
               class="banner__heading inline-richtext {{ block.settings.heading_size }}"
@@ -371,6 +373,10 @@
     }
   ],
   "blocks": [
+    {
+      "type": "@app",
+      "limit": 1
+    },
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
