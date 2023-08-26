@@ -12,13 +12,21 @@ as-seen-in {
   padding-bottom: calc(var(--as-seen-in-divider-height) + 3rem); /* TODO: Replace with setting */
 }
 
+.as-seen-in__logo-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 0.5rem;
+}
+
 :not(.slider-active) .as-seen-in__logo-item {
   display: inline-block;
   flex: 1 1 calc(25% - 10px); /* This will allow up to 4 logos per line on mobile, accounting for the margin */
   padding: 0.2rem 3rem; /* TODO: replace 10px & 5px with css variables */
   margin: 0 1rem;
   padding: 0;
-  gap: 3rem;
 }
 
 
