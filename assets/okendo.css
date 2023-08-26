@@ -5,18 +5,18 @@
 }
 
 .oke-sr-count-number, .oke-sr-label-text {
-  visibility: hidden;
+  display: none;
 }
 
 .oke-sr-rating {
   display: inline !important;
   font-weight: var(--font-body-weight-bold, 600);
-  margin-right: 4px;
   min-width: 28px;
 }
 
 .oke-sr-stars {
-  min-width: 104px;
+  min-width: 81px;
+  margin-right: 0;
 }
 
 .oke-sr-count::before {
