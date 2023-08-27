@@ -16,7 +16,7 @@ class QuoteSlider extends HTMLElement {
         spaceBetween: 10,
         slidesPerView: 1.3,
         centeredSlides: true,
-        spaceBetween: 20,
+        spaceBetween: 30,
         watchSlidesVisibility: true,
         navigation: {
           prevEl: '.swiper-button-prev',
