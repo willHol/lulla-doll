@@ -113,98 +113,6 @@
         "divider_height": 35
       }
     },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "fec06aa8-a151-47d8-9d04-42b7fdad67a1": {
-          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 100,
-            "show_inventory_quantity": false
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
-        "272f259b-4aad-4298-92f2-a98154f59a11": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "truck",
-            "heading_1": "<strong>FREE<\/strong> Express Shipping",
-            "icon_2": "heart",
-            "heading_2": "<strong>30-Day Money Back Guarantee<\/strong>",
-            "icon_3": "heart",
-            "heading_3": ""
-          }
-        }
-      },
-      "block_order": [
-        "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
-        "title",
-        "caption",
-        "price",
-        "description",
-        "variant_picker",
-        "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
-        "buy_buttons",
-        "272f259b-4aad-4298-92f2-a98154f59a11"
-      ],
-      "settings": {
-        "enable_sticky_info": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
-        "media_position": "left",
-        "image_zoom": "none",
-        "mobile_thumbnails": "show",
-        "hide_variants": true,
-        "enable_video_looping": true,
-        "padding_top": 16,
-        "padding_bottom": 12
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -574,6 +482,98 @@
         "padding_bottom": 52
       }
     },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "fec06aa8-a151-47d8-9d04-42b7fdad67a1": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 100,
+            "show_inventory_quantity": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "272f259b-4aad-4298-92f2-a98154f59a11": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "truck",
+            "heading_1": "<strong>FREE<\/strong> Express Shipping",
+            "icon_2": "heart",
+            "heading_2": "<strong>30-Day Money Back Guarantee<\/strong>",
+            "icon_3": "heart",
+            "heading_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
+        "title",
+        "caption",
+        "price",
+        "description",
+        "variant_picker",
+        "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
+        "buy_buttons",
+        "272f259b-4aad-4298-92f2-a98154f59a11"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
       "type": "collapsible-content",
       "blocks": {
@@ -667,7 +667,6 @@
   "order": [
     "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf",
     "f859c100-07cd-40ac-b216-645261b9e0b3",
-    "main",
     "related-products",
     "f698cc71-350b-42bd-a78f-2f131c289fc4",
     "f36c727e-8c75-4227-ba2c-e69fca511066",
@@ -680,6 +679,7 @@
     "b856698a-8718-4c46-a833-42b484d7c0b6",
     "91a611cf-c313-4fe0-87c3-9df91fe58437",
     "373bec9c-66ab-4762-b9df-513d6946b341",
+    "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
     "1692621038513382cd"
   ]
