@@ -146,10 +146,14 @@
       "block_order": [
         "template--16236965560507__f698cc71-350b-42bd-a78f-2f131c289fc4-heading-1"
       ],
+      "custom_css": [
+        ".rich-text__wrapper {padding: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
+        "highlight_color": "#e0f6ff",
         "full_width": true,
         "padding_top": 32,
         "padding_bottom": 32
@@ -267,6 +271,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "inverse",
+        "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -327,6 +332,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
+        "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -470,6 +476,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "inverse",
+        "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -493,6 +500,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
+        "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -516,6 +524,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
+        "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
