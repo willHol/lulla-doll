@@ -198,61 +198,6 @@
       "settings": {
       }
     },
-    "f36c727e-8c75-4227-ba2c-e69fca511066": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16236965560507__f36c727e-8c75-4227-ba2c-e69fca511066-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Image_for_Columns_5_400w_px_x_250_hpx.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "“OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept.”- Mother’s Name",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "f51613d4-1d5d-46a1-a247-e728f76df4cb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b250ff4d1a10f64903720f91941552e8.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "“Yes it is such a great thing I love it so much yes yes yes  popcorn yes yer’s Name",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16236965560507__f36c727e-8c75-4227-ba2c-e69fca511066-slide-1",
-        "f51613d4-1d5d-46a1-a247-e728f76df4cb"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "numbers",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Testimonials for Lulla Doll"
-      }
-    },
     "1054f7f4-3610-4cb9-bb69-0e8d4908d05c": {
       "type": "rich-text",
       "blocks": {
@@ -718,7 +663,6 @@
     "related-products",
     "f698cc71-350b-42bd-a78f-2f131c289fc4",
     "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f",
-    "f36c727e-8c75-4227-ba2c-e69fca511066",
     "1054f7f4-3610-4cb9-bb69-0e8d4908d05c",
     "83b975e0-4650-4f80-8dbc-961214470eb0",
     "4ac705bc-274d-4cb3-9a61-e1424f7f05b5",
