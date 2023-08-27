@@ -13,16 +13,20 @@ class QuoteSlider extends HTMLElement {
 
       this.swiper = new Swiper('.swiper', {
         direction: 'horizontal',
-        loop: true,
-        slidesPerView: 1.1,
         spaceBetween: 10,
-        slidesPerView: 1.5,
+        slidesPerView: 1.3,
         centeredSlides: true,
-        spaceBetween: 30,
+        spaceBetween: 20,
+        watchSlidesVisibility: true,
         navigation: {
           prevEl: '.swiper-button-prev',
           nextEl: '.swiper-button-next',
-          clickable: true,
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
         },
       });
     });

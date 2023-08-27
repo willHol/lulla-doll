@@ -1,9 +1,134 @@
+quote-slider {
+  --swiper-navigation-color: white;
+}
+
 .swiper-slide img {
   width: 100%;
   height: auto;
   border-radius: calc((var(--media-radius) - var(--media-border-width)) * 0.5);
+  flex-grow: 1;
 }
 
 .quote-slider__img-container {
+  display: flex;
+}
 
+@media screen and (max-width: 1023px) {
+  .swiper {
+    --fade-width: 15%;
+
+    position: relative;
+    overflow: visible;
+    padding-left: var(--fade-width);
+    padding-right: var(--fade-width);
+  }
+
+  .swiper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--fade-width); /* Adjust width as needed */
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+    pointer-events: none; /* Ensure it doesn't interfere with slide interactions */
+    z-index: 5; /* Ensure it's above the slides */
+  }
+
+  /* Gradient overlay for the right edge */
+  .swiper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: var(--fade-width); /* Adjust width as needed */
+    background: linear-gradient(to left, #fff, rgba(255, 255, 255, 0));
+    pointer-events: none; /* Ensure it doesn't interfere with slide interactions */
+    z-index: 5; /* Ensure it's above the slides */
+  }
+}
+
+.swiper-button-prev, .swiper-button-next {
+  display: flex !important;
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+  width: 40px !important; 
+  height: 40px !important;
+  background-color: rgb(var(--color-button)); 
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  box-shadow: 
+    0px 1px rgb(var(--color-shadow)),
+    0.5px 2px rgb(var(--color-shadow)),
+    1px 3px rgb(var(--color-shadow));
+  transition: all 0.3s;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  display: inline-block;
+  transform: scale(1.2) translateY(-8px) !important;
+}
+
+.swiper-button-prev:after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cstyle%3Esvg%7Bfill:%23ffffff%7D%3C/style%3E%3Cpath d='M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z'/%3E%3C/svg%3E") !important;
+}
+
+.swiper-button-next:after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cstyle%3Esvg%7Bfill:%23ffffff%7D%3C/style%3E%3Cpath d='M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z'/%3E%3C/svg%3E") !important;
+  z-index: 100;
+}
+
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+.swiper-lazy-preloader {
+  display: flex !important; 
+}
+
+quote-slider blockquote {
+  position: relative;
+  padding: 1rem 2rem; /* Adjust as needed */
+  margin: 30px 0; /* Space above and below the blockquote */
+  font-style: italic; /* Italicize the quote text */
+  border-left: 0;
+}
+
+/* Styling the quote content */
+quote-slider blockquote p {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+/* Styling the author's name (or source) */
+quote-slider blockquote footer {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  text-align: right;
+}
+
+/* Optional: Add quotation marks using pseudo-elements */
+quote-slider blockquote::before {
+  content: '“';
+  position: absolute;
+  top: .2rem;
+  left: .5rem;
+  font-size: 3rem;
+  color: rgba(44, 62, 80, 0.2);
+}
+
+quote-slider blockquote::after {
+  content: '”';
+  position: absolute;
+  bottom: 3rem; 
+  right: 1rem;
+  font-size: 3rem; /* Large quotation mark */
+  color: rgba(44, 62, 80, 0.2); /* Lighter and slightly transparent */
 }
