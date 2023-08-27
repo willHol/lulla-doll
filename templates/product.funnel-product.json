@@ -188,12 +188,42 @@
             "quote": "Every night, my son cuddles up with his Lulla Doll. It's heartwarming to see him so content.",
             "quote_source": "Rebecca G., Happy Mother"
           }
+        },
+        "215428ce-8457-4f92-9244-3211fc09c9b4": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/lulla4.webp",
+            "alt": "",
+            "quote": "This isn't magic, but it's close enough. My baby sleeps longer, and I finally have some me-time.",
+            "quote_source": "Aisha W., Mom of Two"
+          }
+        },
+        "3135d751-e3ed-47de-b278-95b66ec5082c": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image1-21__1.jpg",
+            "alt": "",
+            "quote": "I was skeptical at first, but after just one night, I'm a believer! Every parent needs a Lulla Doll.",
+            "quote_source": "Nathan D., Relieved Parent"
+          }
+        },
+        "66452e3d-cad4-468b-b9da-ee25d4a9573a": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/lilacsafesleep.jpg",
+            "alt": "",
+            "quote": "With Lulla Doll by our side, bedtime battles are a thing of the past. Forever grateful!",
+            "quote_source": "Brian S., Dad on the Go"
+          }
         }
       },
       "block_order": [
         "c5008c3c-082c-4a30-a718-a17f4a62745e",
         "06f96d9c-ff36-4a78-9249-33e17e48239d",
-        "5ce378e9-f5ea-4e42-a0dd-bd5cb1a15947"
+        "5ce378e9-f5ea-4e42-a0dd-bd5cb1a15947",
+        "215428ce-8457-4f92-9244-3211fc09c9b4",
+        "3135d751-e3ed-47de-b278-95b66ec5082c",
+        "66452e3d-cad4-468b-b9da-ee25d4a9573a"
       ],
       "settings": {
       }
