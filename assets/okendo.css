@@ -4,6 +4,11 @@
   margin-top: 1rem;
 }
 
+.banner__content [data-oke-star-rating] {
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
+
 .oke-sr-count-number, .oke-sr-label-text {
   display: none;
 }

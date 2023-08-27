@@ -1,0 +1,9 @@
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: calc((var(--media-radius) - var(--media-border-width)) * 0.5);
+}
+
+.quote-slider__img-container {
+
+}

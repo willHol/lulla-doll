@@ -1,0 +1,85 @@
+{{ 'component-quote-slider.css' | asset_url | stylesheet_tag }}
+{{ 'swiper-bundle-10.2.0.min.css' | asset_url | stylesheet_tag }}
+
+<script
+  src="{{ 'swiper-bundle-10.2.0.min.js' | asset_url }}"
+  defer="defer"
+></script>
+
+<script src="{{ 'quote-slider.js' | asset_url }}" defer="defer"></script>
+
+<quote-slider>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      {%- for block in section.blocks -%}
+        <div class="swiper-slide">
+          {% comment %} TODO: Implement `srcset` responsive images {% endcomment %}
+          <div class="quote-slider__img-container">
+            <img
+              src="{{ block.settings.img | image_url }}"
+              height="auto"
+              width="auto"
+              loading="lazy"
+              alt="{{ block.settings.alt | escape }}"
+            >
+          </div>
+
+          <div class="swiper-lazy-preloader"></div>
+
+          {%- if block.settings.quote != blank -%}
+            <blockquote>
+              <p>{{ block.settings.quote }}</p>
+
+              {%- if block.settings.quote_source -%}
+                <footer>- {{ block.settings.quote_source }}</footer>
+              {%- endif -%}
+            </blockquote>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</quote-slider>
+
+{% schema %}
+{
+  "name": "Quote slider", // TODO: ii18n
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide", // TODO: ii18n
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image" // TODO: ii18n
+        },
+        {
+          "type": "text",
+          "id": "alt",
+          "label": "Alt text" // TODO: ii18n
+        },
+        {
+          "type": "text",
+          "id": "quote",
+          "label": "Quote" // TODO: ii18n
+        },
+        {
+          "type": "text",
+          "id": "quote_source",
+          "label": "Quote source" // TODO: ii18n
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quote slider", // TODO: ii18n
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
