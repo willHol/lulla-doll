@@ -1,7 +1,7 @@
 {{ 'component-as-seen-in.css' | asset_url | stylesheet_tag }}
-{{ 'swiper-bundle-10.2.0.min.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.swiper_enabled %}
+  {{ 'swiper-bundle-10.2.0.min.css' | asset_url | stylesheet_tag }}
   <script
     src="{{ 'swiper-bundle-10.2.0.min.js' | asset_url }}"
     defer="defer"

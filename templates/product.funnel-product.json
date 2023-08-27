@@ -155,6 +155,35 @@
         "padding_bottom": 32
       }
     },
+    "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f": {
+      "type": "quote-slider",
+      "blocks": {
+        "c5008c3c-082c-4a30-a718-a17f4a62745e": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/b250ff4d1a10f64903720f91941552e8.png",
+            "alt": "",
+            "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept.",
+            "quote_source": "Sheryl M."
+          }
+        },
+        "06f96d9c-ff36-4a78-9249-33e17e48239d": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/lulla4.webp",
+            "alt": "",
+            "quote": "Yes it is such a great thing I love it so much yes yes yes",
+            "quote_source": "Karen G."
+          }
+        }
+      },
+      "block_order": [
+        "c5008c3c-082c-4a30-a718-a17f4a62745e",
+        "06f96d9c-ff36-4a78-9249-33e17e48239d"
+      ],
+      "settings": {
+      }
+    },
     "f36c727e-8c75-4227-ba2c-e69fca511066": {
       "type": "slideshow",
       "blocks": {
@@ -669,6 +698,7 @@
     "f859c100-07cd-40ac-b216-645261b9e0b3",
     "related-products",
     "f698cc71-350b-42bd-a78f-2f131c289fc4",
+    "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f",
     "f36c727e-8c75-4227-ba2c-e69fca511066",
     "1054f7f4-3610-4cb9-bb69-0e8d4908d05c",
     "83b975e0-4650-4f80-8dbc-961214470eb0",
