@@ -156,7 +156,8 @@
         "highlight_color": "#e0f6ff",
         "full_width": true,
         "padding_top": 32,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "svg_background": false
       }
     },
     "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f": {
@@ -249,7 +250,9 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "svg_background": true,
+        "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg"
       }
     },
     "83b975e0-4650-4f80-8dbc-961214470eb0": {
@@ -310,7 +313,8 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "svg_background": false
       }
     },
     "dc5ebd70-3f8f-4465-ae80-d98601301419": {
@@ -454,7 +458,8 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "svg_background": false
       }
     },
     "91a611cf-c313-4fe0-87c3-9df91fe58437": {
@@ -478,7 +483,8 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "svg_background": false
       }
     },
     "373bec9c-66ab-4762-b9df-513d6946b341": {
@@ -502,7 +508,8 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "svg_background": false
       }
     },
     "main": {
