@@ -84,3 +84,20 @@
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
 }
+
+.rich-text .svg-background {
+    position: relative;
+    overflow: hidden;
+}
+
+.rich-text .svg-background picture, 
+.rich-text .svg-background img {
+  display: block;
+  width: 100%; /* Make the SVG take the full width of the container */
+  height: 100%; /* Make the SVG take the full height of the container */
+  position: absolute; /* Position it absolutely within the container */
+  top: 0;
+  left: 0;
+  object-fit: cover; /* This prevents the image from stretching */
+  z-index: 1; /* Ensure it's below the heading text */
+}
