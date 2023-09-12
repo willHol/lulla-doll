@@ -1,0 +1,153 @@
+{{ 'component-us-vs-them.css' | asset_url | stylesheet_tag }}
+
+{%- assign reason_blocks = section.blocks | where: 'type', 'reason' -%}
+
+<div class="page-width us-vs-them__container">
+  <div class="us-vs-them__grid">
+    <div class="us-vs-them__table-column">
+      <div class="us-vs-them__table-cell top-col"></div>
+
+      {%- for block in reason_blocks -%}
+        <div
+          class="us-vs-them__table-cell left {% if forloop.first %} tl-radius{% endif %}{% if forloop.last %} bl-radius{% endif %}"
+        >
+          <div class="text-size-regular">
+            {{ block.settings.description }}
+            <br>
+          </div>
+        </div>
+      {%- endfor -%}
+
+      <div class="us-vs-them__table-cell empty"></div>
+    </div>
+
+    <div class="us-vs-them__table-column us-vs-them__main-table">
+      <div class="us-vs-them__table-cell top-col featured">
+        <img
+          src="{{ section.settings.logo | image_url }}"
+          alt="{{ section.settings.logo.alt }}"
+          width="auto"
+          height="auto"
+          loading="eager"
+          class="us-vs-them__logo-comparison"
+        >
+        <div class="us-vs-them__highlights"></div>
+      </div>
+
+      {%- for block in reason_blocks -%}
+        <div class="us-vs-them__table-cell featured {% if forloop.first %}first-child{% endif %}">
+          {% assign moduloIndex = forloop.index0 | modulo: 2 %}
+
+          {%- if moduloIndex != 0 -%}
+            <div class="us-vs-them__highlights"></div>
+          {%- endif -%}
+
+          <div class="icon-embed-small w-embed">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="iconify iconify--heroicons"
+              width="28px"
+              height="28px"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15L15 9.75M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0Z"></path>
+            </svg>
+          </div>
+        </div>
+      {%- endfor -%}
+
+      <div class="us-vs-them__table-cell empty"></div>
+    </div>
+
+    {%- assign alternative_blocks = section.blocks | where: 'type', 'alternative' -%}
+
+    {%- for block in alternative_blocks -%}
+      <div class="us-vs-them__table-column {% if block.settings.hide_mobile_landscape %}hide-mobile-landscape{% endif %}">
+        <div class="us-vs-them__table-cell top-col">
+          <div class="text-size-regular-2 text-weight-bold">{{ block.settings.name }}</div>
+        </div>
+
+        {%- assign is_last_alt_block = forloop.last -%}
+
+        {%- for block in reason_blocks -%}
+          <div
+            class="
+              us-vs-them__table-cell right
+              {% if forloop.first and is_last_alt_block %}tr-radius{% endif %}
+              {% if forloop.last and is_last_alt_block %}bb-radius{% endif %}
+            "
+          >
+            <div class="icon-embed-small w-embed">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--heroicons"
+                width="24px"
+                height="24px"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0Z"></path>
+              </svg>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Us vs Them", // TODO: Translate
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo" // TODO: Translate
+    }
+  ],
+  "blocks": [
+    {
+      "type": "reason",
+      "name": "Reason", // TODO: Translate
+      "settings": [
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description" // TODO: Translate
+        }
+      ]
+    },
+    {
+      "type": "alternative",
+      "name": "Alternative", // TODO: Translate
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name" // TODO: Translate
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_mobile_landscape",
+          "label": "Hide on mobile landscape" // TODO: Translate
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Us vs Them", // TODO: Translate
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}

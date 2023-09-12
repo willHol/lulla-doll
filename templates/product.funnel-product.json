@@ -493,6 +493,67 @@
         "svg_background": false
       }
     },
+    "7c406727-18be-4aaa-a7a3-13b72f0d98d8": {
+      "type": "us-vs-them",
+      "blocks": {
+        "37798fcf-106b-4c59-819c-f1f7891d3028": {
+          "type": "reason",
+          "settings": {
+            "description": "Backed by Research"
+          }
+        },
+        "a7fc49a2-f926-47fd-b72d-342678f2cbaa": {
+          "type": "reason",
+          "settings": {
+            "description": "Breathing and Heartbeat"
+          }
+        },
+        "0340b749-8c08-436d-a51d-de9b87a3fc0d": {
+          "type": "reason",
+          "settings": {
+            "description": "AbsorbsMother’sScent"
+          }
+        },
+        "1dad8a5e-9cbc-4b77-b8ed-07eb6135d10e": {
+          "type": "reason",
+          "settings": {
+            "description": "Battery Lasts 12 Hours"
+          }
+        },
+        "ef156f0e-8062-40b3-a4d8-02760ffd68cb": {
+          "type": "reason",
+          "settings": {
+            "description": "Multi-Award Winning"
+          }
+        },
+        "07f3198f-7eb7-43e5-9566-10c6b7500a65": {
+          "type": "alternative",
+          "settings": {
+            "name": "Riff Raff",
+            "hide_mobile_landscape": false
+          }
+        },
+        "479a672a-f30a-4ce6-ae0e-b61e6078446c": {
+          "type": "alternative",
+          "settings": {
+            "name": "Ewan the Dream Sheep",
+            "hide_mobile_landscape": false
+          }
+        }
+      },
+      "block_order": [
+        "37798fcf-106b-4c59-819c-f1f7891d3028",
+        "a7fc49a2-f926-47fd-b72d-342678f2cbaa",
+        "0340b749-8c08-436d-a51d-de9b87a3fc0d",
+        "1dad8a5e-9cbc-4b77-b8ed-07eb6135d10e",
+        "ef156f0e-8062-40b3-a4d8-02760ffd68cb",
+        "07f3198f-7eb7-43e5-9566-10c6b7500a65",
+        "479a672a-f30a-4ce6-ae0e-b61e6078446c"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/lulla_doll_logo_white.png"
+      }
+    },
     "373bec9c-66ab-4762-b9df-513d6946b341": {
       "type": "rich-text",
       "blocks": {
@@ -714,6 +775,7 @@
     "d44c38cd-9b29-4876-97cf-833d5973494d",
     "b856698a-8718-4c46-a833-42b484d7c0b6",
     "91a611cf-c313-4fe0-87c3-9df91fe58437",
+    "7c406727-18be-4aaa-a7a3-13b72f0d98d8",
     "373bec9c-66ab-4762-b9df-513d6946b341",
     "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
