@@ -192,6 +192,7 @@
         },
         "215428ce-8457-4f92-9244-3211fc09c9b4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/lulla4.webp",
             "alt": "",
@@ -210,6 +211,7 @@
         },
         "66452e3d-cad4-468b-b9da-ee25d4a9573a": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/polar_snow.webp",
             "alt": "",
@@ -250,7 +252,7 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_bottom": 40,
         "svg_background": true,
         "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg"
       }
@@ -268,14 +270,17 @@
         "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h2>To create the award winning sleep doll that helps children through their early stages in life.<\/h2>",
-            "text_style": "body"
+            "text": "<p>To create the award winning sleep doll that helps children through their early stages in life.<\/p>",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
         "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1",
         "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1"
+      ],
+      "custom_css": [
+        ".image-with-text__media-item img {padding: 5rem; padding-bottom: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Lullaoutfitbunny.png",
@@ -287,7 +292,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "accent-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -298,7 +303,7 @@
         "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Benefits <em>Proven by Studies<\/em><\/strong>",
+            "heading": "<strong>Benefits <\/strong><em><strong>Proven by Studies<\/strong><\/em>",
             "heading_size": "h1"
           }
         }
@@ -310,10 +315,10 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
-        "highlight_color": "#000000",
+        "highlight_color": "#e0f6ff",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "svg_background": false
       }
     },
@@ -443,7 +448,7 @@
         "35c7ec07-44a1-451a-919a-0acc06cf1ecd": {
           "type": "heading",
           "settings": {
-            "heading": "The <strong>only<\/strong> sleeping companion <em>backed by studies<\/em> that has <strong>won international awards<\/strong>",
+            "heading": "The <strong>only science backed<\/strong> <strong>sleeping companion<\/strong> that has <strong>won multiple international awards<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -455,11 +460,12 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "inverse",
-        "highlight_color": "#000000",
+        "highlight_color": "#ffffff",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52,
-        "svg_background": false
+        "padding_bottom": 40,
+        "svg_background": true,
+        "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg"
       }
     },
     "91a611cf-c313-4fe0-87c3-9df91fe58437": {
