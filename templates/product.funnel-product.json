@@ -474,7 +474,7 @@
         "template--16236965560507__91a611cf-c313-4fe0-87c3-9df91fe58437-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong><em>Lulla Doll Companion<\/em> vs Sleep Toys<\/strong>",
+            "heading": "<em><strong>Lulla Doll Companion<\/strong><\/em><strong> vs Sleep Toys<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -486,7 +486,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
-        "highlight_color": "#000000",
+        "highlight_color": "#e0f6ff",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
