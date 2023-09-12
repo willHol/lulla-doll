@@ -20,8 +20,8 @@
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %} {% if section.settings.svg_background %}svg-background{% endif %}">
+  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding {% if section.settings.svg_background %}svg-background{% endif %}">
+    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -95,19 +95,27 @@
           {%- endcase -%}
         {%- endfor -%}
       </div>
-      {%- if section.settings.svg_background -%}
-        <picture>
+    </div>
+    {%- if section.settings.svg_background -%}
+      <picture>
+        {% comment %}
           <!-- Large screen SVG -->
           <source media="(min-width: 1200px)" srcset="large-screen.svg">
 
           <!-- Medium screen SVG -->
           <source media="(min-width: 768px)" srcset="medium-screen.svg">
+        {% endcomment %}
 
-          <!-- Small screen SVG (default) -->
-          <img loading="eager" width="auto" height="auto" src="{{ section.settings.small_svg_path | file_url }}" alt="">
-        </picture>
-      {%- endif -%}
-    </div>
+        <!-- Small screen SVG (default) -->
+        <img
+          loading="eager"
+          width="auto"
+          height="auto"
+          src="{{ section.settings.small_svg_path | image_url }}"
+          alt=""
+        >
+      </picture>
+    {%- endif -%}
   </div>
 </div>
 
@@ -210,7 +218,7 @@
       "label": "SVG Background" // TODO: ii18n
     },
     {
-      "type": "text",
+      "type": "image_picker",
       "id": "small_svg_path",
       "label": "Small SVG Path" // TODO: ii18n
     }
