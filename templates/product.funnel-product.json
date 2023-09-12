@@ -468,87 +468,62 @@
         "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg"
       }
     },
-    "91a611cf-c313-4fe0-87c3-9df91fe58437": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16236965560507__91a611cf-c313-4fe0-87c3-9df91fe58437-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<em><strong>Lulla Doll Companion<\/strong><\/em><strong> vs Sleep Toys<\/strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16236965560507__91a611cf-c313-4fe0-87c3-9df91fe58437-heading-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "highlight_color": "#e0f6ff",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "svg_background": false
-      }
-    },
-    "7c406727-18be-4aaa-a7a3-13b72f0d98d8": {
+    "5be49576-2d8f-4e8d-8440-0bd9c453e5ed": {
       "type": "us-vs-them",
       "blocks": {
-        "37798fcf-106b-4c59-819c-f1f7891d3028": {
+        "3f566300-c20d-49b9-a57b-77571a58986d": {
           "type": "reason",
           "settings": {
             "description": "Backed by Research"
           }
         },
-        "a7fc49a2-f926-47fd-b72d-342678f2cbaa": {
+        "982fbb33-baef-473e-8550-10f669a9f355": {
           "type": "reason",
           "settings": {
-            "description": "Breathing and Heartbeat"
+            "description": "Breathing and Heart beat"
           }
         },
-        "0340b749-8c08-436d-a51d-de9b87a3fc0d": {
+        "b70d0118-6aa3-4c8d-b8ec-9e1cab165d15": {
           "type": "reason",
           "settings": {
-            "description": "AbsorbsMother’sScent"
+            "description": "Absorbs Mother’s Scent"
           }
         },
-        "1dad8a5e-9cbc-4b77-b8ed-07eb6135d10e": {
+        "6e26c1f5-2fd3-4364-94bc-5d35e67a7b52": {
           "type": "reason",
           "settings": {
             "description": "Battery Lasts 12 Hours"
           }
         },
-        "ef156f0e-8062-40b3-a4d8-02760ffd68cb": {
+        "6225e3ee-2454-409e-8074-36088025e03c": {
           "type": "reason",
           "settings": {
             "description": "Multi-Award Winning"
           }
         },
-        "07f3198f-7eb7-43e5-9566-10c6b7500a65": {
+        "45c6f32a-efb1-4091-aa02-6df9f859387d": {
           "type": "alternative",
           "settings": {
             "name": "Riff Raff",
             "hide_mobile_landscape": false
           }
         },
-        "479a672a-f30a-4ce6-ae0e-b61e6078446c": {
+        "92dcd3d2-5713-4d32-9331-52c117645a47": {
           "type": "alternative",
           "settings": {
-            "name": "Ewan the Dream Sheep",
-            "hide_mobile_landscape": false
+            "name": "Ewan the Sheep",
+            "hide_mobile_landscape": true
           }
         }
       },
       "block_order": [
-        "37798fcf-106b-4c59-819c-f1f7891d3028",
-        "a7fc49a2-f926-47fd-b72d-342678f2cbaa",
-        "0340b749-8c08-436d-a51d-de9b87a3fc0d",
-        "1dad8a5e-9cbc-4b77-b8ed-07eb6135d10e",
-        "ef156f0e-8062-40b3-a4d8-02760ffd68cb",
-        "07f3198f-7eb7-43e5-9566-10c6b7500a65",
-        "479a672a-f30a-4ce6-ae0e-b61e6078446c"
+        "3f566300-c20d-49b9-a57b-77571a58986d",
+        "982fbb33-baef-473e-8550-10f669a9f355",
+        "b70d0118-6aa3-4c8d-b8ec-9e1cab165d15",
+        "6e26c1f5-2fd3-4364-94bc-5d35e67a7b52",
+        "6225e3ee-2454-409e-8074-36088025e03c",
+        "45c6f32a-efb1-4091-aa02-6df9f859387d",
+        "92dcd3d2-5713-4d32-9331-52c117645a47"
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/lulla_doll_logo_white.png"
@@ -774,8 +749,7 @@
     "82e64d89-4c1a-47ae-9aa6-9bfb0bcc66e4",
     "d44c38cd-9b29-4876-97cf-833d5973494d",
     "b856698a-8718-4c46-a833-42b484d7c0b6",
-    "91a611cf-c313-4fe0-87c3-9df91fe58437",
-    "7c406727-18be-4aaa-a7a3-13b72f0d98d8",
+    "5be49576-2d8f-4e8d-8440-0bd9c453e5ed",
     "373bec9c-66ab-4762-b9df-513d6946b341",
     "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
