@@ -232,15 +232,15 @@ function fetchConfig(type = 'json') {
   };
 }
 
-function waitForElementToExist(selector) {
+function waitForElementToExist(selector, root = document) {
   return new Promise((resolve) => {
-    if (document.querySelector(selector)) {
-      return resolve(document.querySelector(selector));
+    if (root.querySelector(selector)) {
+      return resolve(root.querySelector(selector));
     }
 
     const observer = new MutationObserver(() => {
-      if (document.querySelector(selector)) {
-        resolve(document.querySelector(selector));
+      if (root.querySelector(selector)) {
+        resolve(root.querySelector(selector));
         observer.disconnect();
       }
     });
@@ -249,6 +249,36 @@ function waitForElementToExist(selector) {
       subtree: true,
       childList: true,
     });
+  });
+}
+
+function onElementAppear(selector, callback) {
+  // Initial check
+  Array.from(document.querySelectorAll(selector)).forEach(callback);
+
+  // Set up the mutation observer
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.addedNodes && mutation.addedNodes.length > 0) {
+        Array.from(mutation.addedNodes).forEach((node) => {
+          // Direct match for the added node
+          if (node.matches && node.matches(selector)) {
+            callback(node);
+          }
+
+          // Check for matches within the added node
+          if (node.querySelectorAll) {
+            Array.from(node.querySelectorAll(selector)).forEach(callback);
+          }
+        });
+      }
+    });
+  });
+
+  // Start observing the entire document with the configured parameters
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
   });
 }
 

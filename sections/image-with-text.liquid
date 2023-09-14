@@ -54,6 +54,7 @@
         id="ImageWithText--{{ section.id }}"
         class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
       >
+        {% assign bullet_count = 0 %}
         {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when '@app' -%}
@@ -79,8 +80,10 @@
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a
-                  {% if block.settings.button_link == blank %}
+                  {% if block.settings.button_link == blank and block.settings.button_data_attribute == blank %}
                     role="link" aria-disabled="true"
+                  {% elsif block.settings.button_data_attribute != blank %}
+                    data-{{ block.settings.button_data_attribute | handleize }}
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
@@ -90,6 +93,12 @@
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
+            {%- when 'bullet' -%}
+              <div class="bullet__container">
+                <div class="number-circle">{{ bullet_count }}</div>
+                <div class="bullet__description">{{ block.settings.bullet_text }}</div>
+              </div>
+              {% assign bullet_count = bullet_count | plus: 1 %}
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -440,10 +449,26 @@
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
         },
         {
+          "type": "text",
+          "id": "button_data_attribute",
+          "label": "Button data attribute" // TODO: translate
+        },
+        {
           "type": "checkbox",
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        }
+      ]
+    },
+    {
+      "type": "bullet",
+      "name": "Bullet", // TODO: translate
+      "settings": [
+        {
+          "type": "text",
+          "id": "bullet_text",
+          "label": "Bullet text" // TODO: translate
         }
       ]
     }

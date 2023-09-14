@@ -314,7 +314,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "highlight_color": "#e0f6ff",
         "full_width": true,
         "padding_top": 0,
@@ -418,6 +418,7 @@
           "settings": {
             "button_label": "GET LULLA DOLL",
             "button_link": "",
+            "button_data_attribute": "data-scroll-to",
             "button_style_secondary": false
           }
         }
@@ -535,7 +536,7 @@
         "template--16236965560507__373bec9c-66ab-4762-b9df-513d6946b341-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>How it Works<\/strong>",
+            "heading": "<em><strong>How it Works<\/strong><\/em>",
             "heading_size": "h1"
           }
         }
@@ -547,10 +548,97 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
-        "highlight_color": "#000000",
+        "highlight_color": "#e0f6ff",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "svg_background": false
+      }
+    },
+    "45114005-ad48-4a0d-a1e9-1327aceac9de": {
+      "type": "image-with-text",
+      "blocks": {
+        "f1c41604-2998-468c-a570-104380a1a4fb": {
+          "type": "bullet",
+          "settings": {
+            "bullet_text": "Insert batteries and turn on"
+          }
+        },
+        "fad8bc07-0390-419c-90ac-2d270017dca6": {
+          "type": "bullet",
+          "settings": {
+            "bullet_text": "Place in bed with child"
+          }
+        },
+        "b59b1f1f-6c90-4af6-ba53-bdb6e980b4fa": {
+          "type": "bullet",
+          "settings": {
+            "bullet_text": "Soothe to sleep"
+          }
+        },
+        "template--16253133291707__45114005-ad48-4a0d-a1e9-1327aceac9de-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_data_attribute": "data-scroll-to",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "f1c41604-2998-468c-a570-104380a1a4fb",
+        "fad8bc07-0390-419c-90ac-2d270017dca6",
+        "b59b1f1f-6c90-4af6-ba53-bdb6e980b4fa",
+        "template--16253133291707__45114005-ad48-4a0d-a1e9-1327aceac9de-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/owl4.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a940e4cc-1ee3-4f05-8c80-2244e675b44b": {
+      "type": "rich-text",
+      "blocks": {
+        "1c4c3972-92b4-47d5-9512-2d075f6953f0": {
+          "type": "caption",
+          "settings": {
+            "caption": "Most Popular",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "c001f0e6-8126-45a3-b947-b43b36357f93": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Sleepy Baby Bundle<\/strong><\/em>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1c4c3972-92b4-47d5-9512-2d075f6953f0",
+        "c001f0e6-8126-45a3-b947-b43b36357f93"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "highlight_color": "#e0f6ff",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 0,
         "svg_background": false
       }
     },
@@ -559,13 +647,18 @@
       "blocks": {
         "fec06aa8-a151-47d8-9d04-42b7fdad67a1": {
           "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
         },
         "title": {
           "type": "title",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -576,13 +669,72 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
+        "a84ec090-d83e-42b2-ac7f-fbb9387e8730": {
+          "type": "text",
           "settings": {
+            "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep<\/strong>.",
+            "text_style": "body"
+          }
+        },
+        "a0737fb3-d7d2-4d49-b598-5e212ed07d52": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Complete Bundle Includes:<\/strong>",
+            "text_style": "body"
+          }
+        },
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "Lulla Doll",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "42cb1417-1865-4d1c-9238-e1b6f7774aa8": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "Lulla Outfit",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "245916d1-dff7-47c4-8ba1-7334bf9fbede": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "12-Hour Sound Box",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "a5dc2986-c813-48bc-be7d-aaba602eb7ed": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "heart",
+            "heading_1": "EBook",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
           }
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -594,6 +746,7 @@
         },
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "text_style": "body",
             "inventory_threshold": 100,
@@ -609,6 +762,7 @@
         },
         "272f259b-4aad-4298-92f2-a98154f59a11": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "truck",
@@ -623,8 +777,14 @@
       "block_order": [
         "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
         "title",
-        "caption",
         "price",
+        "caption",
+        "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
+        "a0737fb3-d7d2-4d49-b598-5e212ed07d52",
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
+        "42cb1417-1865-4d1c-9238-e1b6f7774aa8",
+        "245916d1-dff7-47c4-8ba1-7334bf9fbede",
+        "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
         "description",
         "variant_picker",
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
@@ -751,6 +911,8 @@
     "b856698a-8718-4c46-a833-42b484d7c0b6",
     "5be49576-2d8f-4e8d-8440-0bd9c453e5ed",
     "373bec9c-66ab-4762-b9df-513d6946b341",
+    "45114005-ad48-4a0d-a1e9-1327aceac9de",
+    "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
     "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
     "1692621038513382cd"

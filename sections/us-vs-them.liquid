@@ -72,7 +72,9 @@
           </div>
         {%- endfor -%}
 
-        <div class="us-vs-them__table-cell empty"></div>
+        <div class="us-vs-them__table-cell empty">
+          <div class="us-vs-them__highlights"></div>
+        </div>
       </div>
 
       {%- assign alternative_blocks = section.blocks | where: 'type', 'alternative' -%}
