@@ -7,7 +7,7 @@ const OKENDO_STAR_RATING_TEXT_SELECTOR = '.oke-sr-rating';
 const OKENDO_STAR_RATING_CONTAINER_SELECTOR = '[data-oke-star-rating]';
 
 function parseOkendoMetafieldData() {
-  return waitForElementToExist('[data-oke-metafield-data]').then((element) => {
+  return waitForElementToExist(OKENDO_METAFIELD_SELECTOR).then((element) => {
     try {
       return JSON.parse(element.innerHTML);
     } catch (e) {
@@ -19,16 +19,19 @@ function parseOkendoMetafieldData() {
 }
 
 function initializeOkendoRatingStars() {
-  parseOkendoMetafieldData().then((okendoMetadata) => {
-    if (okendoMetadata.averageRating == '0') {
-      waitForElementToExist(OKENDO_STAR_RATING_FOREGROUND_SELECTOR).then(
-        (element) => (element.style.width = `${OKENDO_DEFAULT_PERCENTAGE}%`)
-      );
-      waitForElementToExist(OKENDO_STAR_RATING_TEXT_SELECTOR).then(
-        (element) => (element.textContent = ` ${OKENDO_DEFAULT_RATING} `)
-      );
+  onElementAppear(OKENDO_STAR_RATING_CONTAINER_SELECTOR, (element) => {
+    var okendoMetadata = {};
+    try {
+      okendoMetadata = JSON.parse(element.querySelector(OKENDO_METAFIELD_SELECTOR).innerHTML);
+    } catch (e) {
+      console.error('Error parsing Okendo metadata', e);
+      return;
+    }
 
-      document.querySelector(OKENDO_STAR_RATING_CONTAINER_SELECTOR).style.visibility = 'visible';
+    if (okendoMetadata.averageRating == '0') {
+      element.querySelector(OKENDO_STAR_RATING_FOREGROUND_SELECTOR).style.width = `${OKENDO_DEFAULT_PERCENTAGE}%`;
+      element.querySelector(OKENDO_STAR_RATING_TEXT_SELECTOR).textContent = ` ${OKENDO_DEFAULT_RATING} `;
+      element.style.visibility = 'visible';
     }
   });
 }
