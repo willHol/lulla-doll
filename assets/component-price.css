@@ -7,7 +7,7 @@
 
 .price > * {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .price.price--unavailable {
@@ -20,7 +20,7 @@
 
 .price .price-item {
   display: inline-block;
-  margin: 0 1rem 0 0;
+  margin: 0 0.2rem 0 0;
 }
 
 .price__regular .price-item--regular {
@@ -38,14 +38,18 @@
 }
 
 .price--large {
-  font-size: 2.2rem;
+  font-size: 3rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   letter-spacing: 0.13rem;
 }
 
+.price-item.price-item--sale.price-item--last {
+  font-size: calc(0.9 * 3rem);
+}
+
 @media screen and (min-width: 750px) {
   .price--large {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 }
 
@@ -84,7 +88,7 @@
   justify-content: center;
 }
 
-.price--on-sale .price-item--regular {
+.price--on-sale .price-item--regular top{
   text-decoration: line-through;
   color: rgba(var(--color-foreground), 0.75);
   font-size: 2.4rem;
