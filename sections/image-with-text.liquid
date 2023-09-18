@@ -95,8 +95,24 @@
               {%- endif -%}
             {%- when 'bullet' -%}
               <div class="bullet__container">
+<<<<<<< Updated upstream
                 <div class="number-circle">{{ bullet_count }}</div>
                 <div class="bullet__description">{{ block.settings.bullet_text }}</div>
+=======
+                {%- if block.settings.bullet_is_numbered -%}
+                  <div class="number-circle">{{ bullet_count }}</div>
+                {%- else -%}
+                  <div class="bullet-icon">
+                    {{ block.settings.svg_icon }}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.bullet_title != blank -%}
+                  <div class="bullet__title">{{ block.settings.bullet_title }}</div>
+                {%- endif -%}
+                {%- if block.settings.bullet_text != blank -%}
+                  <div class="bullet__description">{{ block.settings.bullet_text }}</div>
+                {%- endif -%}
+>>>>>>> Stashed changes
               </div>
               {% assign bullet_count = bullet_count | plus: 1 %}
           {%- endcase -%}
@@ -465,6 +481,11 @@
       "type": "bullet",
       "name": "Bullet", // TODO: translate
       "settings": [
+        {
+          "type": "text",
+          "id": "bullet_title",
+          "label": "Bullet title" // TODO: translate
+        },
         {
           "type": "text",
           "id": "bullet_text",

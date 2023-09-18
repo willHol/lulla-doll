@@ -424,14 +424,25 @@
 
 .bullet__container {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .bullet__container .number-circle {
   font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bullet__description {
-  margin: auto;
   margin-left: 1.6rem;
   font-size: 1.6rem;
+}
+
+.bullet__title {
+  margin-left: 1.6rem;
+  font-size: 2.2rem;
 }
