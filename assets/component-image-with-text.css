@@ -438,11 +438,38 @@
 }
 
 .bullet__description {
-  margin-left: 1.6rem;
+  margin-top: 0;
   font-size: 1.6rem;
 }
 
 .bullet__title {
-  margin-left: 1.6rem;
-  font-size: 2.2rem;
+  font-size: 1.9rem;
+  font-weight: 600;
+  flex: 1;
+  white-space: nowrap;  
+  overflow: hidden;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bullet__container-multiline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  margin: auto;
+}
+
+.bullet__description-multiline {
+  width: 100%;
+  margin-top: 0;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.bullet__svg {
+  width: 1.8rem;
+  height: 1.8rem;
 }

@@ -3520,13 +3520,12 @@ details-disclosure > details {
   color: var(--text-color, #3C86A5);
   font-weight: bold;
   box-sizing: border-box;  /* Ensures padding and border are included in the width/height calculations */
+  margin-right: 1.6rem;
 }
 
 .product__text.inline-richtext {
   font-size: 1.8rem;
 }
-<<<<<<< Updated upstream
-=======
 
 .button--arrow {
   align-items: center;
@@ -3563,4 +3562,3 @@ details-disclosure > details {
   }
 }
 
->>>>>>> Stashed changes
