@@ -529,7 +529,7 @@ h6:empty {
   margin-left: 1rem;
 }
 
-a:not([href]) {
+a:not([href]):not([data-scroll-to]) {
   cursor: not-allowed;
 }
 
@@ -1615,6 +1615,7 @@ details[open] > .share-button__fallback {
   box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset)
     var(--inputs-shadow-blur-radius) rgba(var(--color-shadow), var(--inputs-shadow-opacity));
   z-index: -1;
+  border: 0;
 }
 
 .field:after,
@@ -3543,9 +3544,10 @@ details-disclosure > details {
 }
 
 .button:before {
-  position: absolute !important;
+  /* position: absolute !important;
   content: "";
   width: 100%;
+
   height: 100%;
   top: 0;
   left: 0;
@@ -3553,12 +3555,21 @@ details-disclosure > details {
   bottom: 0;
   background: rgb(var(--color-shadow));
   border-radius: inherit;
-  transform: translate3d(0, 0.6rem, -1rem) !important;
+  transform: translate3d(0, 0.6rem, -1rem) !important; */
+}
+
+.button {
+  box-shadow: 0 5px #AD4574;
 }
 
 @media screen and (max-width: 749px) {
   .button {
     width: 100%;
   }
+}
+
+.rich-text__heading.h2 {
+  padding-top: 1rem;
+  font-weight: 400;
 }
 

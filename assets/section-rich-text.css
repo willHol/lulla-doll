@@ -51,11 +51,11 @@
 }
 
 .rich-text__blocks > * + * {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .rich-text__blocks > * + a {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .rich-text__buttons {
@@ -128,4 +128,10 @@
 .custom-shape-divider-bottom-1692989597 .shape-fill {
   fill: transparent;
   fill: var(--rich-text-divider-color);
+}
+
+.rich-text__image img {
+  height: auto;
+  max-width: 100%; 
+  aspect-ratio: auto 1500 / 1008;
 }
