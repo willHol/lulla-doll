@@ -87,34 +87,43 @@
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}{% if block.settings.button_has_arrow %} button--arrow{% endif %}"
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
             {%- when 'bullet' -%}
-              <div class="bullet__container">
-<<<<<<< Updated upstream
-                <div class="number-circle">{{ bullet_count }}</div>
-                <div class="bullet__description">{{ block.settings.bullet_text }}</div>
-=======
-                {%- if block.settings.bullet_is_numbered -%}
-                  <div class="number-circle">{{ bullet_count }}</div>
-                {%- else -%}
-                  <div class="bullet-icon">
-                    {{ block.settings.svg_icon }}
-                  </div>
-                {%- endif -%}
-                {%- if block.settings.bullet_title != blank -%}
-                  <div class="bullet__title">{{ block.settings.bullet_title }}</div>
-                {%- endif -%}
-                {%- if block.settings.bullet_text != blank -%}
-                  <div class="bullet__description">{{ block.settings.bullet_text }}</div>
-                {%- endif -%}
->>>>>>> Stashed changes
-              </div>
               {% assign bullet_count = bullet_count | plus: 1 %}
+
+              {%- if block.settings.bullet_is_numbered -%}
+                <div class="bullet__container">
+                  <div class="number-circle">{{ bullet_count }}</div>
+
+                  {%- if block.settings.bullet_text != blank -%}
+                    <div class="bullet__description">{{ block.settings.bullet_text }}</div>
+                  {%- endif -%}
+                </div>
+              {%- else -%}
+                <div class="bullet__container-multiline">
+                  <img
+                    loading="eager"
+                    width="auto"
+                    height="auto"
+                    src="{{ block.settings.svg_icon | image_url }}"
+                    class="bullet__svg"
+                    role="presentation"
+                  >
+
+                  {%- if block.settings.bullet_title -%}
+                    <div class="bullet__title">{{ block.settings.bullet_title }}</div>
+                  {%- endif -%}
+                </div>
+
+                {%- if block.settings.bullet_text != blank -%}
+                  <div class="bullet__description-multiline">{{ block.settings.bullet_text }}</div>
+                {%- endif -%}
+              {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -474,6 +483,12 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_has_arrow",
+          "default": true,
+          "label": "Button has arrow" // TODO: translate
         }
       ]
     },
@@ -490,6 +505,17 @@
           "type": "text",
           "id": "bullet_text",
           "label": "Bullet text" // TODO: translate
+        },
+        {
+          "type": "checkbox",
+          "id": "bullet_is_numbered",
+          "default": true,
+          "label": "Bullet is numbered" // TODO: translate
+        },
+        {
+          "type": "image_picker",
+          "id": "svg_icon",
+          "label": "SVG Icon" // TODO: translate
         }
       ]
     }
