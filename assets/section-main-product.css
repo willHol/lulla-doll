@@ -1588,7 +1588,7 @@ a.product__text {
 @media screen and (forced-colors: active) {
   .recipient-fields > hr {
     border-top: 0.1rem solid rgb(var(--color-background));
-  }
+        {{ 'swatch-' | append: value | handle | append: '.png' }}
 
   .recipient-checkbox > svg {
     background-color: inherit;
@@ -1598,4 +1598,39 @@ a.product__text {
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
   }
+}
+
+.image-swatch-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px; /* Adds spacing below the swatches */
+}
+
+.swatch-image {
+    width: 40px; 
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Highlighting the selected swatch */
+input[type="radio"]:checked + label .swatch-image {
+    border: 2px solid #333;
+}
+
+/* Optional: Add a hover effect for better UX */
+label:hover .swatch-image {
+}
+
+/* Style for disabled variants (if you want to show them but make them look disabled) */
+.swatch-disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* If you decide to keep sold-out variants visible but disabled */
+input[type="radio"]:disabled + label .swatch-image {
+    border: 1px solid #ddd; /* Resetting the border */
+    filter: grayscale(100%); /* Making the image grayscale */
 }

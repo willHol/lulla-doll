@@ -309,13 +309,24 @@
         "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Benefits <\/strong><em><strong>Proven by Studies<\/strong><\/em>",
+            "heading": "Benefits",
+            "heading_size": "h1"
+          }
+        },
+        "0d6390d9-f564-4b06-b587-eb51d3d42d00": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Proven by Studies<\/strong><\/em>",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1"
+        "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1",
+        "0d6390d9-f564-4b06-b587-eb51d3d42d00"
+      ],
+      "custom_css": [
+        ".rich-text__blocks * {margin-top: 0;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -706,7 +717,8 @@
         "12d9143e-7b18-4f2a-9950-ae8d485c802a"
       ],
       "custom_css": [
-        ".rich-text__wrapper {padding: 0;}"
+        ".rich-text__wrapper {padding: 0;}",
+        ".rich-text__text {margin-top: 0.5rem;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -783,6 +795,43 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "be45606a-1880-4c85-aec5-356b13f2980d": {
+      "type": "rich-text",
+      "blocks": {
+        "22ed2495-7381-4935-a54a-436bc78d0b7e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Human Senses that Help Babies to Sleep",
+            "heading_size": "h1"
+          }
+        },
+        "a03c1ad1-caca-4484-8e2c-9cd17fa02ac7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9d4d38e7269f602563d1216f67ed6eb9.png"
+          }
+        }
+      },
+      "block_order": [
+        "22ed2495-7381-4935-a54a-436bc78d0b7e",
+        "a03c1ad1-caca-4484-8e2c-9cd17fa02ac7"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "highlight_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "svg_background": false,
+        "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg",
+        "divider_enabled": true,
+        "divider_color": "#ffffff",
+        "divider_height": 35
       }
     },
     "a940e4cc-1ee3-4f05-8c80-2244e675b44b": {
@@ -922,7 +971,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "swatch"
           }
         },
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
@@ -1096,6 +1145,7 @@
     "ffe13799-affb-4b7f-aeda-8a0ccd1d477c",
     "17e989e4-05b8-4acd-b6b0-cfd5abb9b05f",
     "0d774d8d-6c04-4282-99cb-9fa626a0f00c",
+    "be45606a-1880-4c85-aec5-356b13f2980d",
     "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
     "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
