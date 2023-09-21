@@ -90,6 +90,7 @@
         },
         "e6edcd52-dabd-4a43-8d2c-f568283fd536": {
           "type": "logo",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/babyology_cd25ad0f-5ca8-4715-816c-6f7844f9a72a.png",
             "alt": "Logo"
@@ -171,17 +172,17 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/b250ff4d1a10f64903720f91941552e8.png",
             "alt": "",
-            "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept.",
-            "quote_source": "Sheryl M."
+            "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept all night for the first time in months.",
+            "quote_source": "Sheryl M. Happy Mother"
           }
         },
         "06f96d9c-ff36-4a78-9249-33e17e48239d": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/lulla4.webp",
+            "img": "shopify:\/\/shop_images\/review.jpg",
             "alt": "",
-            "quote": "This isn't magic, but it's close enough. My baby sleeps longer, and I finally have some me-time.",
-            "quote_source": "Aisha W., Mom of Two"
+            "quote": "This isn't magic, but it's close enough. I can finally sleep all night and I beginning to feel normal again!",
+            "quote_source": "Aisha W. Mother of Two"
           }
         },
         "5ce378e9-f5ea-4e42-a0dd-bd5cb1a15947": {
