@@ -14,7 +14,7 @@
         "6f73d2eb-44ec-4087-adae-1293c11c3b1f": {
           "type": "text",
           "settings": {
-            "text": "The sleeping companion <strong>scientifically engineered<\/strong> to help kids 0-36+ months get a <em>full night<\/em> of <strong>uninterrupted rest<\/strong>.",
+            "text": "The sleeping companion <strong>scientifically engineered<\/strong> to help kids 0-36+ months get a <em>full night<\/em> of <strong>uninterrupted rest by <\/strong>'Self-Soothing'.",
             "text_style": "body"
           }
         },
@@ -90,6 +90,7 @@
         },
         "e6edcd52-dabd-4a43-8d2c-f568283fd536": {
           "type": "logo",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/babyology_cd25ad0f-5ca8-4715-816c-6f7844f9a72a.png",
             "alt": "Logo"
@@ -187,8 +188,9 @@
         "c5008c3c-082c-4a30-a718-a17f4a62745e": {
           "type": "slide",
           "settings": {
+            "img": "shopify:\/\/shop_images\/sleepy.jpg",
             "alt": "",
-            "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept all night for the first time in months.",
+            "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My baby slept all night for the first time in months.",
             "quote_source": "Sheryl M. Happy Mother"
           }
         },
@@ -275,7 +277,7 @@
         "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>To create the award winning sleep doll that helps children through their early stages in life.<\/p>",
+            "text": "<p>To create the award winning sleep doll that helps parents get through their child's early stages in life.<\/p>",
             "text_style": "subtitle"
           }
         }
@@ -310,7 +312,7 @@
         "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Benefits",
+            "heading": "Self-Soothe Benefits",
             "heading_size": "h1"
           }
         },
@@ -356,7 +358,7 @@
         "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Thousands of parents say their children sleep all night with Lulla. Crucial for brain development and growth at a young age.<\/p>",
+            "text": "<p>Win your sleep back and return to your energised self when your baby sleeps 8+ hours every night with Lulla Doll.<\/p>",
             "text_style": "body"
           }
         }
@@ -393,7 +395,7 @@
         "77628efe-ce85-4417-9cbf-0cfe7e8aa5d6": {
           "type": "text",
           "settings": {
-            "text": "<p>Lulla's material absorbs your natural scent, further giving your child the feeling of human closeness with their mother.<\/p>",
+            "text": "<p>Lulla Doll was designed to create the sense of human closeness, crucial for teaching them how to soothe themselves to sleep.<\/p>",
             "text_style": "body"
           }
         }
@@ -430,7 +432,7 @@
         "b132ffec-1479-4c1e-8839-c207c56658d1": {
           "type": "text",
           "settings": {
-            "text": "<p>Research shows that children are soothed to sleep by the sounds of breathing and heartbeat by Lulla Doll.<\/p>",
+            "text": "<p>Psychologist and mother of three, Eryun, spent three years developing the a sleeping companion that would teach babies how to sleep without breaking into tears.<\/p>",
             "text_style": "body"
           }
         },
@@ -471,7 +473,7 @@
         "35c7ec07-44a1-451a-919a-0acc06cf1ecd": {
           "type": "heading",
           "settings": {
-            "heading": "The <strong>only science backed<\/strong> <strong>sleeping companion<\/strong> that has <strong>won multiple international awards<\/strong>",
+            "heading": "The only <strong>science backed<\/strong> sleeping companion that has <strong>won multiple international awards<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -606,7 +608,7 @@
           "type": "bullet",
           "settings": {
             "bullet_title": "",
-            "bullet_text": "Soothe to sleep",
+            "bullet_text": "Baby Self-Soothes to sleep",
             "bullet_is_numbered": true
           }
         },
@@ -649,7 +651,7 @@
         "5c60dba0-fed5-44cb-9b2e-78754c9c6e8d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Money-Back-white.svg"
+            "image": "shopify:\/\/shop_images\/mb.png"
           }
         },
         "0d7cfe2b-ddf0-4fa4-9c56-e76b19118f08": {
@@ -693,7 +695,7 @@
         "template--16253133291707__17e989e4-05b8-4acd-b6b0-cfd5abb9b05f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Bonus Bundle Add-Ons",
+            "heading": "<strong>Bonus Bundle Items<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -903,7 +905,7 @@
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730": {
           "type": "text",
           "settings": {
-            "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep<\/strong>.",
+            "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep <\/strong>by <em>'Self-Soothing'<\/em>.",
             "text_style": "body"
           }
         },
@@ -938,7 +940,7 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "ll-tick",
-            "heading_1": "Lulla Outfit",
+            "heading_1": "Bonus Lulla Outfit",
             "icon_2": "return",
             "heading_2": "",
             "icon_3": "truck",
@@ -950,7 +952,7 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "ll-tick",
-            "heading_1": "12-Hour Sound Box",
+            "heading_1": "Bonus Sleeping Success Guide",
             "icon_2": "return",
             "heading_2": "",
             "icon_3": "truck",
@@ -959,11 +961,10 @@
         },
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed": {
           "type": "icon-with-text",
-          "disabled": true,
           "settings": {
             "layout": "vertical",
-            "icon_1": "heart",
-            "heading_1": "EBook",
+            "icon_1": "ll-tick",
+            "heading_1": "Access to Facebook Support Group",
             "icon_2": "return",
             "heading_2": "",
             "icon_3": "truck",
