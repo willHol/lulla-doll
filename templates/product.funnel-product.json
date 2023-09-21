@@ -287,7 +287,7 @@
       "custom_css": [
         ".image-with-text__media-item img {padding: 5rem; padding-bottom: 0;}",
         ".image-with-text .image-with-text__media-item,.global-media-settings {border-bottom-left-radius: 0; border-bottom-right-radius: 0;}",
-        ".image-with-text__text-item {border-top-right-radius: 0;}"
+        ".image-with-text__text-item, .image-with-text__text-item * {border-top-right-radius: 0; border-top-left-radius: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pink-lulla.png",
