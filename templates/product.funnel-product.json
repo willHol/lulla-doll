@@ -167,13 +167,13 @@
     "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f": {
       "type": "quote-slider",
       "blocks": {
-        "c5008c3c-082c-4a30-a718-a17f4a62745e": {
+        "5ce378e9-f5ea-4e42-a0dd-bd5cb1a15947": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/b250ff4d1a10f64903720f91941552e8.png",
+            "img": "shopify:\/\/shop_images\/review2.jpg",
             "alt": "",
-            "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept all night for the first time in months.",
-            "quote_source": "Sheryl M. Happy Mother"
+            "quote": "It's a miracle. After nearly 6 months of screaming torture my son is finally sleeping all night long with his Lulla Doll.",
+            "quote_source": "Rebecca G. Relieved Mother"
           }
         },
         "06f96d9c-ff36-4a78-9249-33e17e48239d": {
@@ -185,13 +185,13 @@
             "quote_source": "Aisha W. Mother of Two"
           }
         },
-        "5ce378e9-f5ea-4e42-a0dd-bd5cb1a15947": {
+        "c5008c3c-082c-4a30-a718-a17f4a62745e": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/241837823_1484686791880434_2114923976878839141_n.jpg",
+            "img": "shopify:\/\/shop_images\/b250ff4d1a10f64903720f91941552e8.png",
             "alt": "",
-            "quote": "Every night, my son cuddles up with his Lulla Doll. It's heartwarming to see him so content.",
-            "quote_source": "Rebecca G., Happy Mother"
+            "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept all night for the first time in months.",
+            "quote_source": "Sheryl M. Happy Mother"
           }
         },
         "215428ce-8457-4f92-9244-3211fc09c9b4": {
@@ -207,10 +207,10 @@
         "3135d751-e3ed-47de-b278-95b66ec5082c": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image1-21__1.jpg",
+            "img": "shopify:\/\/shop_images\/review3.jpg",
             "alt": "",
-            "quote": "I was skeptical at first, but after just one night, I'm a believer! Every parent needs a Lulla Doll.",
-            "quote_source": "Nathan D., Relieved Parent"
+            "quote": "I was skeptical at first, but after a few nights, I'm a believer! Every parent needs a Lulla Doll.",
+            "quote_source": "Nathan D. Relieved Parent"
           }
         },
         "66452e3d-cad4-468b-b9da-ee25d4a9573a": {
@@ -225,9 +225,9 @@
         }
       },
       "block_order": [
-        "c5008c3c-082c-4a30-a718-a17f4a62745e",
-        "06f96d9c-ff36-4a78-9249-33e17e48239d",
         "5ce378e9-f5ea-4e42-a0dd-bd5cb1a15947",
+        "06f96d9c-ff36-4a78-9249-33e17e48239d",
+        "c5008c3c-082c-4a30-a718-a17f4a62745e",
         "215428ce-8457-4f92-9244-3211fc09c9b4",
         "3135d751-e3ed-47de-b278-95b66ec5082c",
         "66452e3d-cad4-468b-b9da-ee25d4a9573a"
