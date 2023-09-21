@@ -66,14 +66,14 @@
       </script>
     </variant-selects>
   {%- elsif block.settings.picker_type == 'swatch' -%}
-    <variant-swatches>
+    <variant-selects>
       {%- for option in product.options_with_values -%}
-        <fieldset class="js product-form__input">
+        <fieldset class="js product-form__input product-form__swatch">
           <legend class="form__label">{{ option.name }}</legend>
           {% render 'product-variant-options', product: product, option: option, block: block %}
         </fieldset>
       {%- endfor -%}
-    </variant-swatches>
+    </variant-selects>
 
     <script type="application/json">
       {{ product.variants | json }}

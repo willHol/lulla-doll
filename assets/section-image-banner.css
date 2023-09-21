@@ -418,7 +418,7 @@
 
 @media screen and (min-width: 1400px) {
   .banner__box {
-    max-width: 90rem;
+    max-width: 70rem;
   }
 }
 
@@ -436,12 +436,17 @@
 }
 
 .banner__buttons {
+  margin-right: 3px;
   display: inline-flex;
   flex-wrap: wrap;
   gap: 1rem;
   word-break: break-word;
+  width: 100%;
 }
 
+.banner__buttons a {
+  width: 100%;
+}
 
 @media screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__buttons--multiple {
@@ -451,10 +456,6 @@
   .banner--content-align-mobile-center .banner__buttons--multiple > * {
     flex-grow: 1;
     min-width: 22rem;
-  }
-  
-  .banner__buttons, a[data-scroll-to-product-button] {
-    width: 100%;
   }
 }
 
@@ -502,6 +503,12 @@
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+}
+
+@media screen and (min-width: 750px) {
+  .custom-shape-divider-bottom-1692675641 {
+    display: none !important;
+  }
 }
 
 .custom-shape-divider-bottom-1692675641 svg {
@@ -570,4 +577,11 @@ a[data-scroll-to-product-button]::after {}
 .banner__text {
   font-size: 1.7rem;
   color: black; /* TODO: Remove hard-coding */
+  max-width: 50rem;
+}
+
+@media screen and (min-width: 750px) {
+  .banner__text {
+    margin: auto;
+  }
 }
