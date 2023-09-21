@@ -436,9 +436,9 @@
         "d029e7db-f16b-40f9-96aa-1d59cb9e85d0": {
           "type": "button",
           "settings": {
-            "button_label": "GET LULLA DOLL",
+            "button_label": "RESTORE YOUR SLEEP",
             "button_link": "",
-            "button_data_attribute": "data-scroll-to",
+            "button_data_attribute": "scroll-to",
             "button_style_secondary": false,
             "button_has_arrow": true
           }
@@ -906,18 +906,25 @@
             "text_style": "body"
           }
         },
+        "660f44b1-02b7-4f5c-a676-037897ff0046": {
+          "type": "text",
+          "settings": {
+            "text": "&nbsp;",
+            "text_style": "body"
+          }
+        },
         "a0737fb3-d7d2-4d49-b598-5e212ed07d52": {
           "type": "text",
           "settings": {
             "text": "Complete Bundle Includes:",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
-            "icon_1": "check_mark",
+            "icon_1": "ll-tick",
             "heading_1": "Lulla Doll",
             "icon_2": "return",
             "heading_2": "",
@@ -929,7 +936,7 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
-            "icon_1": "check_mark",
+            "icon_1": "ll-tick",
             "heading_1": "Lulla Outfit",
             "icon_2": "return",
             "heading_2": "",
@@ -941,7 +948,7 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
-            "icon_1": "check_mark",
+            "icon_1": "ll-tick",
             "heading_1": "12-Hour Sound Box",
             "icon_2": "return",
             "heading_2": "",
@@ -976,7 +983,6 @@
         },
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
           "type": "inventory",
-          "disabled": true,
           "settings": {
             "text_style": "body",
             "inventory_threshold": 100,
@@ -987,7 +993,9 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
+            "show_gift_card_recipient": false,
+            "add_to_cart_text": "RESTORE YOUR SLEEP",
+            "has_arrow": true
           }
         },
         "272f259b-4aad-4298-92f2-a98154f59a11": {
@@ -1010,6 +1018,7 @@
         "price",
         "caption",
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
+        "660f44b1-02b7-4f5c-a676-037897ff0046",
         "a0737fb3-d7d2-4d49-b598-5e212ed07d52",
         "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8",

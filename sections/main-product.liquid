@@ -424,6 +424,7 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+              {%- render 'value-statements' -%}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -853,6 +854,16 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
+        },
+        {
+          "type": "text",
+          "id": "add_to_cart_text",
+          "label": "Add to cart text" // TODO: translate
+        },
+        {
+          "type": "checkbox",
+          "id": "has_arrow",
+          "label": "Has arrow" // TODO: translate
         }
       ]
     },
@@ -1605,6 +1616,10 @@
             {
               "value": "washing",
               "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__44.label"
+            },
+            {
+              "value": "ll-tick",
+              "label": "Lulla Tick" // TODO: translate
             }
           ],
           "default": "heart",

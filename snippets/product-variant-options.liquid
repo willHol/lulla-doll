@@ -91,7 +91,7 @@
       >
       <label for="{{ value | handle }}">
         <img
-          src="{{ 'swatch-' | append: value | handle | append: '.png' | asset_url }}"
+          src="{{ 'swatch-' | append: value | handle | append: '.png' | file_url }}"
           alt="{{ value }}"
           class="swatch-image"
           loading="lazy"
