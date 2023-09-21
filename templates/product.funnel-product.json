@@ -187,7 +187,6 @@
         "c5008c3c-082c-4a30-a718-a17f4a62745e": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/b250ff4d1a10f64903720f91941552e8.png",
             "alt": "",
             "quote": "OH MY GOD.. this Lulla doll is the best thing in the world! My 6 week old Brodie slept all night for the first time in months.",
             "quote_source": "Sheryl M. Happy Mother"
@@ -287,7 +286,7 @@
       ],
       "custom_css": [
         ".image-with-text__media-item img {padding: 5rem; padding-bottom: 0;}",
-        ".image-with-text .image-with-text__media-item>* {border-radius-bottom-left: 0; border-radius-bottom-right: 0;}"
+        ".image-with-text .image-with-text__media-item {border-bottom-left-radius: 0; border-bottom-right-radius: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pink-lulla.png",
