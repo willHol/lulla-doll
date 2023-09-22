@@ -2,6 +2,24 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "ea198600-48de-4569-85e8-34f4ca8e3f73": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "GET LULLA DOLL",
+            "button_link_1": "shopify:\/\/products\/lulla-doll",
+            "button_data_attribute_1": "",
+            "button_style_secondary_1": false,
+            "button_has_arrow_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "ea198600-48de-4569-85e8-34f4ca8e3f73"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LullaCollage.png",
         "image_overlay_opacity": 0,
@@ -9,7 +27,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
