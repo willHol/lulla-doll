@@ -45,7 +45,7 @@
     endfor
   -%}
 
-  {%- if block.settings.picker_type == 'button' -%}
+  {%- if block.settings.picker_type == 'button' or block.settings.picker_type == 'swatch' -%}
     <input
       type="radio"
       id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -60,7 +60,17 @@
       {% endif %}
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {{ value -}}
+      <div class="radio--name">{{ value -}}</div>
+      {%- if block.settings.picker_type == 'swatch' -%}
+        <img
+          src="{{ 'swatch-' | append: value | handle | append: '.png' | file_url }}"
+          alt="{{ value }}"
+          class="swatch-image"
+          loading="lazy"
+          width="40"
+          height="40"
+        >
+      {%- endif -%}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
@@ -76,29 +86,5 @@
         {{- value -}}
       {%- endif %}
     </option>
-  {%- elsif block.settings.picker_type == 'swatch' -%}
-    {% assign variant = product.variants | where: 'title', value | first %}
-
-    {% if variant.available %}
-      <input
-        type="radio"
-        id="{{ value | handle }}"
-        name="{{ option.name }}"
-        value="{{ value }}"
-        {% if option.selected_value == value %}
-          checked
-        {% endif %}
-      >
-      <label for="{{ value | handle }}">
-        <img
-          src="{{ 'swatch-' | append: value | handle | append: '.png' | file_url }}"
-          alt="{{ value }}"
-          class="swatch-image"
-          loading="lazy"
-          width="40"
-          height="40"
-        >
-      </label>
-    {% endif %}
   {%- endif -%}
 {%- endfor -%}

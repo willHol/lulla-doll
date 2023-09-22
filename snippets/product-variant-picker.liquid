@@ -10,7 +10,7 @@
   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 {% endcomment %}
 {%- unless product.has_only_default_variant -%}
-  {%- if block.settings.picker_type == 'button' -%}
+  {%- if block.settings.picker_type == 'button' or block.settings.picker_type == 'swatch' -%}
     <variant-radios
       id="variant-radios-{{ section.id }}"
       class="no-js-hidden"
@@ -22,8 +22,8 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        <fieldset class="js product-form__input">
-          <legend class="form__label">{{ option.name }}</legend>
+        <fieldset class="js product-form__input {% if block.settings.picker_type == 'swatch'%} product-form__swatch{% endif %}">
+          <legend class="form__label">{{ option.name }}:</legend>
           {% render 'product-variant-options', product: product, option: option, block: block %}
         </fieldset>
       {%- endfor -%}
@@ -65,19 +65,6 @@
         {{ product.variants | json }}
       </script>
     </variant-selects>
-  {%- elsif block.settings.picker_type == 'swatch' -%}
-    <variant-selects>
-      {%- for option in product.options_with_values -%}
-        <fieldset class="js product-form__input product-form__swatch">
-          <legend class="form__label">{{ option.name }}</legend>
-          {% render 'product-variant-options', product: product, option: option, block: block %}
-        </fieldset>
-      {%- endfor -%}
-    </variant-selects>
-
-    <script type="application/json">
-      {{ product.variants | json }}
-    </script>
   {%- endif -%}
 {%- endunless -%}
 
