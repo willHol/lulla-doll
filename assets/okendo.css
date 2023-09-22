@@ -25,8 +25,9 @@
 }
 
 .oke-sr-count::before {
-  content: "Join 4,095+ Happy Parents";
+  content: "Join 102,095+ Happy Parents";
   content: var(--happy-customers);
+
   visibility: visible;
   height: 100%;
   vertical-align: middle;
