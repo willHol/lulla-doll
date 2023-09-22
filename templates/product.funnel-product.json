@@ -1091,9 +1091,9 @@
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is there a return policy?",
+            "heading": "What is the 30-day guarantee?",
             "icon": "question_mark",
-            "row_content": "<p>Yes<\/p>",
+            "row_content": "<p>our guarantee makes trying Lulla Doll 100% risk free! If you're not satisfied within the first 30 days, you're eligible to return your Lulla for a full refund.<\/p>",
             "page": ""
           }
         },
@@ -1102,7 +1102,7 @@
           "settings": {
             "heading": "What are shipping times?",
             "icon": "question_mark",
-            "row_content": "<p>Not sure<\/p>",
+            "row_content": "<p>2-5 days across all states of Australia.<\/p>",
             "page": ""
           }
         },
@@ -1111,7 +1111,7 @@
           "settings": {
             "heading": "Does it need batteries?",
             "icon": "question_mark",
-            "row_content": "<p>Yes<\/p>",
+            "row_content": "<p>Lulla Doll takes 2 AA batteries, which will last for about 60 nights of 8+ hour sleeps.<\/p>",
             "page": ""
           }
         }
