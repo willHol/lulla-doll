@@ -282,6 +282,25 @@ function onElementAppear(selector, callback) {
   });
 }
 
+function smoothScrollTo(target) {
+  const targetElement = document.querySelector(target);
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+onElementAppear('[data-scroll-to]', (el) => {
+  const target = el.dataset.scrollTo;
+
+  el.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    if (target) {
+      smoothScrollTo(target);
+    }
+  });
+});
+
 function waitForProperty(propertyName, callback, interval = 50, maxAttempts = 100) {
   let attempts = 0;
 
