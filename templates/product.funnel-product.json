@@ -351,7 +351,7 @@
         "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Full Nights Rest<\/strong>",
+            "heading": "<strong>1. Full Nights Rest<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -388,7 +388,7 @@
         "2f89e68e-1c59-42be-85b4-138869d40fe6": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Human Closeness<\/strong>",
+            "heading": "<strong>2. Human Closeness<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -425,7 +425,7 @@
         "327a4a48-37b9-4f1a-b5cd-c4d8662fa46f": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Backed by Research<\/strong>",
+            "heading": "<strong>3. Backed by Research<\/strong>",
             "heading_size": "h1"
           }
         },
