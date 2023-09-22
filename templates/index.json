@@ -63,6 +63,55 @@
         "show_text_below": false
       }
     },
+    "992b131d-0c42-4237-b97d-87eed7586c2e": {
+      "type": "as-seen-in",
+      "blocks": {
+        "a8bdd32d-859f-44f3-a262-29f5d0a0b2b7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/vogue_747f5631-71b9-4fb2-9257-5d9e8e84e914.png",
+            "alt": "Logo"
+          }
+        },
+        "e876dfa0-638c-4ee6-bf0a-e7c9cca59366": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/today_d3d782ed-02ba-4fd9-aac2-fe6f96c1148a.png",
+            "alt": "Logo"
+          }
+        },
+        "7b3eaa57-9db7-4b70-817b-f6d2db888c19": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/mashable_06250178-98c0-4cbe-9763-ffe83242b5be.png",
+            "alt": "Logo"
+          }
+        },
+        "892dcfd2-167f-4314-b01c-cdf17d00d4b3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/babyology_cd25ad0f-5ca8-4715-816c-6f7844f9a72a.png",
+            "alt": "Logo"
+          }
+        }
+      },
+      "block_order": [
+        "a8bdd32d-859f-44f3-a262-29f5d0a0b2b7",
+        "e876dfa0-638c-4ee6-bf0a-e7c9cca59366",
+        "7b3eaa57-9db7-4b70-817b-f6d2db888c19",
+        "892dcfd2-167f-4314-b01c-cdf17d00d4b3"
+      ],
+      "settings": {
+        "heading": "Featured In",
+        "swiper_enabled": false,
+        "max_height": "auto",
+        "image_aspect_ratio": "auto",
+        "color_scheme": "inverse",
+        "divider_enabled": true,
+        "divider_color": "#ffffff",
+        "divider_height": 35
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -94,6 +143,7 @@
   },
   "order": [
     "image_banner",
+    "992b131d-0c42-4237-b97d-87eed7586c2e",
     "featured_collection"
   ]
 }
