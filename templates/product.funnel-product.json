@@ -710,7 +710,7 @@
         "12d9143e-7b18-4f2a-9950-ae8d485c802a": {
           "type": "text",
           "settings": {
-            "text": "<p>You won't find anywhere else<\/p>"
+            "text": "<h2>You won't find anywhere else<\/h2>"
           }
         }
       },
