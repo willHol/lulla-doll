@@ -102,8 +102,8 @@
         "892dcfd2-167f-4314-b01c-cdf17d00d4b3"
       ],
       "settings": {
-        "heading": "Featured In",
-        "swiper_enabled": false,
+        "heading": "As Featured In",
+        "swiper_enabled": true,
         "max_height": "auto",
         "image_aspect_ratio": "auto",
         "color_scheme": "inverse",
