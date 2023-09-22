@@ -312,7 +312,7 @@
         ".image-with-text__text-item,.image-with-text__text-item * {border-top-right-radius: 0; border-top-left-radius: 0;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pink-lulla.png",
+        "image": "shopify:\/\/shop_images\/bluelulla.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
