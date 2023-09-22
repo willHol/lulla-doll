@@ -200,7 +200,7 @@ fieldset.product-form__input .form__label {
   border-radius: var(--variant-pills-radius);
   color: rgb(var(--color-foreground));
   display: inline-block;
-  margin: 0.7rem 0.5rem 0.2rem 0;
+  margin: 0.7rem 0.9rem 0.2rem 0;
   padding: 1rem 2rem;
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
@@ -1220,7 +1220,7 @@ a.product__text {
 }
 .thumbnail[aria-current]:focus:not(:focus-visible) {
   outline: 0;
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-foreground));
+  box-shadow: 0 0 0 0.2rem rgb(var(--color-foreground));
 }
 
 .thumbnail img {
@@ -1615,28 +1615,27 @@ a.product__text {
     cursor: pointer;
 }
 
-/* Highlighting the selected swatch */
 input[type="radio"]:checked + label .swatch-image {
     border: 2px solid #333;
-}
-
-/* Optional: Add a hover effect for better UX */
-label:hover .swatch-image {
-}
-
-/* Style for disabled variants (if you want to show them but make them look disabled) */
-.swatch-disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-}
-
-/* If you decide to keep sold-out variants visible but disabled */
-input[type="radio"]:disabled + label .swatch-image {
-    border: 1px solid #ddd; /* Resetting the border */
-    filter: grayscale(100%); /* Making the image grayscale */
 }
 
 .product-form__swatch label {
   padding: 0 !important;
   border: 0 !important;
+}
+
+.product-form__swatch input[type='radio']:checked + label {
+  color: rgb(var(--color-foreground));
+}
+
+.radio--name {
+  display: inline;
+}
+
+.product-form__swatch .radio--name{
+  display: block;
+  font-size: 1.3rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  margin-bottom: 0.4rem;
+  color: rgba(var(--color-foreground), 0.75);
 }

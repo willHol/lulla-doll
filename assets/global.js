@@ -1141,15 +1141,14 @@ class VariantSelects extends HTMLElement {
   }
 
   updatePickupAvailability() {
-    const pickUpAvailability = document.querySelector('pickup-availability');
-    if (!pickUpAvailability) return;
-
-    if (this.currentVariant && this.currentVariant.available) {
-      pickUpAvailability.fetchAvailability(this.currentVariant.id);
-    } else {
-      pickUpAvailability.removeAttribute('available');
-      pickUpAvailability.innerHTML = '';
-    }
+    // const pickUpAvailability = document.querySelector('pickup-availability');
+    // if (!pickUpAvailability) return;
+    // if (this.currentVariant && this.currentVariant.available) {
+    //   pickUpAvailability.fetchAvailability(this.currentVariant.id);
+    // } else {
+    //   pickUpAvailability.removeAttribute('available');
+    //   pickUpAvailability.innerHTML = '';
+    // }
   }
 
   removeErrorMessage() {
