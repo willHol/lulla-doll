@@ -1100,7 +1100,7 @@
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What are shipping times?",
+            "heading": "What are the shipping times?",
             "icon": "question_mark",
             "row_content": "<p>2-5 days across all states of Australia.<\/p>",
             "page": ""
