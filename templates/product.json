@@ -53,18 +53,6 @@
             "add_to_cart_text": "",
             "has_arrow": true
           }
-        },
-        "272f259b-4aad-4298-92f2-a98154f59a11": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "truck",
-            "heading_1": "<strong>FREE<\/strong> Express Shipping",
-            "icon_2": "heart",
-            "heading_2": "<strong>30-Day Money Back Guarantee<\/strong>",
-            "icon_3": "heart",
-            "heading_3": ""
-          }
         }
       },
       "block_order": [
@@ -75,8 +63,7 @@
         "description",
         "variant_picker",
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
-        "buy_buttons",
-        "272f259b-4aad-4298-92f2-a98154f59a11"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": false,
