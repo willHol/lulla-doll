@@ -83,7 +83,7 @@
                   {% if block.settings.button_link == blank and block.settings.button_data_attribute == blank %}
                     role="link" aria-disabled="true"
                   {% elsif block.settings.button_data_attribute != blank %}
-                    data-{{ block.settings.button_data_attribute | handleize }}
+                    data-{{ block.settings.button_data_attribute }}
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
