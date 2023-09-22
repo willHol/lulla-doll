@@ -60,7 +60,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "992b131d-0c42-4237-b97d-87eed7586c2e": {
