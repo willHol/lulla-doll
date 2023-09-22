@@ -280,11 +280,32 @@
             "text": "<p>To create the award winning sleep doll that helps parents get through their child's early stages in life.<\/p>",
             "text_style": "subtitle"
           }
+        },
+        "edb2b505-16a9-4db8-b8ec-dfb53e206cdf": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award3.png"
+          }
+        },
+        "0c16d33e-b4c3-418e-b95b-2384fd14d722": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award2.png"
+          }
+        },
+        "a389269c-3224-4f0c-8644-19aad85a4281": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award1.png"
+          }
         }
       },
       "block_order": [
         "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1",
-        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1"
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1",
+        "edb2b505-16a9-4db8-b8ec-dfb53e206cdf",
+        "0c16d33e-b4c3-418e-b95b-2384fd14d722",
+        "a389269c-3224-4f0c-8644-19aad85a4281"
       ],
       "custom_css": [
         ".image-with-text__media-item img {padding: 5rem; padding-bottom: 0;}",
