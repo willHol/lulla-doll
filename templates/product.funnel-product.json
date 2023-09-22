@@ -29,7 +29,7 @@
           "settings": {
             "button_label_1": "RESTORE YOUR SLEEP",
             "button_link_1": "",
-            "button_data_attribute_1": "scroll-to=\"#shopify-section-template--16253133291707__a940e4cc-1ee3-4f05-8c80-2244e675b44b\"",
+            "button_data_attribute_1": "scroll-to=\".section-template--16236830195899__a940e4cc-1ee3-4f05-8c80-2244e675b44b\"",
             "button_style_secondary_1": false,
             "button_has_arrow_1": true,
             "button_label_2": "",
@@ -461,7 +461,7 @@
           "settings": {
             "button_label": "RESTORE YOUR SLEEP",
             "button_link": "",
-            "button_data_attribute": "scroll-to=\"#shopify-section-template--16253133291707__a940e4cc-1ee3-4f05-8c80-2244e675b44b\"",
+            "button_data_attribute": "scroll-to=\".section-template--16236830195899__a940e4cc-1ee3-4f05-8c80-2244e675b44b\"",
             "button_style_secondary": false,
             "button_has_arrow": true
           }
