@@ -126,6 +126,20 @@
               {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
+        <div class="image-with-text__badge--container">
+          {%- for block in section.blocks -%}
+            {%- if block.type == 'badge' -%}
+              <img
+                src="{{ block.settings.image | image_url }}"
+                class="image-with-text__badge--img"
+                alt="{{ block.settings.image.alt | escape }}"
+                loading="lazy"
+                width="auto"
+                height="auto"
+              >
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
       </div>
     </div>
   </div>
@@ -516,6 +530,17 @@
           "type": "image_picker",
           "id": "svg_icon",
           "label": "SVG Icon" // TODO: translate
+        }
+      ]
+    },
+    {
+      "type": "badge",
+      "name": "Badge", // TODO: translate
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image" // TODO: translate
         }
       ]
     }
