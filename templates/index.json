@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas_2045x800_a9bf52f1-1bcd-483e-b559-096764f0a300.png",
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/LullaCollage.png",
+        "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
