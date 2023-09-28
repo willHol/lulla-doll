@@ -378,7 +378,7 @@
         "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Win back your battle with sleep and return to your energised self when your baby sleeps 8+ hours every night with Lulla Doll.<\/p>",
+            "text": "<p>Win your battle with sleep and <strong>return to your fully energised <\/strong>self when your baby sleeps <em>8+ hours<\/em> a night with Lulla Doll.<\/p>",
             "text_style": "body"
           }
         }
@@ -388,7 +388,7 @@
         "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/baby3_2355728b-fce2-4f56-8165-32670818fa89.jpg",
+        "image": "shopify:\/\/shop_images\/sleep.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -415,7 +415,7 @@
         "77628efe-ce85-4417-9cbf-0cfe7e8aa5d6": {
           "type": "text",
           "settings": {
-            "text": "<p>Lulla Doll was designed to create the sense of human closeness, crucial for teaching babies to 'Self-Soothe' to sleep.<\/p>",
+            "text": "<p>Lulla Doll's design creates the sense of <strong>human closeness<\/strong>, crucial for teaching babies to <em>'Self-Soothe'<\/em> to sleep.<\/p>",
             "text_style": "body"
           }
         }
@@ -425,7 +425,7 @@
         "77628efe-ce85-4417-9cbf-0cfe7e8aa5d6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/baby4.jpg",
+        "image": "shopify:\/\/shop_images\/sleep2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -452,7 +452,7 @@
         "b132ffec-1479-4c1e-8839-c207c56658d1": {
           "type": "text",
           "settings": {
-            "text": "<p>Psychologist and mother of three, Eryun, spent three years developing a sleeping companion that teaches babies how to sleep without breaking into tears.<\/p>",
+            "text": "<p><em>Psychologist<\/em> and mother of three, Eryun, spent <strong>three years <\/strong>of scientific research to crack the code<strong> <\/strong>on baby sleep habits with Lulla Doll.<\/p>",
             "text_style": "body"
           }
         },
@@ -473,7 +473,7 @@
         "d029e7db-f16b-40f9-96aa-1d59cb9e85d0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/baby5.jpg",
+        "image": "shopify:\/\/shop_images\/sleep3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -628,7 +628,7 @@
           "type": "bullet",
           "settings": {
             "bullet_title": "",
-            "bullet_text": "Baby Self-Soothes to sleep",
+            "bullet_text": "Baby Self-Soothes all night",
             "bullet_is_numbered": true
           }
         },
@@ -651,7 +651,7 @@
         "template--16253133291707__45114005-ad48-4a0d-a1e9-1327aceac9de-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/howworks.jpg",
+        "image": "shopify:\/\/shop_images\/pink_299172c8-f5db-45ca-9239-1179d81de2a2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
