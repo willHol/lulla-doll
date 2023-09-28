@@ -138,7 +138,7 @@
         "template--16236965560507__f698cc71-350b-42bd-a78f-2f131c289fc4-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Loved By 180,000+ Mothers Worldwide<\/strong>",
+            "heading": "<em><strong>Loved By 180,000+<\/strong><\/em><strong> Mothers Worldwide<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -178,7 +178,7 @@
         "06f96d9c-ff36-4a78-9249-33e17e48239d": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/review.jpg",
+            "img": "shopify:\/\/shop_images\/review2_ab24ad47-eac4-4465-b4f5-fa42e7682153.jpg",
             "alt": "",
             "quote": "This isn't magic, but it's close enough. I can finally sleep all night and I'm beginning to feel normal again!",
             "quote_source": "Aisha W. Mother of Two"
@@ -511,8 +511,8 @@
         "padding_bottom": 40,
         "svg_background": true,
         "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg",
-        "divider_enabled": false,
-        "divider_color": "#ffffff",
+        "divider_enabled": true,
+        "divider_color": "#eeeeee",
         "divider_height": 35
       }
     },
