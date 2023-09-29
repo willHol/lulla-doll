@@ -14,7 +14,7 @@
         "6f73d2eb-44ec-4087-adae-1293c11c3b1f": {
           "type": "text",
           "settings": {
-            "text": "The sleeping companion <strong>scientifically designed<\/strong> to help kids 0-36+ months get a <em>full night<\/em> of <strong>uninterrupted rest by <\/strong>'Self-Soothing'.",
+            "text": "The sleeping companion <strong>scientifically designed<\/strong> to help kids 0-6+ years get a <em>full night<\/em> of <strong>uninterrupted rest by <\/strong>'Self-Soothing'.",
             "text_style": "body"
           }
         },
@@ -283,19 +283,19 @@
         "edb2b505-16a9-4db8-b8ec-dfb53e206cdf": {
           "type": "badge",
           "settings": {
-            "image": "shopify:\/\/shop_images\/award3.png"
+            "image": "shopify:\/\/shop_images\/award2_d3fd5e1d-1337-4437-a329-4e20ee4b1569.png"
           }
         },
         "0c16d33e-b4c3-418e-b95b-2384fd14d722": {
           "type": "badge",
           "settings": {
-            "image": "shopify:\/\/shop_images\/award2.png"
+            "image": "shopify:\/\/shop_images\/award3_efb3574f-6376-4dad-990d-c177bc892e95.png"
           }
         },
         "a389269c-3224-4f0c-8644-19aad85a4281": {
           "type": "badge",
           "settings": {
-            "image": "shopify:\/\/shop_images\/award1.png"
+            "image": "shopify:\/\/shop_images\/award1_67d36944-5619-4489-8ca1-9f6e596df118.png"
           }
         }
       },
@@ -1111,7 +1111,7 @@
           "settings": {
             "heading": "Does it need batteries?",
             "icon": "question_mark",
-            "row_content": "<p>Lulla Doll takes 2 AA batteries, which will last for about 60 nights of 8+ hour sleeps.<\/p>",
+            "row_content": "<p>Lulla takes 2 x AA batteries. We recommend using rechargeable batteries to help protect our environment. Good-quality batteries will last for 280 hours of playback.<\/p>",
             "page": ""
           }
         }
