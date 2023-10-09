@@ -37,7 +37,7 @@
       ],
       "custom_css": [
         "svg {width: 18px; height: 18px; fill: white;}",
-        ".announcement-bar__message {font-size: 1.7rem; cursor: pointer;}"
+        ".announcement-bar__message {font-size: 1.7rem; cursor: pointer; padding: 0.5rem; min-height: 0;}"
       ],
       "settings": {
         "color_scheme": "inverse",
