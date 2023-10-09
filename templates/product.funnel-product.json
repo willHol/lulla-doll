@@ -29,7 +29,7 @@
           "settings": {
             "button_label_1": "RESTORE YOUR SLEEP",
             "button_link_1": "",
-            "button_data_attribute_1": "scroll-to=\".section-template--16236830195899__a940e4cc-1ee3-4f05-8c80-2244e675b44b\"",
+            "button_data_attribute_1": "scroll-to=\"#product\"",
             "button_style_secondary_1": false,
             "button_has_arrow_1": true,
             "button_label_2": "",
@@ -461,7 +461,7 @@
           "settings": {
             "button_label": "RESTORE YOUR SLEEP",
             "button_link": "",
-            "button_data_attribute": "scroll-to=\".section-template--16236830195899__a940e4cc-1ee3-4f05-8c80-2244e675b44b\"",
+            "button_data_attribute": "scroll-to=\"#product\"",
             "button_style_secondary": false,
             "button_has_arrow": true
           }
@@ -857,6 +857,15 @@
         "divider_height": 35
       }
     },
+    "f07862ef-c7b1-4715-bed8-8047db91d388": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product\"\/>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "a940e4cc-1ee3-4f05-8c80-2244e675b44b": {
       "type": "rich-text",
       "blocks": {
@@ -1022,6 +1031,7 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
             "add_to_cart_text": "RESTORE YOUR SLEEP",
+            "add_to_checkout": true,
             "has_arrow": true
           }
         },
@@ -1183,6 +1193,7 @@
     "17e989e4-05b8-4acd-b6b0-cfd5abb9b05f",
     "0d774d8d-6c04-4282-99cb-9fa626a0f00c",
     "be45606a-1880-4c85-aec5-356b13f2980d",
+    "f07862ef-c7b1-4715-bed8-8047db91d388",
     "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
     "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",

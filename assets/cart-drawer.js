@@ -24,6 +24,10 @@ class CartDrawer extends HTMLElement {
   }
 
   open(triggeredBy) {
+    if (document.querySelector('product-form').hasAttribute('data-add-to-checkout')) {
+      return;
+    }
+
     if (triggeredBy) this.setActiveElement(triggeredBy);
     const cartDrawerNote = this.querySelector('[id^="Details-"] summary');
     if (cartDrawerNote && !cartDrawerNote.hasAttribute('role')) this.setSummaryAccessibility(cartDrawerNote);

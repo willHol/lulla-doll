@@ -3548,6 +3548,11 @@ details-disclosure > details {
     transform: translateY(-2px);
 }
 
+.loading.product-form__submit.button--arrow::after {
+  content: '';
+  display: none;
+}
+
 .button:before {
   /* position: absolute !important;
   content: "";
@@ -3580,4 +3585,14 @@ details-disclosure > details {
 
 .header__icon--search {
   display: none;
+}
+
+.product__inventory {
+  display: none !important;
+}
+
+.header__heading-link {
+  pointer-events: none;
+  cursor: default;
+  user-select: none;
 }
