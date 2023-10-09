@@ -949,6 +949,7 @@
         },
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep <\/strong>by <em>'Self-Soothing'<\/em>.",
             "text_style": "body"
