@@ -307,13 +307,13 @@
         "a389269c-3224-4f0c-8644-19aad85a4281"
       ],
       "custom_css": [
-        ".image-with-text__media-item img {padding: 5rem;}",
+        "@media screen and (min-width: 750px) {.image-with-text__media-item img {padding: 4rem; }}",
         ".image-with-text .image-with-text__media-item,.global-media-settings {border-bottom-left-radius: 0; border-bottom-right-radius: 0;}",
         ".image-with-text__text-item,.image-with-text__text-item * {border-top-right-radius: 0; border-top-left-radius: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bluelulla.png",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
