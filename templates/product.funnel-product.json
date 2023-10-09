@@ -1030,8 +1030,8 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
-            "add_to_cart_text": "RESTORE YOUR SLEEP",
-            "add_to_checkout": true,
+            "add_to_cart_text": "GET LULLA DOLL",
+            "add_to_checkout": false,
             "has_arrow": true
           }
         },
