@@ -258,7 +258,7 @@
         "padding_bottom": 40,
         "svg_background": true,
         "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg",
-        "divider_enabled": false,
+        "divider_enabled": true,
         "divider_color": "#ffffff",
         "divider_height": 35
       }
