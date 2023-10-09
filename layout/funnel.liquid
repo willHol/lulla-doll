@@ -231,6 +231,12 @@
       .header__search, .header__icons--localization, .header__icon--cart, header-drawer {
         display: none !important;
       }
+
+      .header__heading-link {
+        pointer-events: none;
+        cursor: default;
+        user-select: none;
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
