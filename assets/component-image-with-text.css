@@ -459,6 +459,7 @@
   flex-direction: row;
   gap: 8px;
   margin: auto;
+  margin-bottom: 0;
 }
 
 .bullet__description-multiline {

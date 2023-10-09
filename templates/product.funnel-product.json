@@ -1003,6 +1003,11 @@
             "picker_type": "swatch"
           }
         },
+        "7a8f715d-864f-45fa-a9f4-40ee318b75d1": {
+          "type": "outfit_picker",
+          "settings": {
+          }
+        },
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
           "type": "inventory",
           "settings": {
@@ -1048,6 +1053,7 @@
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
         "description",
         "variant_picker",
+        "7a8f715d-864f-45fa-a9f4-40ee318b75d1",
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
         "buy_buttons",
         "272f259b-4aad-4298-92f2-a98154f59a11"
