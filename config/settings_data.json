@@ -119,7 +119,9 @@
     "cart_drawer_collection": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/Checkout.jpg",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "medium",
+    "checkout_accent_color": "#ef5b9e",
+    "checkout_button_color": "#ef5b9e",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
