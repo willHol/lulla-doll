@@ -26,7 +26,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "<u style=\"cursor: pointer\" onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'RhfhNc']);\"><b>GET 10% OFF<\/b> Your First Order<\/u>",
+            "text": "<u onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'RhfhNc']);\"><b>GET 10% OFF<\/b> Your First Order<\/u>",
             "link": "",
             "discount_icon": true
           }
@@ -36,7 +36,8 @@
         "announcement-bar-0"
       ],
       "custom_css": [
-        "svg {width: 18px; height: 18px; fill: white;}"
+        "svg {width: 18px; height: 18px; fill: white;}",
+        ".announcement-bar__message {font-size: 1.65rem; cursor: pointer;}"
       ],
       "settings": {
         "color_scheme": "inverse",
