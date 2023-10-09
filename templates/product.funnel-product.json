@@ -938,18 +938,24 @@
             "text_style": "body"
           }
         },
+        "ea722a1e-dd22-49e1-a004-22c401950dc1": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "660f44b1-02b7-4f5c-a676-037897ff0046": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": " ",
             "text_style": "body"
           }
         },
-        "a0737fb3-d7d2-4d49-b598-5e212ed07d52": {
-          "type": "text",
+        "19aac9f2-81b8-4248-89b5-99034cdf3765": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "Complete Bundle Includes:",
-            "text_style": "body"
+            "custom_liquid": "<div style=\"font-size: calc(var(--font-heading-scale) * 1.7rem); color: black; font-weight: 600; margin-bottom: 1rem;\">Complete Bundle Includes:<\/div>"
           }
         },
         "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
@@ -1012,11 +1018,6 @@
             "picker_type": "swatch"
           }
         },
-        "7a8f715d-864f-45fa-a9f4-40ee318b75d1": {
-          "type": "outfit_picker",
-          "settings": {
-          }
-        },
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
           "type": "inventory",
           "settings": {
@@ -1055,18 +1056,22 @@
         "price",
         "caption",
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
+        "ea722a1e-dd22-49e1-a004-22c401950dc1",
         "660f44b1-02b7-4f5c-a676-037897ff0046",
-        "a0737fb3-d7d2-4d49-b598-5e212ed07d52",
+        "19aac9f2-81b8-4248-89b5-99034cdf3765",
         "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8",
         "245916d1-dff7-47c4-8ba1-7334bf9fbede",
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
         "description",
         "variant_picker",
-        "7a8f715d-864f-45fa-a9f4-40ee318b75d1",
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
         "buy_buttons",
         "272f259b-4aad-4298-92f2-a98154f59a11"
+      ],
+      "custom_css": [
+        ".product__text {margin-bottom: 3rem;}",
+        ".icon-with-text__item {margin-bottom: 1rem;}"
       ],
       "settings": {
         "enable_sticky_info": false,
