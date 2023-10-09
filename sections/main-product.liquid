@@ -422,7 +422,6 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'outfit_picker' -%}
-              {% render 'product-outfit-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
               {%- render 'value-statements' -%}
@@ -866,6 +865,12 @@
           "type": "text",
           "id": "add_to_cart_text",
           "label": "Add to cart text" // TODO: translate
+        },
+        {
+          "type": "checkbox",
+          "id": "add_to_checkout",
+          "label": "Add direct to checkout", // TODO: translate
+          "default": false
         },
         {
           "type": "checkbox",

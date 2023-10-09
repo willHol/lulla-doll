@@ -28,6 +28,9 @@
       class="product-form"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
       data-section-id="{{ section.id }}"
+      {% if block.settings.add_to_checkout %}
+        data-add-to-checkout
+      {% endif %}
     >
       <div class="product-form__error-message-wrapper" role="alert" hidden>
         <svg
@@ -80,6 +83,9 @@
             class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}{% if block.settings.has_arrow %} button--arrow{% endif %}"
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
               disabled
+            {% endif %}
+            {% if block.settings.add_to_cart_text %}
+              data-add-to-cart-text="{{ block.settings.add_to_cart_text }}"
             {% endif %}
           >
             <span>
