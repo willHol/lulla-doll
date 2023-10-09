@@ -51,6 +51,7 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
             "add_to_cart_text": "",
+            "add_to_checkout": false,
             "has_arrow": true
           }
         }
@@ -115,6 +116,7 @@
       "block_order": [
         "template--16227241427131__1cd0bef9-2c5c-4fac-b31d-d7dd4cb82c26-collapsible_row-1"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
