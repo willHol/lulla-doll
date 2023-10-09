@@ -255,9 +255,9 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 0,
         "svg_background": true,
-        "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg",
+        "small_svg_path": "shopify:\/\/shop_images\/parentssay_4e7e8f55-b1cb-447f-894d-3c9855bddef8.svg",
         "divider_enabled": true,
         "divider_color": "#ffffff",
         "divider_height": 35
@@ -510,7 +510,7 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "svg_background": true,
-        "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg",
+        "small_svg_path": "shopify:\/\/shop_images\/sicence_6e750c9a-3f34-4b62-9005-5c74363f4df9.svg",
         "divider_enabled": true,
         "divider_color": "#eeeeee",
         "divider_height": 35
@@ -703,7 +703,7 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "svg_background": true,
-        "small_svg_path": "shopify:\/\/shop_images\/starry_night.svg",
+        "small_svg_path": "shopify:\/\/shop_images\/riskfree.svg",
         "divider_enabled": true,
         "divider_color": "#ffffff",
         "divider_height": 35
