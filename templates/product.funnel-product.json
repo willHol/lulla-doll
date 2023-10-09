@@ -923,6 +923,22 @@
           "settings": {
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "add_to_cart_text": "GET LULLA DOLL",
+            "add_to_checkout": false,
+            "has_arrow": true
+          }
+        },
         "caption": {
           "type": "text",
           "disabled": true,
@@ -1012,28 +1028,12 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "swatch"
-          }
-        },
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
           "type": "inventory",
           "settings": {
             "text_style": "body",
             "inventory_threshold": 100,
             "show_inventory_quantity": false
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false,
-            "add_to_cart_text": "GET LULLA DOLL",
-            "add_to_checkout": false,
-            "has_arrow": true
           }
         },
         "272f259b-4aad-4298-92f2-a98154f59a11": {
@@ -1054,6 +1054,8 @@
         "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
         "title",
         "price",
+        "variant_picker",
+        "buy_buttons",
         "caption",
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
         "ea722a1e-dd22-49e1-a004-22c401950dc1",
@@ -1064,9 +1066,7 @@
         "245916d1-dff7-47c4-8ba1-7334bf9fbede",
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
         "description",
-        "variant_picker",
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
-        "buy_buttons",
         "272f259b-4aad-4298-92f2-a98154f59a11"
       ],
       "custom_css": [
