@@ -24,7 +24,8 @@ class CartDrawer extends HTMLElement {
   }
 
   open(triggeredBy) {
-    if (document.querySelector('product-form').hasAttribute('data-add-to-checkout')) {
+    const productForm = document.querySelector('product-form');
+    if (productForm && productForm.hasAttribute('data-add-to-checkout')) {
       return;
     }
 
