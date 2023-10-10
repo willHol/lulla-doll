@@ -23,10 +23,19 @@
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
           <div class="swiper-slide">
-            {% comment %} TODO: Implement `srcset` responsive images {% endcomment %}
             <div class="quote-slider__img-container">
               <img
                 src="{{ block.settings.img | image_url }}"
+                srcset="
+                  {%- if block.settings.img.width >= 270 -%}{{ block.settings.img | image_url: width: 270 }} 270w,{%- endif -%}
+                  {%- if block.settings.img.width >= 550 -%}{{ block.settings.img | image_url: width: 550 }} 550w,{%- endif -%}
+                  {{ block.settings.img | image_url }} {{ block.settings.img.width }}w
+                "
+                sizes="
+                  (max-width: 270px) 270px,
+                  (max-width: 550px) 550px,
+                  {{ block.settings.img.width }}px
+                "
                 height="auto"
                 width="auto"
                 loading="lazy"
