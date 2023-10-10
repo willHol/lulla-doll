@@ -1,7 +1,7 @@
 const DISCOUNT_CODE = 'NEWLULLA10'; // TODO: Populate with liquid
 
-onElementAppear('[aria-label="POPUP Form"] button', (element) => {
-  if (!element.textContent.toLowerCase().includes('get')) {
+onElementAppear('needsclick', (element) => {
+  if (!element.textContent.includes(DISCOUNT_CODE)) {
     return;
   }
 
