@@ -138,13 +138,21 @@
         "template--16236965560507__f698cc71-350b-42bd-a78f-2f131c289fc4-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Loved By 180,000+<\/strong><\/em><strong> Mothers Worldwide<\/strong>",
+            "heading": "<em><strong>Loved By 180,000+<\/strong><\/em>",
+            "heading_size": "h1"
+          }
+        },
+        "0d952cd9-8b93-4536-8b99-5152f009e7be": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Mothers Worldwide<\/strong>",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "template--16236965560507__f698cc71-350b-42bd-a78f-2f131c289fc4-heading-1"
+        "template--16236965560507__f698cc71-350b-42bd-a78f-2f131c289fc4-heading-1",
+        "0d952cd9-8b93-4536-8b99-5152f009e7be"
       ],
       "custom_css": [
         ".rich-text__wrapper {padding: 0;}"
@@ -929,6 +937,11 @@
             "picker_type": "swatch"
           }
         },
+        "656dbf9b-633d-4370-aa6d-14b4f0b221a4": {
+          "type": "discounts",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -1061,6 +1074,7 @@
         "title",
         "price",
         "variant_picker",
+        "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
         "buy_buttons",
         "caption",
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",

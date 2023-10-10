@@ -101,7 +101,7 @@
                 {%- render 'price',
                   product: product,
                   use_variant: true,
-                  show_badges: true,
+                  show_badges: false,
                   price_class: 'price--large'
                 -%}
               </div>
@@ -424,6 +424,29 @@
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
               {%- render 'value-statements' -%}
+            {%- when 'discounts' -%}
+              <div class="discounts--container">
+                  <p
+                  class="no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                  {{ block.shopify_attributes }}
+                  role="status"
+                >
+                 <svg class="indicator" width="15" height="15" aria-hidden="true">
+                    <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(238,148,65, 0.3)"/>
+                    <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(238,148,65)"/>
+                  </svg>
+                  <span class="low-stock">{{- 'products.product.inventory_low_stock' | t -}}</span>
+                </p>
+                <ul class="discounts list-unstyled badge price__badge-sale color-accent-2" role="list" aria-label="{{ 'customer.order.discount' | t }}">
+                  {% for discount in cart.discount_applications %}
+                    <li class="discounts__discount">
+                      {%- render 'icon-discount' -%}
+                      {{ discount.title }}
+                      (-{{ discount.total_allocated_amount | money }})
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -871,6 +894,11 @@
           "label": "Has arrow" // TODO: translate
         }
       ]
+    },
+    {
+      "type": "discounts",
+      "name": "Discounts", // TODO: translate,
+      "limit": 1
     },
     {
       "type": "description",

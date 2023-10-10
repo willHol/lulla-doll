@@ -1643,3 +1643,24 @@ input[type="radio"]:checked + label .swatch-image {
   margin-bottom: 0.4rem;
   color: rgba(var(--color-foreground), 0.75);
 }
+
+.discounts--container {
+  display: flex;
+  justify-content: space-between; 
+  max-width: 44rem;
+  margin: 0;
+}
+
+.discounts--container p {
+  margin: 0;
+  transform: translateY(2.5px);
+}
+
+.discounts--container .low-stock {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.discounts--container .indicator {
+  transform: translateY(2.5px);
+}
