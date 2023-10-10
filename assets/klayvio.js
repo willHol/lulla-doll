@@ -5,7 +5,7 @@ onElementAppear('[aria-label="POPUP Form"] button', (element) => {
     return;
   }
 
-  element.addEventListener('click', () => {
+  const createTag = () => {
     const discountList = document.querySelector('#discount-list');
     const discountTitle = document.querySelector('#discount-title');
     const discountAmount = document.querySelector('#discount-amount');
@@ -23,5 +23,7 @@ onElementAppear('[aria-label="POPUP Form"] button', (element) => {
     discountTitle.innerText = DISCOUNT_CODE;
     discountAmount.innerText = discountText;
     discountList.classList.remove('hidden');
-  });
+  };
+
+  element.addEventListener('click', createTag);
 });
