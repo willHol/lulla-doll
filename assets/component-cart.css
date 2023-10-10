@@ -31,6 +31,7 @@ cart-items.is-empty .title-wrapper-with-link,
 
 .cart__login-title {
   margin: 5.5rem 0 0.5rem;
+  display: none;
 }
 
 .cart__login-paragraph {
@@ -39,6 +40,7 @@ cart-items.is-empty .title-wrapper-with-link,
 
 .cart__login-paragraph a {
   font-size: inherit;
+  display: none;
 }
 
 @media screen and (min-width: 990px) {
