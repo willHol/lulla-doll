@@ -1,0 +1,12 @@
+<script>
+  var afterpay_js_language = {{ localization.language.iso_code | slice: 0, 2 | json }};
+  var afterpay_js_country = {{ localization.country.iso_code | json }};
+  var afterpay_js_currency = {{ cart.currency.iso_code | json }};
+
+  window.afterpayIsReady = false;
+
+  window.addEventListener("Afterpay.ready", () => {
+    console.log("Afterpay initialised...");
+    window.afterpayIsReady = true;
+  });
+</script>
