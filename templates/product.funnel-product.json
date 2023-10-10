@@ -929,6 +929,14 @@
             "picker_type": "swatch"
           }
         },
+<<<<<<< Updated upstream
+=======
+        "170e284a-9d43-473a-a168-1a2933b70e0a": {
+          "type": "discounts",
+          "settings": {
+          }
+        },
+>>>>>>> Stashed changes
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -1061,6 +1069,10 @@
         "title",
         "price",
         "variant_picker",
+<<<<<<< Updated upstream
+=======
+        "170e284a-9d43-473a-a168-1a2933b70e0a",
+>>>>>>> Stashed changes
         "buy_buttons",
         "caption",
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
