@@ -439,23 +439,12 @@
                   </svg>
                   <span class="low-stock">{{- 'products.product.inventory_low_stock' | t -}}</span>
                 </p>
-                    {% if cart.discount_applications.size > 0 %}
-                      <ul class="discounts list-unstyled badge price__badge-sale color-accent-2" role="list" aria-label="{{ 'customer.order.discount' | t }}">
-                        {% for discount in cart.discount_applications %}
-                          <li class="discounts__discount">
-                            {%- render 'icon-discount' -%}
-                            <span>{{ discount.title }}</span>&nbsp;<span>(-{{ discount.total_allocated_amount | money }})</span>
-                          </li>
-                        {%- endfor -%}
-                      </ul>
-                    {% else %}
-                      <ul id="discount-list" class="hidden discounts list-unstyled badge price__badge-sale color-accent-2" role="list" aria-label="{{ 'customer.order.discount' | t }}">
-                        <li class="discounts__discount">
-                          {%- render 'icon-discount' -%}
-                          <span id="discount-title"></span>&nbsp;(-<span id="discount-amount"></span>)
-                        </li> 
-                      </ul>
-                    {% endif %}
+                <ul id="discount-list" class="hidden discounts list-unstyled badge price__badge-sale color-accent-2" role="list" aria-label="{{ 'customer.order.discount' | t }}">
+                  <li class="discounts__discount">
+                    {%- render 'icon-discount' -%}
+                    <span id="discount-title"></span>&nbsp;(-<span id="discount-amount"></span>)
+                  </li> 
+                </ul>
                 </div>
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
