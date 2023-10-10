@@ -419,6 +419,8 @@
                 block: block,
                 share_link: share_url
               %}
+            {%- when 'afterpay_placement' -%}
+              <div style="display: none" id="afterpay-product-placement">{{ product.selected_or_first_available_variant.price | money_without_currency }}</div>
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, update_url: false %}
             {%- when 'buy_buttons' -%}
@@ -442,8 +444,7 @@
                         {% for discount in cart.discount_applications %}
                           <li class="discounts__discount">
                             {%- render 'icon-discount' -%}
-                            <span>{{ discount.title }}</span>
-                            <span>(-{{ discount.total_allocated_amount | money }})</span>
+                            <span>{{ discount.title }}</span>&nbsp;<span>(-{{ discount.total_allocated_amount | money }})</span>
                           </li>
                         {%- endfor -%}
                       </ul>
@@ -866,6 +867,11 @@
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
         }
       ]
+    },
+    {
+      "type": "afterpay_placement",
+      "name": "Afterpay placement", // TODO: translate
+      "limit": 1
     },
     {
       "type": "buy_buttons",

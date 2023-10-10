@@ -3594,3 +3594,17 @@ details-disclosure > details {
 .header__icon--account {
   display: none !important;
 }
+
+afterpay-placement { 
+  --messaging-font-size: 13px; 
+  --logo-badge-width: 70px;
+  margin-top: -12px !important;
+  margin-bottom: 12px !important;
+}
+
+@media screen and (min-width: 768px) {
+  afterpay-placement {
+    --messaging-font-size: 14px;
+    --logo-badge-width: 80px;
+  }
+}

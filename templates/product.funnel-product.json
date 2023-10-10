@@ -931,6 +931,11 @@
           "settings": {
           }
         },
+        "4689dae8-2826-4359-86a0-5a64788e7cda": {
+          "type": "afterpay_placement",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -1073,6 +1078,7 @@
         "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
         "title",
         "price",
+        "4689dae8-2826-4359-86a0-5a64788e7cda",
         "variant_picker",
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
         "buy_buttons",

@@ -1041,6 +1041,7 @@ class VariantSelects extends HTMLElement {
   constructor() {
     super();
     this.addEventListener('change', this.onVariantChange);
+    this.updateAfterpayPlacement();
   }
 
   onVariantChange() {
@@ -1060,6 +1061,7 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      this.updateAfterpayPlacement();
     }
   }
 
@@ -1101,6 +1103,49 @@ class VariantSelects extends HTMLElement {
     const shareButton = document.getElementById(`Share-${this.dataset.section}`);
     if (!shareButton || !shareButton.updateUrl) return;
     shareButton.updateUrl(`${window.shopUrl}${this.dataset.url}?variant=${this.currentVariant.id}`);
+  }
+
+  updateAfterpayPlacement(placementSelector) {
+    var interval = setInterval(function () {
+      if (window.afterpayIsReady === true) {
+        clearInterval(interval);
+
+        var placement = document.querySelector('#afterpay-product-placement');
+
+        if (
+          placement != null &&
+          placement.nextElementSibling != null &&
+          placement.nextElementSibling.tagName == 'AFTERPAY-PLACEMENT'
+        ) {
+          placement.nextElementSibling.remove();
+        }
+
+        var locale = Afterpay.locale[(afterpay_js_language + '_' + afterpay_js_country).toUpperCase()];
+        var currency = Afterpay.currency[afterpay_js_currency.toUpperCase()];
+
+        if (locale == null || currency == null) {
+          return;
+        }
+
+        waitForElementToExist('#afterpay-product-placement').then(() => {
+          waitForElementToExist('#afterpay-product-placement').then(() => {
+            Afterpay.createPlacements({
+              targetSelector: '#afterpay-product-placement',
+              attributes: {
+                amountSelector: '#afterpay-product-placement',
+                logoType: Afterpay.logoType.LOCKUP,
+                modalLinkStyle: Afterpay.modalLinkStyle.NONE,
+                lockupTheme: Afterpay.theme.lockup.BLACK,
+                size: Afterpay.size.SM,
+                modalTheme: Afterpay.theme.modal.WHITE,
+                locale: locale,
+                currency: currency,
+              },
+            });
+          });
+        });
+      }
+    }, 100);
   }
 
   updateVariantInput() {
