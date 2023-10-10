@@ -95,6 +95,14 @@
   font-weight: 600;
 }
 
+.product-card-wrapper .price--on-sale .price-item--regular {
+  font-size: 2rem;
+}
+
+.product-card-wrapper .price-item.price-item--sale.price-item--last {
+  font-size: calc(2rem * 0.9)
+}
+
 .unit-price {
   display: block;
   font-size: 1.1rem;
