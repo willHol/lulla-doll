@@ -285,7 +285,9 @@ function onElementAppear(selector, callback) {
 function smoothScrollTo(target) {
   const targetElement = document.querySelector(target);
   if (targetElement) {
-    targetElement.scrollIntoView({ behavior: 'smooth' });
+    requestAnimationFrame(() => {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    });
   }
 }
 
