@@ -1,9 +1,13 @@
+let SCROLL_BEHAVIOUR = 'auto';
+let params = new URLSearchParams(window.location.search);
+let scrollTarget = decodeURIComponent(params.get('scroll-to'));
+let hasScrolled = false;
+
 function autoScrollPage() {
-  let params = new URLSearchParams(window.location.search);
-
-  let scrollTarget = decodeURIComponent(params.get('scroll-to'));
-
-  smoothScrollTo(scrollTarget);
+  if (!hasScrolled) {
+    smoothScrollTo(scrollTarget);
+    hasScrolled = true;
+  }
 }
 
 function supportsReadyStateChange() {
@@ -20,3 +24,24 @@ if (supportsReadyStateChange()) {
 } else {
   window.addEventListener('load', autoScrollPage);
 }
+
+// Resetting scroll behaviour
+const handleIntersection = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      console.log('intersecting');
+      SCROLL_BEHAVIOUR = 'smooth';
+      observer.unobserve(entry.target);
+    }
+  });
+};
+
+const options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5,
+};
+
+const observer = new IntersectionObserver(handleIntersection, options);
+
+observer.observe(document.querySelector(scrollTarget));

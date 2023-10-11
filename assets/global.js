@@ -286,7 +286,7 @@ function smoothScrollTo(target) {
   const targetElement = document.querySelector(target);
   if (targetElement) {
     requestAnimationFrame(() => {
-      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+      targetElement.scrollIntoView({ behavior: SCROLL_BEHAVIOUR || 'auto', block: 'start', inline: 'nearest' });
     });
   }
 }
