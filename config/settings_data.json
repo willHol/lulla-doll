@@ -152,6 +152,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "16916500244951858404": {
+        "type": "shopify:\/\/apps\/zoex-facebook-pixel-profit\/blocks\/app-embed\/7f882b8e-133d-4646-bfd2-2b2248f35d36",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
