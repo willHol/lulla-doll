@@ -1,6 +1,6 @@
 const DISCOUNT_CODE = 'NEWLULLA10'; // TODO: Populate with liquid
 
-onElementAppear('needsclick', (element) => {
+onElementAppear('.needsclick', (element) => {
   if (!element.textContent.includes(DISCOUNT_CODE)) {
     return;
   }
