@@ -57,7 +57,7 @@ window.addEventListener('klaviyoForms', function (e) {
 });
 
 // Are there any visible elements in the discount badge list?
-if (!discountList.querySelector('.discount--badge-cart')) {
+if (discountList && !discountList.querySelector('.discount--badge-cart')) {
   discountAdvertisement.classList.remove('hidden');
   discountAdvertisement.addEventListener('click', () => {
     window._klOnsite = window._klOnsite || [];

@@ -29,7 +29,6 @@ if (supportsReadyStateChange()) {
 const handleIntersection = (entries, observer) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      console.log('intersecting');
       SCROLL_BEHAVIOUR = 'smooth';
       observer.unobserve(entry.target);
     }
