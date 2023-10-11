@@ -66,4 +66,6 @@ if (discountList && !discountList.querySelector('.discount--badge-cart')) {
 }
 
 // To prevent flashing of the discount badge list
-discountList.classList.remove('hidden');
+if (discountList) {
+  discountList.classList.remove('hidden');
+}
