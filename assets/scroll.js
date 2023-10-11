@@ -44,4 +44,12 @@ const options = {
 
 const observer = new IntersectionObserver(handleIntersection, options);
 
-observer.observe(document.querySelector(scrollTarget));
+const target = document.querySelector(scrollTarget);
+
+if (target) {
+  observer.observe(target);
+}
+
+if (!scrollTarget) {
+  SCROLL_BEHAVIOUR = 'smooth';
+}
