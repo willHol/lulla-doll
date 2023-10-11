@@ -439,11 +439,25 @@
                   </svg>
                   <span class="low-stock">{{- 'products.product.inventory_low_stock' | t -}}</span>
                 </p>
-                <ul id="discount-list" class="hidden discounts list-unstyled badge price__badge-sale color-accent-2" role="list" aria-label="{{ 'customer.order.discount' | t }}">
-                  <li class="discounts__discount">
+                <ul id="discount-list" class="no-js-hidden hidden discounts hidden list-unstyled badge price__badge-sale color-accent-2" role="list" aria-label="{{ 'customer.order.discount' | t }}">
+                  <li id="discount--advertisement" class="discounts__discount hidden">
+                    {%- render 'icon-discount' -%}
+                    <span style="cursor: pointer;"><u>GET 10% OFF</u></span>
+                  </li>
+                  <li id="discount--badge" class="discounts__discount hidden">
                     {%- render 'icon-discount' -%}
                     <span id="discount-title"></span>&nbsp;(-<span id="discount-amount"></span>)
-                  </li> 
+                  </li>
+                  {%- if cart.discount_applications.size > 0 -%}
+                    {%- for discount in cart.discount_applications -%}
+                      {%- if discount.title == 'NEWLULLA10' -%}
+                        <li id="discount--badge" class="discounts__discount discount--badge-cart">
+                          {%- render 'icon-discount' -%}
+                          <span>{{ discount.title }}</span>&nbsp;(-<span>{{ discount.total_allocated_amount | money }}</span>)
+                        </li> 
+                      {%- endif -%}
+                    {% endfor %}
+                  {% endif %}
                 </ul>
                 </div>
             {%- when 'rating' -%}

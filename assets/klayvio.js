@@ -1,12 +1,14 @@
 const DISCOUNT_CODE = 'NEWLULLA10'; // TODO: Populate with liquid
+const KLAVIYO_SESSION_KEY = 'klaviyoFormCompleted';
+const discountAdvertisement = document.querySelector('#discount--advertisement');
+const discountList = document.querySelector('#discount-list');
 
 function createTag() {
-  const discountList = document.querySelector('#discount-list');
   const discountTitle = document.querySelector('#discount-title');
   const discountAmount = document.querySelector('#discount-amount');
   const productPrice = document.querySelector('[data-product-price]').dataset.productPrice;
 
-  if (!discountList || !discountTitle || !discountAmount || !productPrice) {
+  if (!discountList || !discountTitle || !discountAmount || !productPrice || !discountAdvertisement) {
     return;
   }
 
@@ -21,7 +23,14 @@ function createTag() {
 
   discountTitle.innerText = DISCOUNT_CODE;
   discountAmount.innerText = discountText;
-  discountList.classList.remove('hidden');
+  discountAdvertisement.classList.add('hidden');
+  discountList.querySelector('#discount--badge').classList.remove('hidden');
+}
+
+function addFormCompletionToSessionStorage() {
+  if (!window.sessionStorage.getItem(KLAVIYO_SESSION_KEY)) {
+    window.sessionStorage.setItem(KLAVIYO_SESSION_KEY, 'true');
+  }
 }
 
 window.addEventListener('klaviyoForms', function (e) {
@@ -46,3 +55,15 @@ window.addEventListener('klaviyoForms', function (e) {
     gtag('event', 'form_close', { form: 'Klaviyo form', form_id: e.detail.formId });
   }
 });
+
+// Are there any visible elements in the discount badge list?
+if (!discountList.querySelector('.discount--badge-cart')) {
+  discountAdvertisement.classList.remove('hidden');
+  discountAdvertisement.addEventListener('click', () => {
+    window._klOnsite = window._klOnsite || [];
+    window._klOnsite.push(['openForm', 'RhfhNc']);
+  });
+}
+
+// To prevent flashing of the discount badge list
+discountList.classList.remove('hidden');
