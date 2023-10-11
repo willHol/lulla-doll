@@ -50,6 +50,6 @@ if (target) {
   observer.observe(target);
 }
 
-if (!scrollTarget) {
+if (scrollTarget == 'null') {
   SCROLL_BEHAVIOUR = 'smooth';
 }
