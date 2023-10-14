@@ -520,6 +520,9 @@
       "order_payment_collection": {
         "pay_now": "Complete Order"
       }
+    },
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }
