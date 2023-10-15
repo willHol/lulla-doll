@@ -60,7 +60,7 @@
       {% endif %}
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      <div class="radio--name">{{ value -}}</div>
+      <div class="radio--name {% if block.settings.picker_type == 'swatch' %} js-hidden{% endif %}">{{ value -}}</div>
       {%- if block.settings.picker_type == 'swatch' -%}
         <img
           src="{{ 'swatch-' | append: value | handle | append: '.png' | file_url }}"

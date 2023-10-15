@@ -128,4 +128,20 @@ if (!customElements.get('product-form')) {
       }
     }
   );
+
+  function updateSelectedName(input) {
+    if (input.checked) {
+      input.parentElement.querySelector('#selected-radio-name').innerText = input.value;
+    }
+  }
+
+  onElementAppear('.product-form__input > input[type=radio]', (input) => {
+    updateSelectedName(input);
+
+    input.addEventListener('change', (e) => {
+      if (e.target.checked) {
+        updateSelectedName(e.target);
+      }
+    });
+  });
 }
