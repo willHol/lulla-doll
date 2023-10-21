@@ -1,0 +1,49 @@
+<script src="https://cdn.jsdelivr.net/npm/@growthbook/growthbook/dist/bundles/index.js"></script>
+
+<script>
+  (async function () {
+    function getGaClientId() {
+      const gaCookie = document.cookie.split('; ').find((row) => row.startsWith('_ga='));
+
+      if (gaCookie) {
+        const gaValue = gaCookie.split('=')[1];
+        return gaValue.split('.').slice(-2).join('.');
+      }
+
+      return null;
+    }
+
+    const clientId = getGaClientId();
+
+    if (clientId == null) {
+      return;
+    }
+
+    console.log(clientId);
+
+    const gb = new growthbook.GrowthBook({
+      apiHost: 'https://cdn.growthbook.io',
+      clientKey: 'sdk-cggVr86P8UEW76q',
+      enableDevMode: true,
+      attributes: {
+        id: clientId,
+      },
+      trackingCallback: (experiment, result) => {
+        console.log('Experiment Viewed', {
+          experimentId: experiment.key,
+          variationId: result.key,
+        });
+      },
+    });
+
+    await gb.loadFeatures();
+
+    const redirect = gb.getFeatureValue('redirect', 'false');
+
+    console.log(redirect);
+
+    if (redirect != 'false') {
+      console.log(`Redirecting to ${redirect}`);
+    }
+  })();
+</script>
