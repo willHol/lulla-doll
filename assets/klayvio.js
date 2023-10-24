@@ -57,11 +57,6 @@ window.addEventListener('klaviyoForms', function (e) {
   }
 });
 
-// Show the announcement if the form has not been filled before
-if (!window.sessionStorage.getItem(KLAVIYO_SESSION_KEY)) {
-  document.querySelector('.utility-bar').style.display = 'block';
-}
-
 // Are there any cart discounts applied and has the form has not been filled before?
 if (
   discountList &&
