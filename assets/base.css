@@ -2131,6 +2131,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 /* utility-bar */
 .utility-bar {
   height: 100%;
+  display: none;
 }
 
 .utility-bar--bottom-border {

@@ -40,6 +40,7 @@ window.addEventListener('klaviyoForms', function (e) {
 
   if (e.detail.type == 'submit') {
     gtag('event', 'form_submit', { form: 'Klaviyo form', form_id: e.detail.formId });
+    addFormCompletionToSessionStorage();
     createTag();
   }
 
@@ -56,8 +57,17 @@ window.addEventListener('klaviyoForms', function (e) {
   }
 });
 
-// Are there any visible elements in the discount badge list?
-if (discountList && !discountList.querySelector('.discount--badge-cart')) {
+// Show the announcement if the form has not been filled before
+if (!window.sessionStorage.getItem(KLAVIYO_SESSION_KEY)) {
+  document.querySelector('.utility-bar').style.display = 'block';
+}
+
+// Are there any cart discounts applied and has the form has not been filled before?
+if (
+  discountList &&
+  !discountList.querySelector('.discount--badge-cart') &&
+  !window.sessionStorage.getItem(KLAVIYO_SESSION_KEY)
+) {
   discountAdvertisement.classList.remove('hidden');
   discountAdvertisement.addEventListener('click', () => {
     window._klOnsite = window._klOnsite || [];
@@ -66,6 +76,6 @@ if (discountList && !discountList.querySelector('.discount--badge-cart')) {
 }
 
 // To prevent flashing of the discount badge list
-if (discountList) {
+if (discountList && discountList.querySelectorAll('li:not(.hidden)').length > 0) {
   discountList.classList.remove('hidden');
 }
