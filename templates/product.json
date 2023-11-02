@@ -14,16 +14,17 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
           }
         },
         "description": {
@@ -60,8 +61,8 @@
       "block_order": [
         "e0a8cab2-f03e-4f47-b3fe-ed97c4ee4d5b",
         "title",
-        "caption",
         "price",
+        "caption",
         "description",
         "variant_picker",
         "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
