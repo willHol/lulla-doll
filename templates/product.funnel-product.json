@@ -27,7 +27,7 @@
         "63c9abbc-b5d9-4785-ad31-2909ed878b98": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "WIN BACK YOUR SLEEP",
+            "button_label_1": "RESTORE YOUR SLEEP",
             "button_link_1": "",
             "button_data_attribute_1": "scroll-to=\"#product\"",
             "button_style_secondary_1": false,
@@ -467,7 +467,7 @@
         "d029e7db-f16b-40f9-96aa-1d59cb9e85d0": {
           "type": "button",
           "settings": {
-            "button_label": "WIN BACK YOUR SLEEP",
+            "button_label": "RESTORE YOUR SLEEP",
             "button_link": "",
             "button_data_attribute": "scroll-to=\"#product\"",
             "button_style_secondary": false,
@@ -1111,7 +1111,7 @@
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 16,
-        "padding_bottom": 32
+        "padding_bottom": 12
       }
     },
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
