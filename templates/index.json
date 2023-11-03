@@ -25,7 +25,6 @@
         },
         "ea198600-48de-4569-85e8-34f4ca8e3f73": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "RESTORE YOUR SLEEP",
             "button_link_1": "shopify:\/\/collections\/the-lulla-doll-collection",
@@ -39,7 +38,6 @@
         },
         "0df32206-8d2a-4761-8fd2-6794b10df673": {
           "type": "value_statements",
-          "disabled": true,
           "settings": {
           }
         }
