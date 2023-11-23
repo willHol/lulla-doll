@@ -1221,6 +1221,9 @@
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4",
         "d5bc316c-576e-483c-8fe5-3e4966416537"
       ],
+      "custom_css": [
+        "li {margin-bottom: 1rem;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
