@@ -1131,7 +1131,7 @@
           "settings": {
             "heading": "What ages is Lulla suitable for?",
             "icon": "question_mark",
-            "row_content": "<p>Lulla was made for babies 0-36+ months, but we also see great results for children up to ages 7+.<\/p>",
+            "row_content": "<p>Lulla was made for babies 0-36+ months, but we also see great results for children up to ages 7+. For guidance tailored to your child's age, consult the sleep success guide included in the sleepy baby bundle. The guide features advice from sleep specialist Amanda Bude on the best way to introduce Lulla at their current age.<\/p>",
             "page": ""
           }
         },
@@ -1173,6 +1173,7 @@
         },
         "cf80d8f7-91c7-40fa-9eb8-cf6e0a4a8d61": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What ages does Lulla work for?",
             "icon": "question_mark",
