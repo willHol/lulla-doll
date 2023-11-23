@@ -1153,16 +1153,6 @@
             "page": ""
           }
         },
-        "b7213b0b-8759-4274-aee8-2a044e0809cb": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "What is the battery life of Lulla?",
-            "icon": "question_mark",
-            "row_content": "<p>Lulla is the only comforter on the market that continuously plays real-life heartbeat and breathing sounds for 12 hours. Lulla’s sound box requires 2 AA batteries, providing a runtime of 280 hours or 35 nights of 8-hour sleeps.<\/p>",
-            "page": ""
-          }
-        },
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
@@ -1224,7 +1214,6 @@
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-2",
         "125f2c2c-43d6-472a-8dcf-e004e61f49b4",
         "6fbb814f-864c-4067-a3d1-559bb06cab33",
-        "b7213b0b-8759-4274-aee8-2a044e0809cb",
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3",
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4",
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-1",
