@@ -1215,6 +1215,15 @@
             "row_content": "<ol><li>Lulla is the only comforter on the market that plays real-life heartbeat and breathing continuously for 12 hours. Other popular sleep toys switch off after just 20 minutes.<\/li><li>Lulla is the only sleep comforter backed by 3 years of scientific research.<\/li><li>We also know from scientific research that babies respond and engage with human features more than any other animal.<\/li><li>Lulla is the only doll to truly replicate sleeping in your arms or co-sleeping.<\/li><li>Many sleep toys activate through sound or motion, but by then, your little one has already fully awakened, making it difficult to restore a calm state afterwards.<\/li><\/ol>",
             "page": ""
           }
+        },
+        "d5bc316c-576e-483c-8fe5-3e4966416537": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Lulla help children sleep better?",
+            "icon": "question_mark",
+            "row_content": "<p>The sounds of human breathing and heartbeats soothe babies when they awaken during the night. Lulla plays a continuous 12-hour breathing and heartbeat sounds designed to help them soothe themselves to sleep without your assistance.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -1228,7 +1237,8 @@
         "b7213b0b-8759-4274-aee8-2a044e0809cb",
         "a29a21ed-fff9-4757-ac14-0533e2be5331",
         "48d49442-a006-4a06-858a-b49b25f37a1e",
-        "125f2c2c-43d6-472a-8dcf-e004e61f49b4"
+        "125f2c2c-43d6-472a-8dcf-e004e61f49b4",
+        "d5bc316c-576e-483c-8fe5-3e4966416537"
       ],
       "settings": {
         "caption": "",
