@@ -1218,10 +1218,11 @@
         },
         "d5bc316c-576e-483c-8fe5-3e4966416537": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How does Lulla help children sleep better?",
             "icon": "question_mark",
-            "row_content": "<p>The sounds of human breathing and heartbeats soothe babies when they awaken during the night. Lulla plays a continuous 12-hour breathing and heartbeat sounds designed to help them soothe themselves to sleep without your assistance.<\/p>",
+            "row_content": "<p>Lulla plays a continuous 12-hour breathing and heartbeat sounds designed to help them soothe themselves to sleep without your assistance. The sounds of human breathing and heartbeats soothe babies when they awaken during the night.<\/p>",
             "page": ""
           }
         }
