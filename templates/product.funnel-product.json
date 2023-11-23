@@ -1170,6 +1170,51 @@
             "row_content": "<p>Lulla takes 2 x AA batteries. We recommend using rechargeable batteries to help protect our environment. Good-quality batteries will last for 280 hours of playback.<\/p>",
             "page": ""
           }
+        },
+        "cf80d8f7-91c7-40fa-9eb8-cf6e0a4a8d61": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ages does Lulla work for?",
+            "icon": "question_mark",
+            "row_content": "<p>Many introduce Lulla to their babies as newborns; however, countless mothers have reported remarkable results with children up to 8 years old. For guidance tailored to your child's age, consult the sleep success guide included in the sleepy baby bundle. The guide features advice from sleep specialist Amanda Bude on the best way to introduce Lulla at their current age.<\/p>",
+            "page": ""
+          }
+        },
+        "b7213b0b-8759-4274-aee8-2a044e0809cb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the battery life of Lulla?",
+            "icon": "question_mark",
+            "row_content": "<p>Lulla is the only comforter on the market that continuously plays real-life heartbeat and breathing sounds for 12 hours. Lulla’s sound box requires 2 AA batteries, providing a runtime of 280 hours or 35 nights of 8-hour sleeps.<\/p>",
+            "page": ""
+          }
+        },
+        "a29a21ed-fff9-4757-ac14-0533e2be5331": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Lulla's fabric hypoallergenic?",
+            "icon": "question_mark",
+            "row_content": "<p>Lulla's outer layer is made from soft, hypoallergenic natural cotton, while its filling consists of ultra-fine microfiber, also hypoallergenic in nature.<\/p>",
+            "page": ""
+          }
+        },
+        "48d49442-a006-4a06-858a-b49b25f37a1e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How are the electronics in Lulla secured for child safety?",
+            "icon": "question_mark",
+            "row_content": "<p>Lulla is safety tested and certified according to European, US and Australian\/New Zealand standards. The sound box is safely secured inside the back of the Doll. The sound has three volume variations, the highest at 65 dB, making it safe for prolonged use for babies sensitive hearing.<\/p>",
+            "page": ""
+          }
+        },
+        "125f2c2c-43d6-472a-8dcf-e004e61f49b4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What sets Lulla apart from other sleep aids?",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Lulla is the only comforter on the market that plays real-life heartbeat and breathing continuously for 12 hours. Other popular sleep toys switch off after just 20 minutes.<\/li><li>Lulla is the only sleep comforter backed by 3 years of scientific research.<\/li><li>We also know from scientific research that babies respond and engage with human features more than any other animal.<\/li><li>Lulla is the only doll to truly replicate sleeping in your arms or co-sleeping.<\/li><li>Many sleep toys activate through sound or motion, but by then, your little one has already fully awakened, making it difficult to restore a calm state afterwards.<\/li><\/ol>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -1178,7 +1223,12 @@
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3",
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4",
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-1",
-        "6fbb814f-864c-4067-a3d1-559bb06cab33"
+        "6fbb814f-864c-4067-a3d1-559bb06cab33",
+        "cf80d8f7-91c7-40fa-9eb8-cf6e0a4a8d61",
+        "b7213b0b-8759-4274-aee8-2a044e0809cb",
+        "a29a21ed-fff9-4757-ac14-0533e2be5331",
+        "48d49442-a006-4a06-858a-b49b25f37a1e",
+        "125f2c2c-43d6-472a-8dcf-e004e61f49b4"
       ],
       "settings": {
         "caption": "",
