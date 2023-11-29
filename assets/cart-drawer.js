@@ -21,6 +21,11 @@ class CartDrawer extends HTMLElement {
       }
     });
 
+    // Fallback
+    window.addEventListener('load', () => {
+      this.setOverrideDirectToCheckout();
+    });
+
     this.setHeaderCartIconAccessibility();
   }
 
