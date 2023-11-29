@@ -9,24 +9,15 @@ class CartDrawer extends HTMLElement {
 
     // For safari page-cache
     window.addEventListener('pageshow', (evt) => {
-      // const historyTraversal =
-      //   evt.persisted ||
-      //   (typeof window.performance != 'undefined' &&
-      //     typeof window.performance.navigation != 'undefined' &&
-      //     window.performance.navigation.type === 2) ||
-      //   performance.getEntriesByType('navigation')[0].type === 'back_forward';
+      console.log('pageshow');
       this.setOverrideDirectToCheckout();
     });
 
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState === 'visible') {
+        console.log('visible');
         this.setOverrideDirectToCheckout();
       }
-    });
-
-    // Fallback
-    window.addEventListener('load', () => {
-      this.setOverrideDirectToCheckout();
     });
 
     this.setHeaderCartIconAccessibility();
