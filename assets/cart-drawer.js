@@ -15,10 +15,7 @@ class CartDrawer extends HTMLElement {
       //     typeof window.performance.navigation != 'undefined' &&
       //     window.performance.navigation.type === 2) ||
       //   performance.getEntriesByType('navigation')[0].type === 'back_forward';
-
-      if (evt.persisted) {
-        this.setOverrideDirectToCheckout();
-      }
+      this.setOverrideDirectToCheckout();
     });
 
     document.addEventListener('visibilitychange', () => {
