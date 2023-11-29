@@ -9,14 +9,14 @@ class CartDrawer extends HTMLElement {
 
     // For safari page-cache
     window.addEventListener('pageshow', (evt) => {
-      const historyTraversal =
-        evt.persisted ||
-        (typeof window.performance != 'undefined' &&
-          typeof window.performance.navigation != 'undefined' &&
-          window.performance.navigation.type === 2) ||
-        performance.getEntriesByType('navigation')[0].type === 'back_forward';
+      // const historyTraversal =
+      //   evt.persisted ||
+      //   (typeof window.performance != 'undefined' &&
+      //     typeof window.performance.navigation != 'undefined' &&
+      //     window.performance.navigation.type === 2) ||
+      //   performance.getEntriesByType('navigation')[0].type === 'back_forward';
 
-      if (historyTraversal) {
+      if (evt.persisted) {
         this.setOverrideDirectToCheckout();
       }
     });
@@ -66,6 +66,7 @@ class CartDrawer extends HTMLElement {
 
   open(triggeredBy) {
     const productForm = document.querySelector('product-form');
+
     if (productForm && productForm.hasAttribute('data-add-to-checkout')) {
       return;
     }
