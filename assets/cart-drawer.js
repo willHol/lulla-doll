@@ -10,7 +10,7 @@ class CartDrawer extends HTMLElement {
     // For safari page-cache
     window.addEventListener('pageshow', (evt) => {
       const historyTraversal =
-        event.persisted ||
+        evt.persisted ||
         (typeof window.performance != 'undefined' &&
           typeof window.performance.navigation != 'undefined' &&
           window.performance.navigation.type === 2) ||
