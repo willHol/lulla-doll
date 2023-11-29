@@ -9,13 +9,19 @@ class CartDrawer extends HTMLElement {
 
     // For safari page-cache
     window.addEventListener('pageshow', (evt) => {
-      console.log('pageshow');
-      this.setOverrideDirectToCheckout();
+      const historyTraversal =
+        (typeof window.performance != 'undefined' &&
+          typeof window.performance.navigation != 'undefined' &&
+          window.performance.navigation.type === 2) ||
+        performance.getEntriesByType('navigation')[0].type === 'back_forward';
+
+      if (evt.persisted || historyTraversal) {
+        this.setOverrideDirectToCheckout();
+      }
     });
 
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState === 'visible') {
-        console.log('visible');
         this.setOverrideDirectToCheckout();
       }
     });
