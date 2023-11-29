@@ -4,6 +4,7 @@ class CartDrawer extends HTMLElement {
 
     this.addEventListener('keyup', (evt) => evt.code === 'Escape' && this.close());
     this.querySelector('#CartDrawer-Overlay').addEventListener('click', this.close.bind(this));
+    this.setOverrideDirectToCheckout();
     this.setHeaderCartIconAccessibility();
   }
 
@@ -21,6 +22,19 @@ class CartDrawer extends HTMLElement {
         this.open(cartLink);
       }
     });
+  }
+
+  setOverrideDirectToCheckout() {
+    const cartIsEmpty = this.classList.contains('is-empty');
+    const lastUpdate = localStorage.getItem('cartLastUpdate');
+    const currentTime = new Date().getTime();
+    const fourHours = 4 * 60 * 60 * 1000; // 4 hours in milliseconds
+
+    // Disable direct-to-checkout if cart is not empty and last update is less than 4 hours ago
+    if (!cartIsEmpty && lastUpdate && currentTime - lastUpdate <= fourHours) {
+      delete document.querySelector('product-form').dataset.addToCheckout;
+      document.querySelector('#cart-icon-bubble').style.display = 'flex';
+    }
   }
 
   open(triggeredBy) {
