@@ -428,16 +428,55 @@
               {%- render 'value-statements' -%}
             {%- when 'discounts' -%}
               <div class="discounts--container">
-                  <p
-                  class="no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                <p
+                  class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                   {{ block.shopify_attributes }}
+                  id="Inventory-{{ section.id }}"
                   role="status"
                 >
-                 <svg class="indicator" width="15" height="15" aria-hidden="true">
-                    <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(238,148,65, 0.3)"/>
-                    <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(238,148,65)"/>
-                  </svg>
-                  <span class="low-stock">{{- 'products.product.inventory_low_stock' | t -}}</span>
+                  {%- if product.selected_or_first_available_variant.inventory_management != 'shopify' or product.selected_or_first_available_variant.inventory_quantity > 0 -%}
+                    <svg class="indicator" width="15" height="15" aria-hidden="true">
+                      <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(238,148,65, 0.3)"/>
+                      <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(238,148,65)"/>
+                    </svg>
+                    <span class="low-stock">
+                      {{- 'products.product.inventory_low_stock' | t -}}
+                    </span>
+                  {%- else -%}
+                    {%- if product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
+                      {%- liquid
+                        assign on_backorder = false
+                        if product.selected_or_first_available_variant.inventory_management == 'shopify' and product.selected_or_first_available_variant.inventory_policy == 'continue' and product.selected_or_first_available_variant.inventory_quantity < product.selected_or_first_available_variant.quantity_rule.min
+                          assign on_backorder = true
+                        endif
+                      -%}       
+                      {%- if on_backorder -%}
+                        <svg class="indicator" width="15" height="15" aria-hidden="true">
+                          <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(200,200,200, 0.3)"/>
+                          <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(200,200,200)"/>
+                        </svg>
+                        <span class="low-stock">
+                          {{- 'products.product.inventory_out_of_stock_continue_selling_on_backorder' | t -}}
+                        </span>
+                      {%- else -%}
+                        <svg class="indicator" width="15" height="15" aria-hidden="true">
+                          <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(62,214,96, 0.3)"/>
+                          <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(62,214,96)"/>
+                        </svg>
+                        <span class="low-stock">
+                          {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
+                        </span>
+                      {%- endif -%}
+                    {%- else -%}
+                      <svg class="indicator" width="15" height="15" aria-hidden="true">
+                        <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(200,200,200, 0.3)"/>
+                        <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(200,200,200)"/>
+                      </svg>
+                      <span class="low-stock">
+                        {{- 'products.product.inventory_out_of_stock' | t -}}
+                      </span>
+                    {%- endif -%}
+                  {%- endif -%}
                 </p>
                 <ul id="discount-list" class="no-js-hidden hidden discounts hidden list-unstyled badge price__badge-sale color-accent-2" role="list" aria-label="{{ 'customer.order.discount' | t }}">
                   <li id="discount--advertisement" class="discounts__discount hidden">

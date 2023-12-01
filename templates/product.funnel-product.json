@@ -1052,14 +1052,6 @@
           "settings": {
           }
         },
-        "9abfaa57-7df0-49ee-a95a-caa80d4ad928": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 100,
-            "show_inventory_quantity": false
-          }
-        },
         "272f259b-4aad-4298-92f2-a98154f59a11": {
           "type": "icon-with-text",
           "disabled": true,
@@ -1092,7 +1084,6 @@
         "245916d1-dff7-47c4-8ba1-7334bf9fbede",
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
         "description",
-        "9abfaa57-7df0-49ee-a95a-caa80d4ad928",
         "272f259b-4aad-4298-92f2-a98154f59a11"
       ],
       "custom_css": [
