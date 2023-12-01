@@ -3592,7 +3592,7 @@ details-disclosure > details {
 }
 
 .product__inventory {
-  display: none !important;
+  /* display: none !important; */
 }
 
 .header__icon--account {

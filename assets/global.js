@@ -1272,10 +1272,27 @@ class VariantSelects extends HTMLElement {
           inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
+
+        const expectedShippingDateSource = html.getElementById(`ProductExpectedShippingDate-${sectionId}`);
+
+        const onBackorder = expectedShippingDateSource.children.length > 0;
+
+        const buttonText = onBackorder ? window.variantStrings.soldOut_with_backorder : window.variantStrings.soldOut;
+
         this.toggleAddButton(
           addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
-          window.variantStrings.soldOut
+          buttonText,
+          false,
+          onBackorder
         );
+
+        const expectedShippingDateDestination = document.getElementById(`ProductExpectedShippingDate-${sectionId}`);
+
+        if (onBackorder && expectedShippingDateSource && expectedShippingDateDestination) {
+          expectedShippingDateDestination.innerHTML = expectedShippingDateSource.innerHTML;
+        } else if (expectedShippingDateDestination) {
+          expectedShippingDateDestination.innerHTML = '';
+        }
 
         publish(PUB_SUB_EVENTS.variantChange, {
           data: {
@@ -1287,7 +1304,7 @@ class VariantSelects extends HTMLElement {
       });
   }
 
-  toggleAddButton(disable = true, text, modifyClass = true) {
+  toggleAddButton(disable = true, text, modifyClass = true, onBackorder = false) {
     const productForm = document.getElementById(`product-form-${this.dataset.section}`);
     if (!productForm) return;
     const addButton = productForm.querySelector('[name="add"]');
@@ -1299,7 +1316,11 @@ class VariantSelects extends HTMLElement {
       if (text) addButtonText.textContent = text;
     } else {
       addButton.removeAttribute('disabled');
-      addButtonText.textContent = addButton.dataset.addToCartText || window.variantStrings.addToCart;
+      if (onBackorder) {
+        addButtonText.textContent = text;
+      } else {
+        addButtonText.textContent = addButton.dataset.addToCartText || window.variantStrings.addToCart;
+      }
     }
 
     if (!modifyClass) return;
