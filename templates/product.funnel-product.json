@@ -560,12 +560,13 @@
         "45c6f32a-efb1-4091-aa02-6df9f859387d": {
           "type": "alternative",
           "settings": {
-            "name": "Riff Raff",
+            "name": "Sleep Toys",
             "hide_mobile_landscape": false
           }
         },
         "92dcd3d2-5713-4d32-9331-52c117645a47": {
           "type": "alternative",
+          "disabled": true,
           "settings": {
             "name": "Ewan the Sheep",
             "hide_mobile_landscape": true
