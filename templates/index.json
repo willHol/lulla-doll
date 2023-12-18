@@ -50,9 +50,9 @@
         "0df32206-8d2a-4761-8fd2-6794b10df673"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/newheader.jpg",
+        "image": "shopify:\/\/shop_images\/newheader3.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -139,11 +139,137 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1605a444-4ae7-4743-834c-f41849561214": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "<span id=\"more-info\">Safety Information<\/span>",
+            "icon": "heart",
+            "row_content": "<p>For baby's safety, always follow <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">SIDS guidelines<\/a>. Keep soft toys out of the crib for babies under 7 months. Use the provided strap to secure Lulla away from baby's reach. Lulla's audio and visual features will still offer comfort. Use only under direct supervision - <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">See Guidelines<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ages is Lulla suitable for?",
+            "icon": "question_mark",
+            "row_content": "<p>Lulla was made for babies 0-36+ months, but we also see great results for children up to ages 7+. <\/p><p>For guidance tailored to your child's age, consult the sleep success guide included in the sleepy baby bundle. The guide features advice from sleep specialist Amanda Bude on the best way to introduce Lulla at their current age.<\/p>",
+            "page": ""
+          }
+        },
+        "6fbb814f-864c-4067-a3d1-559bb06cab33": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does Lulla need batteries?",
+            "icon": "question_mark",
+            "row_content": "<p>Lulla takes 2 x AA batteries. We recommend using rechargeable batteries to help protect our environment. Good-quality batteries will last for 280 hours of playback or 35 nights of 8-hour sleeps.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Lulla machine washable?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Lulla's soundbox can be removed so you can wash your baby's doll in case of any yucky accidents.<\/p>",
+            "page": ""
+          }
+        },
+        "a29a21ed-fff9-4757-ac14-0533e2be5331": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Lulla's fabric hypoallergenic?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Lulla's outer layer is made from soft, hypoallergenic natural cotton, while its filling consists of ultra-fine microfiber, also hypoallergenic in nature.<\/p>",
+            "page": ""
+          }
+        },
+        "48d49442-a006-4a06-858a-b49b25f37a1e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the electronics in Lulla secured for child safety?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Lulla is safety tested and certified according to European, US and Australian\/New Zealand standards. <\/p><p>The sound box is safely secured inside the back of the Doll. The sound has three volume variations, the highest at 65 dB, making it safe for prolonged use for babies sensitive hearing.<\/p>",
+            "page": ""
+          }
+        },
+        "125f2c2c-43d6-472a-8dcf-e004e61f49b4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What sets Lulla apart from other sleep aids?",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Lulla is the only comforter on the market that plays real-life heartbeat and breathing continuously for 12 hours. Other popular sleep toys switch off after just 20 minutes.<\/li><li>Lulla is the only sleep comforter backed by 3 years of scientific research.<\/li><li>We also know from scientific research that babies respond and engage with human features more than any other animal.<\/li><li>Lulla is the only doll to truly replicate sleeping in your arms or co-sleeping.<\/li><li>Many sleep toys activate through sound or motion, but by then, your little one has already fully awakened, making it difficult to restore a calm state afterwards.<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the 30-day guarantee?",
+            "icon": "question_mark",
+            "row_content": "<p>Our guarantee makes trying Lulla Doll 100% risk free! If you're not satisfied within the first 30 days, simply return the item in its original condition for a full refund. See the <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Full Policy Here.<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the shipping times?",
+            "icon": "question_mark",
+            "row_content": "<p>3-5 days across all states of Australia.<\/p>",
+            "page": ""
+          }
+        },
+        "d5bc316c-576e-483c-8fe5-3e4966416537": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How does Lulla help children sleep better?",
+            "icon": "question_mark",
+            "row_content": "<p>Lulla plays a continuous 12-hour breathing and heartbeat sounds designed to help them soothe themselves to sleep without your assistance. The sounds of human breathing and heartbeats soothe babies when they awaken during the night.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1605a444-4ae7-4743-834c-f41849561214",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-2",
+        "6fbb814f-864c-4067-a3d1-559bb06cab33",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-1",
+        "a29a21ed-fff9-4757-ac14-0533e2be5331",
+        "48d49442-a006-4a06-858a-b49b25f37a1e",
+        "125f2c2c-43d6-472a-8dcf-e004e61f49b4",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4",
+        "d5bc316c-576e-483c-8fe5-3e4966416537"
+      ],
+      "custom_css": [
+        "li {margin-bottom: 1rem;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "inverse",
+        "container_color_scheme": "inverse",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "992b131d-0c42-4237-b97d-87eed7586c2e",
-    "featured_collection"
+    "featured_collection",
+    "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da"
   ]
 }

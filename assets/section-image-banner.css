@@ -586,3 +586,24 @@ a[data-scroll-to-product-button]::after {}
     margin: auto;
   }
 }
+
+.banner__more-info {
+  display: block;
+  z-index: 1000;
+  max-width: 100%;
+  position: relative !important;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.banner__more-info a {
+  position: absolute;
+  bottom: 40px;
+  left: 2rem;
+  max-width: 15rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: white;
+}
