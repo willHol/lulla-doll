@@ -948,6 +948,12 @@
           "settings": {
           }
         },
+        "6d31622f-9a24-4057-88ef-f65710afcccb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-form__shipping-date\" style=\"font-size: 12px\">\n* Orders received after 19th Dec may not arrive before Christmas<\/div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -972,12 +978,6 @@
           "settings": {
             "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep <\/strong>by <em>'Self-Soothing'<\/em>.",
             "text_style": "body"
-          }
-        },
-        "ea722a1e-dd22-49e1-a004-22c401950dc1": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
           }
         },
         "660f44b1-02b7-4f5c-a676-037897ff0046": {
@@ -1074,10 +1074,10 @@
         "4689dae8-2826-4359-86a0-5a64788e7cda",
         "variant_picker",
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
+        "6d31622f-9a24-4057-88ef-f65710afcccb",
         "buy_buttons",
         "caption",
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
-        "ea722a1e-dd22-49e1-a004-22c401950dc1",
         "660f44b1-02b7-4f5c-a676-037897ff0046",
         "19aac9f2-81b8-4248-89b5-99034cdf3765",
         "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
