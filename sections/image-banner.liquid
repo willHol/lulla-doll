@@ -83,12 +83,6 @@
           <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
         </svg>
       </div>
-      <div class="banner__more-info" data-scroll-to="#more-info">
-        <a href="" class="no-js-hidden">Always Follow Safe Sleep Guidelines</a>
-        <noscript>
-          <a href="#more-info" class="">Always Follow Safe Sleep Guidelines</a>
-        </noscript>
-      </div>
     </div>
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -124,6 +118,12 @@
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="banner__more-info" data-scroll-to="#more-info">
+      <a href="" class="no-js-hidden">Always Follow Safe Sleep Guidelines</a>
+      <noscript>
+        <a href="#more-info" class="">Always Follow Safe Sleep Guidelines</a>
+      </noscript>
+    </div>
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
