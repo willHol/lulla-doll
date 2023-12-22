@@ -945,6 +945,7 @@
         },
         "6d31622f-9a24-4057-88ef-f65710afcccb": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"product-form__shipping-date\" style=\"font-size: 12px\">\n* Orders received after 19th Dec may not arrive before Christmas<\/div>"
           }
