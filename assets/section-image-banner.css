@@ -589,9 +589,8 @@ a[data-scroll-to-product-button]::after {}
 
 .banner__more-info {
   display: block;
-  z-index: 1000;
   max-width: 100%;
-  position: relative !important;
+  position: absolute !important;
   top: 0;
   left: 0;
   height: 100%;
@@ -606,4 +605,10 @@ a[data-scroll-to-product-button]::after {}
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: white;
+}
+
+@media screen and (max-width: 749px) {
+  .banner__more-info {
+    top: -100%;
+  }
 }
