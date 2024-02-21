@@ -15,7 +15,6 @@
       "block_order": [
         "heading_NxNqDx"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -36,6 +35,7 @@
       "blocks": {
         "703f7608-0c82-4cf0-b6f3-ea8e3b904c37": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>Rock Them To Sleep, Hands Free<\/strong>",
             "heading_size": "h1"
@@ -81,7 +81,7 @@
         "f5790309-753f-4cd0-9879-f83ff4219740"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rockey.jpg",
+        "image": "shopify:\/\/shop_images\/rockey_41cf2eac-e9ef-4216-89a2-f3ff1ae36877.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
