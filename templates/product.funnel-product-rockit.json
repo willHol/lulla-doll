@@ -1,11 +1,41 @@
 {
   "layout": "funnel-rockit",
   "sections": {
+    "rich_text_UQzKVQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NxNqDx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Rock Them To Sleep, Hands Free<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NxNqDx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "highlight_color": "#000000",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 0,
+        "svg_background": false,
+        "divider_enabled": false,
+        "divider_color": "#ffffff",
+        "divider_height": 35,
+        "text_shadow": ""
+      }
+    },
     "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf": {
       "type": "image-banner",
       "blocks": {
         "703f7608-0c82-4cf0-b6f3-ea8e3b904c37": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>Rock Them To Sleep, Hands Free<\/strong>",
             "heading_size": "h1"
@@ -51,15 +81,15 @@
         "f5790309-753f-4cd0-9879-f83ff4219740"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rockit-header.png",
+        "image": "shopify:\/\/shop_images\/rockey.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
       }
@@ -654,6 +684,7 @@
     }
   },
   "order": [
+    "rich_text_UQzKVQ",
     "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf",
     "related-products",
     "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f",
