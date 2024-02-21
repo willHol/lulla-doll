@@ -3,10 +3,15 @@
   --oke-highlightColor: #C82127;
   --oke-button-borderColor: #C82127;
   --oke-button-textColor: #C82127;
+  --oke-button-backgroundColorHover: #C82127;
+  --oke-button-backgroundColorActive: #C82127;
+  --oke-button-borderColorActive: #C82127;
 }
 
 body {
   --happy-customers: "Join 142,095+ Happy Parents";
+  --buttons-radius: 10rem;
+  --buttons-radius-outset: 10rem;
 }
 
 .button:not(.button--tertiary) {
@@ -18,7 +23,7 @@ body {
 }
 
 swiper-slider {
-  -swiper-preloader-color: red;
+  -swiper-preloader-color: #C82127;
 }
 
 .swiper-button-next, .swiper-button-prev {
