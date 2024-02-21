@@ -626,7 +626,7 @@
         "1605a444-4ae7-4743-834c-f41849561214": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "<span id=\"more-info\">Safety Information<\/span>",
+            "heading": "Safety Information",
             "icon": "heart",
             "row_content": "<p>For baby's safety, always follow <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">SIDS guidelines<\/a>. Keep soft toys out of the crib for babies under 7 months. Use the provided strap to secure Lulla away from baby's reach. Lulla's audio and visual features will still offer comfort. Use only under direct supervision - <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">See Guidelines<\/a><\/p>",
             "page": ""
@@ -656,7 +656,7 @@
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
-        "container_color_scheme": "inverse",
+        "container_color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
