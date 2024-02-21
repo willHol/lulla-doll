@@ -6,6 +6,7 @@
       "type": "header",
       "settings": {
         "logo_position": "top-center",
+        "logo_override": "shopify:\/\/shop_images\/rockit-logo.png",
         "menu": "main-menu",
         "menu_type_desktop": "drawer",
         "sticky_header_type": "none",
@@ -41,7 +42,7 @@
         ".utility-bar {max-height: 40px;}"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "scheme-286a6329-72e2-4ea6-a61d-9c6058c68d73",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,

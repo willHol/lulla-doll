@@ -164,6 +164,12 @@
             "heading_size": "h1"
           }
         },
+        "video_HBYKxU": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/The Rockit Portable Baby Rocker for Prams, Pushchairs, Strollers and Buggies.mp4"
+          }
+        },
         "text_cdjBJM": {
           "type": "text",
           "settings": {
@@ -186,7 +192,7 @@
       },
       "block_order": [
         "template--16236965560507__1054f7f4-3610-4cb9-bb69-0e8d4908d05c-heading-1",
-        "video_Vk4nQr",
+        "video_HBYKxU",
         "text_cdjBJM",
         "button_Epew3q"
       ],
