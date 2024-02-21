@@ -337,7 +337,7 @@
         "divider_enabled": false,
         "divider_color": "#ffffff",
         "divider_height": 0,
-        "text_shadow": "1px 1px 1px rgba(0, 0, 0, 0.3)"
+        "text_shadow": "1px 1px 1px rgba(0, 0, 0, 0.1)"
       }
     },
     "be45606a-1880-4c85-aec5-356b13f2980d": {
