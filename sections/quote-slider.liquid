@@ -18,7 +18,7 @@
 </style>
 
 <quote-slider>
-  <div class="page-width">
+  <div class="page-width color-{{ section.settings.color_scheme }}">
     <div class="swiper">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
@@ -66,7 +66,14 @@
 {% schema %}
 {
   "name": "Quote slider", // TODO: ii18n
-  "settings": [],
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    }
+  ],
   "blocks": [
     {
       "type": "slide",

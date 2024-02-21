@@ -30,6 +30,43 @@
     --rich-text-divider-color: {{ section.settings.divider_color }};
     --rich-text-divider-height: {{ section.settings.divider_height }}px;
   }
+
+  {% if section.settings.custom_bullet != blank %}
+    .rich-text.section-{{ section.id }} ul {
+      list-style-type: none;
+    }
+
+    .rich-text.section-{{ section.id }} ul li {
+      position: relative;
+      padding-left: 2.5rem;
+    }
+
+    .rich-text.section-{{ section.id }} ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1.6rem;
+      height: 1.6rem;
+      background-image: url('{{ section.settings.custom_bullet | image_url }}');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    @media screen and (min-width: 750px) {
+       .rich-text.section-{{ section.id }} ul li::before {
+          width: 2rem;
+          height: 2rem;
+       }
+    }
+  {% endif  %}
+
+  {%  if section.settings.text_shadow != blank %}
+    .rich-text.section-{{ section.id }} {
+      text-shadow: {{ section.settings.text_shadow }};
+    }
+  {% endif %}
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -82,12 +119,18 @@
               >
                 {%- if block.settings.button_label != blank -%}
                   <a
-                    {% if block.settings.button_link == blank %}
+                    {% if block.settings.button_link == blank and block.settings.button_data_attribute == blank %}
                       role="link" aria-disabled="true"
-                    {% else %}
+                    {% elsif block.settings.button_data_attribute != blank %}
+                      data-{{ block.settings.button_data_attribute }}
+                    {% elsif block.settings.button_link != blank %}
                       href="{{ block.settings.button_link }}"
                     {% endif %}
-                    class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                    class="
+                      button
+                      {% if block.settings.button_style_secondary %} button--secondary {% else %} button--primary{% endif %}
+                      {% if block.settings.button_has_arrow %}button--arrow{% endif %}
+                    "
                   >
                     {{- block.settings.button_label | escape -}}
                   </a>
@@ -119,6 +162,8 @@
                   | image_tag: loading: 'lazy', sizes: sizes, widths: widths
                 }}
               </div>
+            {%- when 'video' -%}
+              {%- render 'async-video', video: block.settings.video -%}
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -278,6 +323,16 @@
       "step": 1,
       "unit": "px",
       "default": 35
+    },
+    {
+      "type": "image_picker",
+      "id": "custom_bullet",
+      "label": "Custom Bullet" // TODO: i18n
+    },
+    {
+      "type": "text",
+      "id": "text_shadow",
+      "label": "Text Shadow" // TODO: i18n
     }
   ],
   "blocks": [
@@ -398,6 +453,17 @@
           "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
         },
         {
+          "type": "text",
+          "id": "button_data_attribute",
+          "label": "Button Data Attribute" // TODO: i18n
+        },
+        {
+          "type": "checkbox",
+          "id": "button_has_arrow",
+          "default": false,
+          "label": "Has Arrow" // TODO: i18n
+        },
+        {
           "type": "checkbox",
           "id": "button_style_secondary",
           "default": false,
@@ -430,6 +496,17 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image" // TODO: i18n
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "name": "Video", // TODO: i18n
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video" // TODO: i18n
         }
       ]
     }
