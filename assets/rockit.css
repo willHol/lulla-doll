@@ -1,0 +1,69 @@
+[data-oke-star-rating], [data-oke-widget] {
+  --oke-stars-foregroundColor: #C82127;
+  --oke-highlightColor: #C82127;
+  --oke-button-borderColor: #C82127;
+  --oke-button-textColor: #C82127;
+}
+
+body {
+  --happy-customers: "Join 142,095+ Happy Parents";
+}
+
+.button:not(.button--tertiary) {
+  box-shadow: none;
+}
+
+.as-seen-in__container {
+  padding-top: 3rem;
+}
+
+swiper-slider {
+  -swiper-preloader-color: red;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  box-shadow: none !important;
+}
+
+quote-slider .page-width {
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  quote-slider .page-width {
+    padding-top: 4rem;
+  }
+}
+
+.product-form__submit {
+  background-color: #C82127;
+}
+
+#discount-list {
+  background-color: transparent;
+  color: black;
+}
+
+#discount-list .icon {
+  color: black;
+}
+
+.rich-text__text ul {
+  padding: 1rem 0;
+}
+
+@media screen and (min-width: 750px) {
+  .rich-text__text ul {
+    padding: 1rem 3rem;
+    font-size: 2rem;
+  }
+  
+  .rich-text__buttons {
+    padding: 0 3rem;
+    font-size: 2rem;
+  }
+}
+
+.discounts--container {
+  transform: translateY(.5rem);
+}

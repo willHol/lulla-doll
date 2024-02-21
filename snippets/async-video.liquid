@@ -1,0 +1,22 @@
+{%- capture video_id -%}
+  {{ section.id }}-async-video
+{%- endcapture -%}
+
+<video-js
+  id="{{ video_id }}"
+  class="video-js vjs-16-9"
+  controls
+  preload="auto"
+  poster="{{ video.preview_image | image_url }}"
+  data-setup='{ "controls": true, "autoplay": false, "preload": "auto" }'
+>
+  {%- for source in video.sources -%}
+    <source src="{{ source.url }}" type="{{ source.mime_type }}">
+  {%- endfor -%}
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video-js>
+
+<script async src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
