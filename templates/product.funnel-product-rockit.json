@@ -15,6 +15,7 @@
       "block_order": [
         "heading_NxNqDx"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -35,7 +36,6 @@
       "blocks": {
         "703f7608-0c82-4cf0-b6f3-ea8e3b904c37": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "<strong>Rock Them To Sleep, Hands Free<\/strong>",
             "heading_size": "h1"
