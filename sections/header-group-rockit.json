@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "<u onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'RhfhNc']);\"><b>GET 10% OFF<\/b> Your First Order<\/u>",
+            "text": "<u onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'U2SmMc']);\"><b>GET 10% OFF<\/b> Your First Order<\/u>",
             "link": "",
             "discount_icon": true
           }
