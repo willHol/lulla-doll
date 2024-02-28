@@ -130,14 +130,34 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/rocker.jpg",
             "alt": "",
-            "quote": "I’ll never leave the house without my Rockit again. I can finally get a coffee with no hassles",
-            "quote_source": "Marg S, Springfield"
+            "quote": "Can't believe how much the Rockit Rocker helps. Naptime is finally smooth, and we're all getting more rest",
+            "quote_source": "Emily R."
+          }
+        },
+        "slide_zzb4QJ": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/rocker.jpg",
+            "alt": "",
+            "quote": "I was skeptical, but wow, it actually works. The first time in weeks I've watched my baby sleep peacefully in the pram",
+            "quote_source": "Maria G."
+          }
+        },
+        "slide_jLCwLW": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/rocker.jpg",
+            "alt": "",
+            "quote": "Never thought a simple device could make such a difference. It's our go-to for every outing now.",
+            "quote_source": "Samantha L."
           }
         }
       },
       "block_order": [
         "slide_6Gd3iA",
-        "slide_x7ARHQ"
+        "slide_x7ARHQ",
+        "slide_zzb4QJ",
+        "slide_jLCwLW"
       ],
       "settings": {
         "color_scheme": "accent-1"
