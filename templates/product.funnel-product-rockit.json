@@ -44,7 +44,7 @@
         "6f73d2eb-44ec-4087-adae-1293c11c3b1f": {
           "type": "text",
           "settings": {
-            "text": "WIN back your day as this little gadget settles your baby in their stroller",
+            "text": "WIN back your day as the Rockit rocks your baby to sleep  in their stroller",
             "text_style": "body"
           }
         },
@@ -119,45 +119,25 @@
         "slide_6Gd3iA": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/rockitrocker_1700847716_3243268173196222604_4248459913.jpg",
+            "img": "shopify:\/\/shop_images\/cafe.jpg",
             "alt": "",
-            "quote": "I’ll never leave the house without my Rockit again. I can finally get a coffee with no hassles.",
-            "quote_source": "Courtney S."
+            "quote": "I’ll never leave the house without my Rockit again. I can finally get a coffee with no hassles",
+            "quote_source": "Marg S, Springfield"
           }
         },
         "slide_x7ARHQ": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/rockitrocker_1708090198_3304022516622802806_4248459913.jpg",
+            "img": "shopify:\/\/shop_images\/rocker.jpg",
             "alt": "",
-            "quote": "Can't believe how much the Rockit helps. Naptime is finally smooth, and we're all getting more rest.",
-            "quote_source": "Emily R."
-          }
-        },
-        "slide_zzb4QJ": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/rockitrocker_1682888080_3092611828036482955_4248459913.jpg",
-            "alt": "",
-            "quote": "I was skeptical, but wow, it actually works. The first time in weeks I've watched my baby sleep peacefully in the pram.",
-            "quote_source": "Maria G."
-          }
-        },
-        "slide_jLCwLW": {
-          "type": "slide",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/rockitrocker_1693490257_3181549333903459122_4248459913.jpg",
-            "alt": "",
-            "quote": "Never thought a simple device could make such a difference. It's our go-to for every outing now.",
-            "quote_source": "Samantha L."
+            "quote": "I’ll never leave the house without my Rockit again. I can finally get a coffee with no hassles",
+            "quote_source": "Marg S, Springfield"
           }
         }
       },
       "block_order": [
         "slide_6Gd3iA",
-        "slide_x7ARHQ",
-        "slide_zzb4QJ",
-        "slide_jLCwLW"
+        "slide_x7ARHQ"
       ],
       "settings": {
         "color_scheme": "accent-1"
@@ -476,54 +456,6 @@
             "picker_type": "swatch"
           }
         },
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "New! USB rechargeable version.",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
-        "icon_with_text_NMV4XK": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "Simulates gentle hand rocking of a stroller",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
-        "icon_with_text_P7ybg6": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "Suitable from birth",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
-        "icon_with_text_UBcUpk": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "12-month warranty",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
         "6d31622f-9a24-4057-88ef-f65710afcccb": {
           "type": "custom_liquid",
           "disabled": true,
@@ -541,7 +473,7 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
-            "add_to_cart_text": "GET ROCKIT ROCKER",
+            "add_to_cart_text": "GET YOUR ROCKIT",
             "add_to_checkout": true,
             "has_arrow": true
           }
@@ -558,7 +490,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "",
+            "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep <\/strong>by <em>'Self-Soothing'<\/em>.",
             "text_style": "body"
           }
         },
@@ -575,6 +507,19 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"font-size: calc(var(--font-heading-scale) * 1.7rem); color: black; font-weight: 600; margin-bottom: 1rem;\">Complete Bundle Includes:<\/div>"
+          }
+        },
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "Lulla Doll",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
           }
         },
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8": {
@@ -642,10 +587,6 @@
         "price",
         "4689dae8-2826-4359-86a0-5a64788e7cda",
         "variant_picker",
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
-        "icon_with_text_NMV4XK",
-        "icon_with_text_P7ybg6",
-        "icon_with_text_UBcUpk",
         "6d31622f-9a24-4057-88ef-f65710afcccb",
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
         "buy_buttons",
@@ -653,6 +594,7 @@
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
         "660f44b1-02b7-4f5c-a676-037897ff0046",
         "19aac9f2-81b8-4248-89b5-99034cdf3765",
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8",
         "245916d1-dff7-47c4-8ba1-7334bf9fbede",
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
@@ -661,8 +603,7 @@
       ],
       "custom_css": [
         ".product__text {margin-bottom: 3rem;}",
-        ".icon-with-text__item {margin-bottom: 1rem;}",
-        "svg {fill: black;}"
+        ".icon-with-text__item {margin-bottom: 1rem;}"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -671,7 +612,7 @@
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": true,
@@ -682,30 +623,21 @@
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_tQxG3y": {
+        "collapsible_row_dAHQG4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What ages is the Rockit Rocker suitable for?",
+            "heading": "What ages is Rockit suitable for?",
             "icon": "question_mark",
-            "row_content": "<p>Rockit was made for babies 0-36+ months, but we also see great results for children up to ages 7+.<\/p>",
+            "row_content": "<p>The Rockit is suitable for use with children from birth up until around 3 years old.<\/p>",
             "page": ""
           }
         },
-        "collapsible_row_aXVkbM": {
+        "1605a444-4ae7-4743-834c-f41849561214": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Does the Rockit Rocker need batteries?",
+            "heading": "How does it fit to a stroller?",
             "icon": "question_mark",
-            "row_content": "<p>No! The Rockit Rocker is rechargeable with the included micro-USB cable.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_NGzDEL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is the 30-day guarantee?",
-            "icon": "question_mark",
-            "row_content": "<p>Our guarantee makes trying Lulla Doll 100% risk free! If you're not satisfied within the first 30 days, simply return the item in its original condition for a full refund. See the <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Full Policy Here<\/a>.<\/p>",
+            "row_content": "<p>Rockit's universal bracket is able to fit to any stroller.<\/p><p>The bracket is a simple strap that can stay fitted to the stroller or be re-positioned if required. <\/p><p>The Rockit then slots in and out of the bracket very quickly and easily.<\/p><p>Turn the wheel clockwise to tighten the bracket onto the stroller – and anti-clockwise to loosen.<\/p>",
             "page": ""
           }
         },
@@ -717,13 +649,52 @@
             "row_content": "<p>3-5 days across all states of Australia.<\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_DC48nb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the rocking motion safe?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. Scientific tests show the vibration level closely mimics the normal hand rocking of a stroller and the subtle yet soothing movement is gentler than a pushchair moving over paving stones.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FHLwUt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it waterproof?",
+            "icon": "question_mark",
+            "row_content": "<p>The Rockit is showerproof (tested to IPX1 standard). Avoid exposure to prolonged or heavy rain. Always ensure that the rubber cover for the USB ports is fitted securely.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WMGndm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does a full charge last?",
+            "icon": "question_mark",
+            "row_content": "<p>It varies depending on various factors including the type of stroller it’s fixed to, the weight of the baby and also the ambient temperature. <\/p><p>If used at a low to medium speed you should expect to get around 8-12 hours at room temperature.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eBqHWW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I change the speed?",
+            "icon": "question_mark",
+            "row_content": "<p>There is a speed dial at the base of the Rockit. Turn it clockwise to increase the speed and anti-clockwise to reduce the speed. <\/p><p>Slowly change the speed until you notice the most rocking. It may not be the fastest speed – often you can get a nice rock at lower speeds if you hit the sweet spot (resonance frequency) of your particular stroller \/ pram. <\/p><p>Mounting the Rockit high on the frame or top handle will also allow you to generate a nice rock at lower speeds.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_tQxG3y",
-        "collapsible_row_aXVkbM",
-        "collapsible_row_NGzDEL",
-        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4"
+        "collapsible_row_dAHQG4",
+        "1605a444-4ae7-4743-834c-f41849561214",
+        "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4",
+        "collapsible_row_DC48nb",
+        "collapsible_row_FHLwUt",
+        "collapsible_row_WMGndm",
+        "collapsible_row_eBqHWW"
       ],
       "custom_css": [
         "li {margin-bottom: 1rem;}"
@@ -736,7 +707,7 @@
         "layout": "none",
         "color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
         "container_color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
