@@ -122,22 +122,42 @@
             "img": "shopify:\/\/shop_images\/cafe.jpg",
             "alt": "",
             "quote": "I’ll never leave the house without my Rockit again. I can finally get a coffee with no hassles",
-            "quote_source": "Marg S, Springfield"
+            "quote_source": "Marg S, NSW"
+          }
+        },
+        "slide_86mrtV": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/rev2.jpg",
+            "alt": "",
+            "quote": "Guys…this thing is the best. Attached it to her stroller and used it EVERY DAY. 10\/10 would buy again. It is worth every penny. Inventor is a genius.",
+            "quote_source": "Kayla G, NSW"
           }
         },
         "slide_x7ARHQ": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/rocker.jpg",
+            "img": "shopify:\/\/shop_images\/rev1.jpg",
             "alt": "",
-            "quote": "I’ll never leave the house without my Rockit again. I can finally get a coffee with no hassles",
-            "quote_source": "Marg S, Springfield"
+            "quote": "This product is genius and allows us to do things while we're out that were nearly impossible before!",
+            "quote_source": "Talia P, VIC"
+          }
+        },
+        "slide_eb9BEy": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/rev4.jpg",
+            "alt": "",
+            "quote": "If you are thinking about getting it, just do. It has been a game changer. Easy to use and keeps them asleep in the stroller.",
+            "quote_source": "Ashley C, QLD"
           }
         }
       },
       "block_order": [
         "slide_6Gd3iA",
-        "slide_x7ARHQ"
+        "slide_86mrtV",
+        "slide_x7ARHQ",
+        "slide_eb9BEy"
       ],
       "settings": {
         "color_scheme": "accent-1"
