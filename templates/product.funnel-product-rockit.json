@@ -476,6 +476,54 @@
             "picker_type": "swatch"
           }
         },
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "New! USB rechargeable version.",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "icon_with_text_NMV4XK": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "Simulates gentle hand rocking of a stroller",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "icon_with_text_P7ybg6": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "Suitable from birth",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "icon_with_text_UBcUpk": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "12-month warranty",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
         "6d31622f-9a24-4057-88ef-f65710afcccb": {
           "type": "custom_liquid",
           "disabled": true,
@@ -510,7 +558,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep <\/strong>by <em>'Self-Soothing'<\/em>.",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -527,19 +575,6 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"font-size: calc(var(--font-heading-scale) * 1.7rem); color: black; font-weight: 600; margin-bottom: 1rem;\">Complete Bundle Includes:<\/div>"
-          }
-        },
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "Lulla Doll",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
           }
         },
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8": {
@@ -607,6 +642,10 @@
         "price",
         "4689dae8-2826-4359-86a0-5a64788e7cda",
         "variant_picker",
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
+        "icon_with_text_NMV4XK",
+        "icon_with_text_P7ybg6",
+        "icon_with_text_UBcUpk",
         "6d31622f-9a24-4057-88ef-f65710afcccb",
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
         "buy_buttons",
@@ -614,7 +653,6 @@
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
         "660f44b1-02b7-4f5c-a676-037897ff0046",
         "19aac9f2-81b8-4248-89b5-99034cdf3765",
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8",
         "245916d1-dff7-47c4-8ba1-7334bf9fbede",
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
