@@ -661,7 +661,8 @@
       ],
       "custom_css": [
         ".product__text {margin-bottom: 3rem;}",
-        ".icon-with-text__item {margin-bottom: 1rem;}"
+        ".icon-with-text__item {margin-bottom: 1rem;}",
+        "svg {fill: black;}"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -681,6 +682,33 @@
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_tQxG3y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What ages is the Rockit Rocker suitable for?",
+            "icon": "question_mark",
+            "row_content": "<p>Rockit was made for babies 0-36+ months, but we also see great results for children up to ages 7+.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aXVkbM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does the Rockit Rocker need batteries?",
+            "icon": "question_mark",
+            "row_content": "<p>No! The Rockit Rocker is rechargeable with the included micro-USB cable.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NGzDEL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the 30-day guarantee?",
+            "icon": "question_mark",
+            "row_content": "<p>Our guarantee makes trying Lulla Doll 100% risk free! If you're not satisfied within the first 30 days, simply return the item in its original condition for a full refund. See the <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Full Policy Here<\/a>.<\/p>",
+            "page": ""
+          }
+        },
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
@@ -692,6 +720,9 @@
         }
       },
       "block_order": [
+        "collapsible_row_tQxG3y",
+        "collapsible_row_aXVkbM",
+        "collapsible_row_NGzDEL",
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4"
       ],
       "custom_css": [
