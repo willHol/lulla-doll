@@ -118,12 +118,14 @@
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div class="banner__more-info" data-scroll-to="#more-info">
-      <a href="" class="no-js-hidden">Always Follow Safe Sleep Guidelines</a>
-      <noscript>
-        <a href="#more-info" class="">Always Follow Safe Sleep Guidelines</a>
-      </noscript>
-    </div>
+    {% if section.settings.show_more_info %}
+      <div class="banner__more-info" data-scroll-to="#more-info">
+        <a href="" class="no-js-hidden">Always Follow Safe Sleep Guidelines</a>
+        <noscript>
+          <a href="#more-info" class="">Always Follow Safe Sleep Guidelines</a>
+        </noscript>
+      </div>
+    {% endif %}
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -378,6 +380,12 @@
       "id": "show_text_below",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_below.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_more_info",
+      "default": true,
+      "label": "Show More Info" // TODO: translate
     }
   ],
   "blocks": [
