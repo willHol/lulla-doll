@@ -91,7 +91,8 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": true
+        "show_text_below": true,
+        "show_more_info": false
       }
     },
     "related-products": {
@@ -535,7 +536,7 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "ll-tick",
-            "heading_1": "Lulla Doll",
+            "heading_1": "New! USB rechargeable version",
             "icon_2": "return",
             "heading_2": "",
             "icon_3": "truck",

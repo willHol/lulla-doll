@@ -1,4 +1,5 @@
-const DISCOUNT_CODE = 'NEWLULLA10'; // TODO: Populate with liquid
+const DISCOUNT_CODE = KLAVIYO_DISCOUNT_CODE;
+const POPUP_ID = KLAVIYO_POPUP_ID;
 const KLAVIYO_SESSION_KEY = 'klaviyoFormCompleted';
 const discountAdvertisement = document.querySelector('#discount--advertisement');
 const discountList = document.querySelector('#discount-list');
@@ -66,7 +67,7 @@ if (
   discountAdvertisement.classList.remove('hidden');
   discountAdvertisement.addEventListener('click', () => {
     window._klOnsite = window._klOnsite || [];
-    window._klOnsite.push(['openForm', 'RhfhNc']);
+    window._klOnsite.push(['openForm', KLAVIYO_POPUP_ID]);
   });
 }
 
