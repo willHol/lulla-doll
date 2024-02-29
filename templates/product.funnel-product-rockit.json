@@ -728,7 +728,7 @@
         "layout": "none",
         "color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
         "container_color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
