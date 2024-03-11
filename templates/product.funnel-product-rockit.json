@@ -7,7 +7,7 @@
         "heading_NxNqDx": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Rock Your Baby To Sleep, Hands Free<\/strong>",
+            "heading": "<strong>Rocks Your Baby To Sleep, Hands Free!<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -22,7 +22,7 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 24,
-        "padding_bottom": 0,
+        "padding_bottom": 24,
         "svg_background": false,
         "divider_enabled": false,
         "divider_color": "#ffffff",
@@ -81,7 +81,7 @@
         "f5790309-753f-4cd0-9879-f83ff4219740"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rockey_41cf2eac-e9ef-4216-89a2-f3ff1ae36877.jpg",
+        "image": "shopify:\/\/shop_images\/81Z4Se-LY0L.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
