@@ -51,7 +51,7 @@
         "f5790309-753f-4cd0-9879-f83ff4219740"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/newheader3.jpg",
+        "image": "shopify:\/\/shop_images\/headr.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -188,7 +188,7 @@
         "06f96d9c-ff36-4a78-9249-33e17e48239d": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/r2.jpg",
+            "img": "shopify:\/\/shop_images\/baby3_9da84e79-0d13-4bfa-b2b7-0bbd469ee886.jpg",
             "alt": "",
             "quote": "This isn't magic, but it's close enough. I can finally sleep all night and I'm beginning to feel normal again!",
             "quote_source": "Aisha W. Mother of Two"
@@ -216,7 +216,7 @@
         "3135d751-e3ed-47de-b278-95b66ec5082c": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Blue_Fox_lifestyle.jpg",
+            "img": "shopify:\/\/shop_images\/review.jpg",
             "alt": "",
             "quote": "I was skeptical at first, but after a few nights, I'm a believer! Every parent needs a Lulla Doll.",
             "quote_source": "Nathan D. Relieved Parent"
