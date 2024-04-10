@@ -324,7 +324,7 @@
         ".image-with-text__text-item,.image-with-text__text-item * {border-top-right-radius: 0; border-top-left-radius: 0;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/lulblue.png",
+        "image": "shopify:\/\/shop_images\/grey.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
