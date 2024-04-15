@@ -60,7 +60,8 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
-        "show_text_below": true
+        "show_text_below": true,
+        "show_more_info": false
       }
     },
     "992b131d-0c42-4237-b97d-87eed7586c2e": {
