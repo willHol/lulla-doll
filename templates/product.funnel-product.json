@@ -27,7 +27,7 @@
         "63c9abbc-b5d9-4785-ad31-2909ed878b98": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "RESTORE YOUR SLEEP",
+            "button_label_1": "Sichern Sie sich Ihres noch",
             "button_link_1": "",
             "button_data_attribute_1": "scroll-to=\"#product\"",
             "button_style_secondary_1": false,
