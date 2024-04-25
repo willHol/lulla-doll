@@ -1100,9 +1100,9 @@
         "1605a444-4ae7-4743-834c-f41849561214": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "<span id=\"more-info\">Safety Information<\/span>",
+            "heading": "Sicherheitshinweise",
             "icon": "heart",
-            "row_content": "<p>For baby's safety, always follow <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">SIDS guidelines<\/a>. Keep soft toys out of the crib for babies under 7 months. Use the provided strap to secure Lulla away from baby's reach. Lulla's audio and visual features will still offer comfort. Use only under direct supervision - <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">See Guidelines<\/a><\/p>",
+            "row_content": "<p>Zur Sicherheit Ihres Kindes beachten Sie bitte immer die <a href=\"https:\/\/www.uniklinik-ulm.de\/frauenheilkunde-und-geburtshilfe\/schwerpunkte\/geburtsmedizin\/sektion-geburtshilfe\/sicherer-babyschlaf.html\" title=\"https:\/\/www.uniklinik-ulm.de\/frauenheilkunde-und-geburtshilfe\/schwerpunkte\/geburtsmedizin\/sektion-geburtshilfe\/sicherer-babyschlaf.html\">SIDS-Richtlinien<\/a>. Halten Sie weiche Spielzeuge aus dem Bettchen fern, besonders bei Babys unter 7 Monaten. Befestigen Sie Lulla außer Reichweite, während die audiovisuellen Funktionen weiterhin beruhigend wirken. Nur unter direkter Aufsicht verwenden.<\/p>",
             "page": ""
           }
         },
@@ -1206,7 +1206,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Frequently Asked Questions",
+        "heading": "Häufig gestellte Fragen",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
