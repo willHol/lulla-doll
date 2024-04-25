@@ -116,7 +116,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Sellers",
+        "title": "Bestseller",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -248,6 +248,7 @@
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-4",
         "d5bc316c-576e-483c-8fe5-3e4966416537"
       ],
+      "disabled": true,
       "custom_css": [
         "li {margin-bottom: 1rem;}"
       ],
