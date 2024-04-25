@@ -1,4 +1,4 @@
-const OKENDO_DEFAULT_RATING = 4.8;
+const OKENDO_DEFAULT_RATING = 4.9;
 const OKENDO_DEFAULT_PERCENTAGE = ((OKENDO_DEFAULT_RATING / 5) * 100).toFixed();
 
 const OKENDO_METAFIELD_SELECTOR = '[data-oke-metafield-data]';
@@ -28,8 +28,6 @@ function initializeOkendoRatingStars() {
         waitForElementToExist(OKENDO_STAR_RATING_TEXT_SELECTOR, element).then(
           (element) => (element.textContent = ` ${OKENDO_DEFAULT_RATING} `)
         );
-
-        element.style.visibility = 'visible';
       }
     });
   });
