@@ -867,7 +867,7 @@
         "1c4c3972-92b4-47d5-9512-2d075f6953f0": {
           "type": "caption",
           "settings": {
-            "caption": "Most Popular",
+            "caption": "Beliebteste",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }
@@ -875,7 +875,7 @@
         "c001f0e6-8126-45a3-b947-b43b36357f93": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Sleepy Baby Bundle<\/strong><\/em>",
+            "heading": "<em><strong>Schlummerndes Baby-Paket<\/strong><\/em>",
             "heading_size": "h1"
           }
         }
