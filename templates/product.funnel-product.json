@@ -1163,9 +1163,9 @@
         "template--16236965560507__7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the 30-day guarantee?",
+            "heading": "Was beinhaltet die 30-Tage-Garantie?",
             "icon": "question_mark",
-            "row_content": "<p>Our guarantee makes trying Lulla Doll 100% risk free! If you're not satisfied within the first 30 days, simply return the item in its original condition for a full refund. See the <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Full Policy Here.<\/a><\/p>",
+            "row_content": "<p>Unsere Garantie ermöglicht ein risikofreies Ausprobieren der Lulla-Puppe. Wenn Sie innerhalb der ersten 30 Tage nicht zufrieden sind, können Sie den Artikel in seinem ursprünglichen Zustand zurückgeben und erhalten eine vollständige Rückerstattung. Die vollständige <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Richtlinie finden Sie hier<\/a><\/p>",
             "page": ""
           }
         },
