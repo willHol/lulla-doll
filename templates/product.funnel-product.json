@@ -576,7 +576,7 @@
         "template--16236965560507__373bec9c-66ab-4762-b9df-513d6946b341-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>How It Works<\/strong><\/em>",
+            "heading": "<em><strong>Anwendung<\/strong><\/em>",
             "heading_size": "h1"
           }
         }
@@ -606,7 +606,15 @@
           "type": "bullet",
           "settings": {
             "bullet_title": "",
-            "bullet_text": "Insert batteries and turn on",
+            "bullet_text": "Legen Sie die Batterien ein",
+            "bullet_is_numbered": true
+          }
+        },
+        "bullet_8P7QFi": {
+          "type": "bullet",
+          "settings": {
+            "bullet_title": "",
+            "bullet_text": "Schalten Sie die Soundbox ein",
             "bullet_is_numbered": true
           }
         },
@@ -640,6 +648,7 @@
       },
       "block_order": [
         "f1c41604-2998-468c-a570-104380a1a4fb",
+        "bullet_8P7QFi",
         "fad8bc07-0390-419c-90ac-2d270017dca6",
         "b59b1f1f-6c90-4af6-ba53-bdb6e980b4fa",
         "template--16253133291707__45114005-ad48-4a0d-a1e9-1327aceac9de-button-1"
