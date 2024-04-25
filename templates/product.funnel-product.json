@@ -604,6 +604,7 @@
       "blocks": {
         "f1c41604-2998-468c-a570-104380a1a4fb": {
           "type": "bullet",
+          "disabled": true,
           "settings": {
             "bullet_title": "",
             "bullet_text": "Legen Sie die Batterien ein",
@@ -622,7 +623,7 @@
           "type": "bullet",
           "settings": {
             "bullet_title": "",
-            "bullet_text": "Introduce your baby to Lulla Doll",
+            "bullet_text": "Führen Sie Ihr Baby an die Puppe",
             "bullet_is_numbered": true
           }
         },
@@ -630,19 +631,8 @@
           "type": "bullet",
           "settings": {
             "bullet_title": "",
-            "bullet_text": "Baby Self-Soothes all night",
+            "bullet_text": "Baby schläft von selbst ein",
             "bullet_is_numbered": true
-          }
-        },
-        "template--16253133291707__45114005-ad48-4a0d-a1e9-1327aceac9de-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_data_attribute": "data-scroll-to",
-            "button_style_secondary": false,
-            "button_has_arrow": true
           }
         }
       },
@@ -650,8 +640,7 @@
         "f1c41604-2998-468c-a570-104380a1a4fb",
         "bullet_8P7QFi",
         "fad8bc07-0390-419c-90ac-2d270017dca6",
-        "b59b1f1f-6c90-4af6-ba53-bdb6e980b4fa",
-        "template--16253133291707__45114005-ad48-4a0d-a1e9-1327aceac9de-button-1"
+        "b59b1f1f-6c90-4af6-ba53-bdb6e980b4fa"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/grey.png",
