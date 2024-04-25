@@ -322,14 +322,14 @@
         "template--16236965560507__4ac705bc-274d-4cb3-9a61-e1424f7f05b5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Self-Soothe Benefits",
+            "heading": "<strong>Vorteile der Selbstberuhigung<\/strong>",
             "heading_size": "h1"
           }
         },
         "0d6390d9-f564-4b06-b587-eb51d3d42d00": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Proven by Studies<\/strong><\/em>",
+            "heading": "<em>Wissenschaftlich Erwiesen<\/em>",
             "heading_size": "h1"
           }
         }
