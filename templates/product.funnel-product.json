@@ -436,21 +436,21 @@
         "327a4a48-37b9-4f1a-b5cd-c4d8662fa46f": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>3. Backed by Research<\/strong>",
+            "heading": "<strong>3. Wissenschaftlich fundiert<\/strong>",
             "heading_size": "h1"
           }
         },
         "b132ffec-1479-4c1e-8839-c207c56658d1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Psychologist<\/em> and mother of three, Eryun, spent <strong>three years <\/strong>of scientific research to crack the code<strong> <\/strong>on baby sleep habits with Lulla Doll.<\/p>",
+            "text": "<p>Eryun, Psychologin und Mutter von drei Kindern, verbrachte drei Jahre damit, mit Lulla Doll den Code für die Schlafgewohnheiten von Babys zu knacken.<\/p>",
             "text_style": "body"
           }
         },
         "d029e7db-f16b-40f9-96aa-1d59cb9e85d0": {
           "type": "button",
           "settings": {
-            "button_label": "RESTORE YOUR SLEEP",
+            "button_label": "Sichern Sie sich Ihres noch",
             "button_link": "",
             "button_data_attribute": "scroll-to=\"#product\"",
             "button_style_secondary": false,
@@ -484,7 +484,7 @@
         "35c7ec07-44a1-451a-919a-0acc06cf1ecd": {
           "type": "heading",
           "settings": {
-            "heading": "The only sleeping companion <strong>backed by scientific studies<\/strong>",
+            "heading": "Der einzige durch <strong>Studien belegte Schlafbegleiter<\/strong>",
             "heading_size": "h1"
           }
         }
