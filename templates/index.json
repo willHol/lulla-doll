@@ -104,7 +104,7 @@
       ],
       "settings": {
         "heading": "Wie in den Medien erwähnt",
-        "swiper_enabled": false,
+        "swiper_enabled": true,
         "max_height": "auto",
         "image_aspect_ratio": "auto",
         "color_scheme": "inverse",
