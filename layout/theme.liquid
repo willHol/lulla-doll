@@ -15,6 +15,15 @@
     <link rel="preconnect dns-prefetch" href="https://conf.config-security.com/" crossorigin>
     <link rel="preconnect dns-prefetch" href="https://triplewhale-pixel.web.app/" crossorigin>
     <script>
+    window.Shopify = window.Shopify || {theme: {id: {{ theme.id }}, role: '{{ theme.role }}' } };
+    window._template = {
+        directory: "{{ template.directory }}",
+        name: "{{ template.name }}",
+        suffix: "{{ template.suffix }}"
+    }
+    </script> 
+    <script src="https://cdn.intelligems.io/592450d11ea2.js"></script>
+    <script>
       /* >> TriplePixel :: start*/
       (window.TriplePixelData = { TripleName: 'lulla-doll-au.myshopify.com', ver: '1.9' }),
         (function (W, H, A, L, E, _, B, N) {

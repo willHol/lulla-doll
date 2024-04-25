@@ -146,6 +146,12 @@
         "settings": {
           "show_preview_data": false
         }
+      },
+      "1877152918344802950": {
+        "type": "shopify:\/\/apps\/intelligems-a-b-testing\/blocks\/intelligems-script\/fa83b64c-0c77-4c0c-b4b2-b94b42f5ef19",
+        "disabled": true,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
@@ -173,7 +179,7 @@
       },
       "inverse": {
         "settings": {
-          "background": "#0f2941",
+          "background": "#10142a",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
@@ -231,6 +237,17 @@
           "background": "#f1f1f1",
           "background_gradient": "",
           "text": "#000000",
+          "button": "#ef5b9e",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
+          "shadow": "#ad4574"
+        }
+      },
+      "scheme-408bec30-1c8a-4de8-bd8a-3104b29094fc": {
+        "settings": {
+          "background": "#ef5b9e",
+          "background_gradient": "",
+          "text": "#ffffff",
           "button": "#ef5b9e",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",

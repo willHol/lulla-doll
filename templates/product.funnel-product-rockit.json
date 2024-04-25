@@ -7,7 +7,7 @@
         "heading_NxNqDx": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Rock Your Baby To Sleep, Hands Free<\/strong>",
+            "heading": "<strong>Rocks Your Baby To Sleep, Hands Free!<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -22,7 +22,7 @@
         "highlight_color": "#000000",
         "full_width": true,
         "padding_top": 24,
-        "padding_bottom": 0,
+        "padding_bottom": 24,
         "svg_background": false,
         "divider_enabled": false,
         "divider_color": "#ffffff",
@@ -44,7 +44,7 @@
         "6f73d2eb-44ec-4087-adae-1293c11c3b1f": {
           "type": "text",
           "settings": {
-            "text": "WIN back your day out as the Rockit rocks your baby to sleep  in their stroller",
+            "text": "Finally get a peaceful day out as Rockit gently rocks baby to sleep in their pram!",
             "text_style": "body"
           }
         },
@@ -81,7 +81,7 @@
         "f5790309-753f-4cd0-9879-f83ff4219740"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rockey_41cf2eac-e9ef-4216-89a2-f3ff1ae36877.jpg",
+        "image": "shopify:\/\/shop_images\/baby23.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -728,7 +728,7 @@
         "layout": "none",
         "color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
         "container_color_scheme": "scheme-4eaf557c-c738-434f-93c0-fd428f4e09c2",
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
