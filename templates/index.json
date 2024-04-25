@@ -6,14 +6,14 @@
         "a3be3a78-4178-4fb6-ae56-687543d4c180": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>You Sleep <\/strong><em><strong>All Night<\/strong><\/em><strong> When They Sleep With <\/strong><em><strong>Lulla Doll<\/strong><\/em>",
+            "heading": "<strong>Schlafen Sie durch, während die Kinder mit der Lulla-Puppe kuscheln<\/strong>",
             "heading_size": "h1"
           }
         },
         "b416147b-c923-45a3-9370-0716b0cb7d2e": {
           "type": "text",
           "settings": {
-            "text": "The sleeping companion <strong>scientifically engineered<\/strong> to help kids 0-36+ months get a <em>full night<\/em> of <strong>uninterrupted rest by <\/strong>'Self-Soothing'.",
+            "text": "Dieser Schlafbegleiter ist wissenschaftlich so entwickelt, dass er Kindern im Alter von 0-36+ Monaten hilft, durch Selbstberuhigung eine ganze Nacht durchzuschlafen.",
             "text_style": "body"
           }
         },
@@ -26,7 +26,7 @@
         "ea198600-48de-4569-85e8-34f4ca8e3f73": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "RESTORE YOUR SLEEP",
+            "button_label_1": "Sichern Sie sich Ihres noch",
             "button_link_1": "shopify:\/\/collections\/the-lulla-doll-collection",
             "button_data_attribute_1": "",
             "button_style_secondary_1": false,
