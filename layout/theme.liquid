@@ -14,15 +14,6 @@
     <link rel="preconnect dns-prefetch" href="https://api.config-security.com/" crossorigin>
     <link rel="preconnect dns-prefetch" href="https://conf.config-security.com/" crossorigin>
     <link rel="preconnect dns-prefetch" href="https://triplewhale-pixel.web.app/" crossorigin>
-    <script>
-      window.Shopify = window.Shopify || {theme: {id: {{ theme.id }}, role: '{{ theme.role }}' } };
-      window._template = {
-          directory: "{{ template.directory }}",
-          name: "{{ template.name }}",
-          suffix: "{{ template.suffix }}"
-      }
-    </script>
-    <script src="https://cdn.intelligems.io/592450d11ea2.js"></script>
 
     {% comment %} {% render 'partytown' %} {% endcomment %}
 
@@ -301,11 +292,18 @@
     >
 
     <script type="text/javascript">
-      (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "m37esdjjl4");
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', 'm37esdjjl4');
     </script>
 
     <script src="https://js.afterpay.com/afterpay-1.x.js" data-analytics-enabled async></script>
