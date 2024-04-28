@@ -133,6 +133,248 @@
         "padding_bottom": 28
       }
     },
+    "f07862ef-c7b1-4715-bed8-8047db91d388": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"product\"\/>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a940e4cc-1ee3-4f05-8c80-2244e675b44b": {
+      "type": "rich-text",
+      "blocks": {
+        "1c4c3972-92b4-47d5-9512-2d075f6953f0": {
+          "type": "caption",
+          "settings": {
+            "caption": "Most Popular",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "c001f0e6-8126-45a3-b947-b43b36357f93": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Sleepy Baby Bundle<\/strong><\/em>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1c4c3972-92b4-47d5-9512-2d075f6953f0",
+        "c001f0e6-8126-45a3-b947-b43b36357f93"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "highlight_color": "#e0f6ff",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 0,
+        "svg_background": false,
+        "divider_enabled": false,
+        "divider_color": "#ffffff",
+        "divider_height": 35,
+        "text_shadow": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "fec06aa8-a151-47d8-9d04-42b7fdad67a1": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": ""
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "4689dae8-2826-4359-86a0-5a64788e7cda": {
+          "type": "afterpay_placement",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch"
+          }
+        },
+        "6d31622f-9a24-4057-88ef-f65710afcccb": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"product-form__shipping-date\" style=\"font-size: 12px\">\n* Orders received after 19th Dec may not arrive before Christmas<\/div>"
+          }
+        },
+        "656dbf9b-633d-4370-aa6d-14b4f0b221a4": {
+          "type": "discounts",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "add_to_cart_text": "GET LULLA DOLL",
+            "add_to_checkout": true,
+            "has_arrow": true
+          }
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "a84ec090-d83e-42b2-ac7f-fbb9387e8730": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep <\/strong>by <em>'Self-Soothing'<\/em>.",
+            "text_style": "body"
+          }
+        },
+        "660f44b1-02b7-4f5c-a676-037897ff0046": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": " ",
+            "text_style": "body"
+          }
+        },
+        "19aac9f2-81b8-4248-89b5-99034cdf3765": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"font-size: calc(var(--font-heading-scale) * 1.7rem); color: black; font-weight: 600; margin-bottom: 1rem;\">Complete Bundle Includes:<\/div>"
+          }
+        },
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "Lulla Doll",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "42cb1417-1865-4d1c-9238-e1b6f7774aa8": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "Bonus Lulla Outfit",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "245916d1-dff7-47c4-8ba1-7334bf9fbede": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "Bonus Sleep Success Guide",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "a5dc2986-c813-48bc-be7d-aaba602eb7ed": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "ll-tick",
+            "heading_1": "Access to Facebook Support Group",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "272f259b-4aad-4298-92f2-a98154f59a11": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "truck",
+            "heading_1": "<strong>FREE<\/strong> Express Shipping",
+            "icon_2": "heart",
+            "heading_2": "<strong>30-Day Money Back Guarantee<\/strong>",
+            "icon_3": "heart",
+            "heading_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
+        "title",
+        "price",
+        "4689dae8-2826-4359-86a0-5a64788e7cda",
+        "variant_picker",
+        "6d31622f-9a24-4057-88ef-f65710afcccb",
+        "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
+        "buy_buttons",
+        "caption",
+        "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
+        "660f44b1-02b7-4f5c-a676-037897ff0046",
+        "19aac9f2-81b8-4248-89b5-99034cdf3765",
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
+        "42cb1417-1865-4d1c-9238-e1b6f7774aa8",
+        "245916d1-dff7-47c4-8ba1-7334bf9fbede",
+        "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
+        "description",
+        "272f259b-4aad-4298-92f2-a98154f59a11"
+      ],
+      "custom_css": [
+        ".product__text {margin-bottom: 3rem;}",
+        ".icon-with-text__item {margin-bottom: 1rem;}"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 16,
+        "padding_bottom": 32
+      }
+    },
     "f698cc71-350b-42bd-a78f-2f131c289fc4": {
       "type": "rich-text",
       "blocks": {
@@ -807,11 +1049,10 @@
         },
         "b759b777-17bd-49a3-a794-431ac6ab68e5": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
+            "button_label": "RESTORE YOUR SLEEP",
             "button_link": "",
-            "button_data_attribute": "data-scroll-to",
+            "button_data_attribute": "scroll-to=\"#product\"",
             "button_style_secondary": false,
             "button_has_arrow": true
           }
@@ -874,248 +1115,6 @@
         "divider_color": "#ffffff",
         "divider_height": 35,
         "text_shadow": ""
-      }
-    },
-    "f07862ef-c7b1-4715-bed8-8047db91d388": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div id=\"product\"\/>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "a940e4cc-1ee3-4f05-8c80-2244e675b44b": {
-      "type": "rich-text",
-      "blocks": {
-        "1c4c3972-92b4-47d5-9512-2d075f6953f0": {
-          "type": "caption",
-          "settings": {
-            "caption": "Most Popular",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
-          }
-        },
-        "c001f0e6-8126-45a3-b947-b43b36357f93": {
-          "type": "heading",
-          "settings": {
-            "heading": "<em><strong>Sleepy Baby Bundle<\/strong><\/em>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1c4c3972-92b4-47d5-9512-2d075f6953f0",
-        "c001f0e6-8126-45a3-b947-b43b36357f93"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "highlight_color": "#e0f6ff",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "svg_background": false,
-        "divider_enabled": false,
-        "divider_color": "#ffffff",
-        "divider_height": 35,
-        "text_shadow": ""
-      }
-    },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "fec06aa8-a151-47d8-9d04-42b7fdad67a1": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": ""
-          }
-        },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "4689dae8-2826-4359-86a0-5a64788e7cda": {
-          "type": "afterpay_placement",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "swatch"
-          }
-        },
-        "6d31622f-9a24-4057-88ef-f65710afcccb": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div class=\"product-form__shipping-date\" style=\"font-size: 12px\">\n* Orders received after 19th Dec may not arrive before Christmas<\/div>"
-          }
-        },
-        "656dbf9b-633d-4370-aa6d-14b4f0b221a4": {
-          "type": "discounts",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false,
-            "add_to_cart_text": "GET LULLA DOLL",
-            "add_to_checkout": true,
-            "has_arrow": true
-          }
-        },
-        "caption": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "a84ec090-d83e-42b2-ac7f-fbb9387e8730": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "The sleeping companion <strong>backed by science<\/strong> to help you and your baby get a <em>full night <\/em>of<strong> uninterrupted sleep <\/strong>by <em>'Self-Soothing'<\/em>.",
-            "text_style": "body"
-          }
-        },
-        "660f44b1-02b7-4f5c-a676-037897ff0046": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": " ",
-            "text_style": "body"
-          }
-        },
-        "19aac9f2-81b8-4248-89b5-99034cdf3765": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div style=\"font-size: calc(var(--font-heading-scale) * 1.7rem); color: black; font-weight: 600; margin-bottom: 1rem;\">Complete Bundle Includes:<\/div>"
-          }
-        },
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "Lulla Doll",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
-        "42cb1417-1865-4d1c-9238-e1b6f7774aa8": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "Bonus Lulla Outfit",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
-        "245916d1-dff7-47c4-8ba1-7334bf9fbede": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "Bonus Sleep Success Guide",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
-        "a5dc2986-c813-48bc-be7d-aaba602eb7ed": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "Access to Facebook Support Group",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "272f259b-4aad-4298-92f2-a98154f59a11": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "truck",
-            "heading_1": "<strong>FREE<\/strong> Express Shipping",
-            "icon_2": "heart",
-            "heading_2": "<strong>30-Day Money Back Guarantee<\/strong>",
-            "icon_3": "heart",
-            "heading_3": ""
-          }
-        }
-      },
-      "block_order": [
-        "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
-        "title",
-        "price",
-        "4689dae8-2826-4359-86a0-5a64788e7cda",
-        "variant_picker",
-        "6d31622f-9a24-4057-88ef-f65710afcccb",
-        "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
-        "buy_buttons",
-        "caption",
-        "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
-        "660f44b1-02b7-4f5c-a676-037897ff0046",
-        "19aac9f2-81b8-4248-89b5-99034cdf3765",
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
-        "42cb1417-1865-4d1c-9238-e1b6f7774aa8",
-        "245916d1-dff7-47c4-8ba1-7334bf9fbede",
-        "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
-        "description",
-        "272f259b-4aad-4298-92f2-a98154f59a11"
-      ],
-      "custom_css": [
-        ".product__text {margin-bottom: 3rem;}",
-        ".icon-with-text__item {margin-bottom: 1rem;}"
-      ],
-      "settings": {
-        "enable_sticky_info": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
-        "media_position": "left",
-        "image_zoom": "none",
-        "mobile_thumbnails": "show",
-        "hide_variants": true,
-        "enable_video_looping": true,
-        "padding_top": 16,
-        "padding_bottom": 32
       }
     },
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
@@ -1266,6 +1265,9 @@
     "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf",
     "f859c100-07cd-40ac-b216-645261b9e0b3",
     "related-products",
+    "f07862ef-c7b1-4715-bed8-8047db91d388",
+    "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
+    "main",
     "f698cc71-350b-42bd-a78f-2f131c289fc4",
     "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f",
     "1054f7f4-3610-4cb9-bb69-0e8d4908d05c",
@@ -1282,9 +1284,6 @@
     "17e989e4-05b8-4acd-b6b0-cfd5abb9b05f",
     "0d774d8d-6c04-4282-99cb-9fa626a0f00c",
     "be45606a-1880-4c85-aec5-356b13f2980d",
-    "f07862ef-c7b1-4715-bed8-8047db91d388",
-    "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
-    "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
     "1692621038513382cd"
   ]
