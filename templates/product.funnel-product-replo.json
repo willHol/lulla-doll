@@ -963,11 +963,13 @@
         },
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4": {
           "type": "discounts",
+          "disabled": true,
           "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
