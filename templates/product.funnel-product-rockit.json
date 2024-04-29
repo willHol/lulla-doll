@@ -484,6 +484,18 @@
             "custom_liquid": "<div class=\"product-form__shipping-date\" style=\"font-size: 12px\">\n* Orders received after 19th Dec may not arrive before Christmas<\/div>"
           }
         },
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "box",
+            "heading_1": "FREE Gift - Today Only: Stroller Strap",
+            "icon_2": "return",
+            "heading_2": "",
+            "icon_3": "truck",
+            "heading_3": ""
+          }
+        },
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4": {
           "type": "discounts",
           "settings": {
@@ -494,7 +506,7 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
-            "add_to_cart_text": "GET YOUR ROCKIT",
+            "add_to_cart_text": "Claim discount & Gift",
             "add_to_checkout": true,
             "has_arrow": true
           }
@@ -528,19 +540,6 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"font-size: calc(var(--font-heading-scale) * 1.7rem); color: black; font-weight: 600; margin-bottom: 1rem;\">Complete Bundle Includes:<\/div>"
-          }
-        },
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ll-tick",
-            "heading_1": "New! USB rechargeable version",
-            "icon_2": "return",
-            "heading_2": "",
-            "icon_3": "truck",
-            "heading_3": ""
           }
         },
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8": {
@@ -609,13 +608,13 @@
         "4689dae8-2826-4359-86a0-5a64788e7cda",
         "variant_picker",
         "6d31622f-9a24-4057-88ef-f65710afcccb",
+        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
         "buy_buttons",
         "caption",
         "a84ec090-d83e-42b2-ac7f-fbb9387e8730",
         "660f44b1-02b7-4f5c-a676-037897ff0046",
         "19aac9f2-81b8-4248-89b5-99034cdf3765",
-        "d4b0bf39-b5c5-4559-a7e9-618d90847ffe",
         "42cb1417-1865-4d1c-9238-e1b6f7774aa8",
         "245916d1-dff7-47c4-8ba1-7334bf9fbede",
         "a5dc2986-c813-48bc-be7d-aaba602eb7ed",
