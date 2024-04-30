@@ -1260,6 +1260,11 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "replo_pdpnew_zkPVDE": {
+      "type": "replo-pdpnew",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1286,6 +1291,7 @@
     "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
     "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
-    "1692621038513382cd"
+    "1692621038513382cd",
+    "replo_pdpnew_zkPVDE"
   ]
 }
