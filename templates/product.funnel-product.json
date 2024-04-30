@@ -1263,7 +1263,6 @@
     },
     "replo_pdpnew_zkPVDE": {
       "type": "replo-pdpnew",
-      "disabled": true,
       "settings": {
       }
     }
