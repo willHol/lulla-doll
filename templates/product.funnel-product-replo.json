@@ -923,6 +923,11 @@
         "text_shadow": ""
       }
     },
+    "replo_pdpnew_dd46Xg": {
+      "type": "replo-pdpnew",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -988,6 +993,7 @@
         "656dbf9b-633d-4370-aa6d-14b4f0b221a4",
         "buy_buttons"
       ],
+      "disabled": true,
       "custom_css": [
         ".product__text {margin-bottom: 3rem;}",
         ".icon-with-text__item {margin-bottom: 1rem;}"
@@ -1149,11 +1155,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "replo_pdpnew_dd46Xg": {
-      "type": "replo-pdpnew",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -1178,9 +1179,9 @@
     "be45606a-1880-4c85-aec5-356b13f2980d",
     "f07862ef-c7b1-4715-bed8-8047db91d388",
     "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
+    "replo_pdpnew_dd46Xg",
     "main",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
-    "1692621038513382cd",
-    "replo_pdpnew_dd46Xg"
+    "1692621038513382cd"
   ]
 }
