@@ -25,7 +25,6 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<u onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'RhfhNc']);\"><b>GET 10% OFF<\/b> Your First Order<\/u>",
             "link": "",
