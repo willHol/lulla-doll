@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "layout": "funnel",
   "sections": {
@@ -27,7 +36,7 @@
         "63c9abbc-b5d9-4785-ad31-2909ed878b98": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SICHERN SIE IHRE RUHE",
+            "button_label_1": "SICHERN SIE SICH IHREN ERHOLSAMEN SCHLAF",
             "button_link_1": "",
             "button_data_attribute_1": "scroll-to=\"#product\"",
             "button_style_secondary_1": false,
@@ -229,7 +238,7 @@
         "template--16236965560507__1054f7f4-3610-4cb9-bb69-0e8d4908d05c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Eltern berichten dass sie <strong>bis zu 90 %<\/strong> ihres Schlafes zurückgewinnen wenn ihr Kind mit der <strong>Lulla Doll<\/strong>",
+            "heading": "Eltern berichten, dass sie bis zu <strong>90 % ihres Schlafes<\/strong> zurückgewinnen, wenn ihr Kind die <strong>Lulla Doll<\/strong> benutzt.",
             "heading_size": "h1"
           }
         }
@@ -259,14 +268,14 @@
         "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>3 Jahren Forschung<\/strong>",
+            "heading": "<strong>3 Jahre Forschung<\/strong>",
             "heading_size": "h1"
           }
         },
         "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>um die preisgekrönte Schlafpuppe zu entwickeln, die Eltern in den ersten Lebensjahren ihres Kindes hilft.<\/p>",
+            "text": "<p>stecken hinter der preisgekrönten Schlafpuppe, die Eltern in den ersten Lebensjahren ihres Kindes unterstützt.<\/p>",
             "text_style": "subtitle"
           }
         },
@@ -369,7 +378,7 @@
         "template--16236965560507__dc5ebd70-3f8f-4465-ae80-d98601301419-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sie gewinnen Ihren Schlafkampf zurück, da Ihr Baby mit der Lulla-Puppe bis zu 12 Stunden schläft.<\/p>",
+            "text": "<p>Endlich wieder Nächte durchschlafen, da Ihr Baby mit der Lulla Doll bis zu 12 Stunden schläft.<\/p>",
             "text_style": "body"
           }
         }
@@ -406,7 +415,7 @@
         "77628efe-ce85-4417-9cbf-0cfe7e8aa5d6": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Lulla Doll simuliert die menschliche Nähe, die für Babys wichtig ist, um zu lernen, sich selbst zu beruhigen.<\/p>",
+            "text": "<p>Die Lulla Doll simuliert menschliche Nähe, die Babys hilft, sich selbst zu beruhigen.<\/p>",
             "text_style": "body"
           }
         }
@@ -450,7 +459,7 @@
         "d029e7db-f16b-40f9-96aa-1d59cb9e85d0": {
           "type": "button",
           "settings": {
-            "button_label": "SICHERN SIE IHRE RUHE",
+            "button_label": "JETZT ERHOLSAMEN SCHLAF SICHERN",
             "button_link": "",
             "button_data_attribute": "scroll-to=\"#product\"",
             "button_style_secondary": false,
