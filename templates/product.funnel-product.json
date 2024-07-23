@@ -23,7 +23,7 @@
         "6f73d2eb-44ec-4087-adae-1293c11c3b1f": {
           "type": "text",
           "settings": {
-            "text": "Dieser Schlafbegleiter ist wissenschaftlich so entwickelt, dass er Kindern im Alter von 0-36+ Monaten hilft, durch \"Selbstberuhigung\" eine ganze Nacht durchzuschlafen.",
+            "text": "Dieser Schlafbegleiter wurde wissenschaftlich entwickelt, um Kindern im Alter von 0-36+ Monaten zu helfen, sich selbst zu beruhigen und die ganze Nacht durchzuschlafen.",
             "text_style": "body"
           }
         },
@@ -575,6 +575,9 @@
         "45c6f32a-efb1-4091-aa02-6df9f859387d",
         "92dcd3d2-5713-4d32-9331-52c117645a47"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/lulla_doll_logo_white.png"
       }
@@ -632,7 +635,7 @@
           "type": "bullet",
           "settings": {
             "bullet_title": "",
-            "bullet_text": "Führen Sie Ihr Baby an die Puppe",
+            "bullet_text": "Gewöhnen Sie Ihr Baby an die Puppe",
             "bullet_is_numbered": true
           }
         },
@@ -640,7 +643,7 @@
           "type": "bullet",
           "settings": {
             "bullet_title": "",
-            "bullet_text": "Baby schläft von selbst ein",
+            "bullet_text": "Ihr Baby schläft von selbst ein",
             "bullet_is_numbered": true
           }
         }
@@ -685,7 +688,7 @@
         "b5a7d5e9-08e5-409a-85b1-a718ba077aeb": {
           "type": "heading",
           "settings": {
-            "heading": "Nicht zufrieden? Rückgabe innerhalb von 30 Tagen für eine volle Erstattung.",
+            "heading": "Nicht zufrieden? Unsere Geld-zurück-Garantie schützt Sie bis zu 30 Tage nach dem Kauf.",
             "heading_size": "h2"
           }
         }
@@ -732,7 +735,7 @@
         "12d9143e-7b18-4f2a-9950-ae8d485c802a": {
           "type": "text",
           "settings": {
-            "text": "<h2>nur hier erhältlich<\/h2>"
+            "text": "<h2>nur exklusiv hier erhältlich<\/h2>"
           }
         }
       },
@@ -775,7 +778,7 @@
         "55e08af9-f9ae-43c4-806c-2d4665573d5f": {
           "type": "bullet",
           "settings": {
-            "bullet_title": "Lulla Schlaf-Führer",
+            "bullet_title": "Lulla Schlafguide",
             "bullet_text": "Lehrt Ihr Baby das Selbstberuhigen",
             "bullet_is_numbered": false,
             "svg_icon": "shopify:\/\/shop_images\/star.svg"
@@ -784,8 +787,8 @@
         "732e3b29-6167-4762-bf82-d57a0f04178d": {
           "type": "bullet",
           "settings": {
-            "bullet_title": "Mütter-Supportgruppe",
-            "bullet_text": "Eine Community von über 10.000 Mitgliedern für gegenseitige Unterstützung",
+            "bullet_title": "Eltern-Community",
+            "bullet_text": "Eine Gemeinschaft von über 10.000 Eltern für gegenseitige Unterstützung und Austausch",
             "bullet_is_numbered": false,
             "svg_icon": "shopify:\/\/shop_images\/star.svg"
           }
@@ -876,7 +879,7 @@
         "1c4c3972-92b4-47d5-9512-2d075f6953f0": {
           "type": "caption",
           "settings": {
-            "caption": "Beliebteste",
+            "caption": "Am Beliebtesten",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }
@@ -884,7 +887,7 @@
         "c001f0e6-8126-45a3-b947-b43b36357f93": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Schlummerndes Baby-Paket<\/strong><\/em>",
+            "heading": "<em><strong>Schlafendes Baby-Paket<\/strong><\/em>",
             "heading_size": "h1"
           }
         }
