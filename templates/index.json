@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -6,14 +15,14 @@
         "a3be3a78-4178-4fb6-ae56-687543d4c180": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Schlafen Sie Durch<\/strong><\/em><strong> Während die Kinder mit der <\/strong><em><strong>Lulla Doll<\/strong><\/em><strong> Kuscheln<\/strong>",
+            "heading": "<em><strong>Schlafen Sie durch<\/strong><\/em><strong>, während Ihr Kind mit der <\/strong><em><strong>Lulla Doll<\/strong><\/em><strong> kuschelt<\/strong>",
             "heading_size": "h1"
           }
         },
         "b416147b-c923-45a3-9370-0716b0cb7d2e": {
           "type": "text",
           "settings": {
-            "text": "Dieser Schlafbegleiter ist wissenschaftlich so entwickelt, dass er Kindern im Alter von 0-36+ Monaten hilft, durch \"Selbstberuhigung\" eine ganze Nacht durchzuschlafen.",
+            "text": "Dieser Schlafbegleiter wurde wissenschaftlich entwickelt, um Kindern im Alter von 0-36 Monaten zu helfen, sich selbst zu beruhigen und die ganze Nacht durchzuschlafen.",
             "text_style": "body"
           }
         },
