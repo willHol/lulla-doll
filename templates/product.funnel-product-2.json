@@ -24,6 +24,7 @@
       "blocks": {
         "1c4c3972-92b4-47d5-9512-2d075f6953f0": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "Most Popular",
             "text_style": "caption-with-letter-spacing",
