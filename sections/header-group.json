@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -25,11 +34,10 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<u onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'RhfhNc']);\"><b>GET 10% OFF<\/b> Your First Order<\/u>",
+            "text": "<b>🎁 BLACK FRIDAY SALE 🎁</b> Lowest Prices of the Year",
             "link": "",
-            "discount_icon": true
+            "discount_icon": false
           }
         }
       },
@@ -38,11 +46,11 @@
       ],
       "custom_css": [
         "svg {width: 18px; height: 18px; fill: white;}",
-        ".announcement-bar__message {font-size: 1.7rem; cursor: pointer; padding: 0.75rem; min-height: 0;}",
+        ".announcement-bar__message {font-size: 1.3rem; white-space: nowrap; cursor: pointer; padding: 0.75rem 0; min-height: 0; letter-spacing: 0.05rem; font-family: Poppins;}",
         ".utility-bar {max-height: 40px;}"
       ],
       "settings": {
-        "color_scheme": "scheme-408bec30-1c8a-4de8-bd8a-3104b29094fc",
+        "color_scheme": "inverse",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
