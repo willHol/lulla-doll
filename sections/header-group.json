@@ -46,8 +46,7 @@
       ],
       "custom_css": [
         "svg {width: 18px; height: 18px; fill: white;}",
-        ".announcement-bar__message {font-size: 1.3rem; white-space: nowrap; cursor: pointer; padding: 0.75rem 0; min-height: 0; letter-spacing: 0.05rem; font-family: Poppins;}",
-        ".announcement-bar__message b {font-weight: 900 !important;}",
+        ".announcement-bar__message {font-size: 1.3rem; white-space: nowrap; cursor: pointer; padding: 0.75rem 0; min-height: 0; letter-spacing: 0.05rem;}",
         ".utility-bar {max-height: 40px;}",
         ".utility-bar__grid {padding: 0;}"
       ],
