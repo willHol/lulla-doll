@@ -102,7 +102,7 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
-            "add_to_cart_text": "CLAIM OFFER & SAVE 52%",
+            "add_to_cart_text": "CLAIM OFFER & SAVE 45%",
             "add_to_checkout": true,
             "has_arrow": true
           }
