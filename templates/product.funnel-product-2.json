@@ -438,6 +438,69 @@
         "padding_bottom": 36
       }
     },
+    "83b975e0-4650-4f80-8dbc-961214470eb0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>3 Years of Research</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To create the award winning sleep doll that helps parents get through their child's early stages in life.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "edb2b505-16a9-4db8-b8ec-dfb53e206cdf": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/award2_d3fd5e1d-1337-4437-a329-4e20ee4b1569.png"
+          }
+        },
+        "0c16d33e-b4c3-418e-b95b-2384fd14d722": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/award3_efb3574f-6376-4dad-990d-c177bc892e95.png"
+          }
+        },
+        "a389269c-3224-4f0c-8644-19aad85a4281": {
+          "type": "badge",
+          "settings": {
+            "image": "shopify://shop_images/award1_67d36944-5619-4489-8ca1-9f6e596df118.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1",
+        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1",
+        "edb2b505-16a9-4db8-b8ec-dfb53e206cdf",
+        "0c16d33e-b4c3-418e-b95b-2384fd14d722",
+        "a389269c-3224-4f0c-8644-19aad85a4281"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text__media-item img {padding: 4rem; }}",
+        ".image-with-text .image-with-text__media-item,.global-media-settings {border-bottom-left-radius: 0; border-bottom-right-radius: 0;}",
+        ".image-with-text__text-item,.image-with-text__text-item * {border-top-right-radius: 0; border-top-left-radius: 0;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lulblue.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "373bec9c-66ab-4762-b9df-513d6946b341": {
       "type": "rich-text",
       "blocks": {
@@ -848,70 +911,6 @@
         "text_shadow": ""
       }
     },
-    "83b975e0-4650-4f80-8dbc-961214470eb0": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>3 Years of Research</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>To create the award winning sleep doll that helps parents get through their child's early stages in life.</p>",
-            "text_style": "subtitle"
-          }
-        },
-        "edb2b505-16a9-4db8-b8ec-dfb53e206cdf": {
-          "type": "badge",
-          "settings": {
-            "image": "shopify://shop_images/award2_d3fd5e1d-1337-4437-a329-4e20ee4b1569.png"
-          }
-        },
-        "0c16d33e-b4c3-418e-b95b-2384fd14d722": {
-          "type": "badge",
-          "settings": {
-            "image": "shopify://shop_images/award3_efb3574f-6376-4dad-990d-c177bc892e95.png"
-          }
-        },
-        "a389269c-3224-4f0c-8644-19aad85a4281": {
-          "type": "badge",
-          "settings": {
-            "image": "shopify://shop_images/award1_67d36944-5619-4489-8ca1-9f6e596df118.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-heading-1",
-        "template--16236965560507__83b975e0-4650-4f80-8dbc-961214470eb0-text-1",
-        "edb2b505-16a9-4db8-b8ec-dfb53e206cdf",
-        "0c16d33e-b4c3-418e-b95b-2384fd14d722",
-        "a389269c-3224-4f0c-8644-19aad85a4281"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (min-width: 750px) {.image-with-text__media-item img {padding: 4rem; }}",
-        ".image-with-text .image-with-text__media-item,.global-media-settings {border-bottom-left-radius: 0; border-bottom-right-radius: 0;}",
-        ".image-with-text__text-item,.image-with-text__text-item * {border-top-right-radius: 0; border-top-left-radius: 0;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/lulblue.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "4ac705bc-274d-4cb3-9a61-e1424f7f05b5": {
       "type": "rich-text",
       "blocks": {
@@ -1286,6 +1285,7 @@
     "main",
     "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
+    "83b975e0-4650-4f80-8dbc-961214470eb0",
     "373bec9c-66ab-4762-b9df-513d6946b341",
     "45114005-ad48-4a0d-a1e9-1327aceac9de",
     "f859c100-07cd-40ac-b216-645261b9e0b3",
@@ -1295,7 +1295,6 @@
     "f698cc71-350b-42bd-a78f-2f131c289fc4",
     "7899a7ea-ac80-42bc-91ed-4c1a9ec2495f",
     "1054f7f4-3610-4cb9-bb69-0e8d4908d05c",
-    "83b975e0-4650-4f80-8dbc-961214470eb0",
     "4ac705bc-274d-4cb3-9a61-e1424f7f05b5",
     "dc5ebd70-3f8f-4465-ae80-d98601301419",
     "82e64d89-4c1a-47ae-9aa6-9bfb0bcc66e4",
