@@ -313,6 +313,56 @@
         "show_more_info": true
       }
     },
+    "f859c100-07cd-40ac-b216-645261b9e0b3": {
+      "type": "as-seen-in",
+      "blocks": {
+        "c2194b40-4f1b-4248-8dcb-9dc4f763338c": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/today_d3d782ed-02ba-4fd9-aac2-fe6f96c1148a.png",
+            "alt": "Logo"
+          }
+        },
+        "5ab48408-dbc2-4d56-a247-28d475904fd3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/vogue_747f5631-71b9-4fb2-9257-5d9e8e84e914.png",
+            "alt": "Logo"
+          }
+        },
+        "89e82b71-86d4-4943-8b7c-7ab8d5464d66": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/mashable_06250178-98c0-4cbe-9763-ffe83242b5be.png",
+            "alt": "Logo"
+          }
+        },
+        "e6edcd52-dabd-4a43-8d2c-f568283fd536": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/babyology_cd25ad0f-5ca8-4715-816c-6f7844f9a72a.png",
+            "alt": "Logo"
+          }
+        }
+      },
+      "block_order": [
+        "c2194b40-4f1b-4248-8dcb-9dc4f763338c",
+        "5ab48408-dbc2-4d56-a247-28d475904fd3",
+        "89e82b71-86d4-4943-8b7c-7ab8d5464d66",
+        "e6edcd52-dabd-4a43-8d2c-f568283fd536"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "As Featured In",
+        "swiper_enabled": false,
+        "max_height": "auto",
+        "image_aspect_ratio": "auto",
+        "color_scheme": "inverse",
+        "divider_enabled": true,
+        "divider_color": "#ffffff",
+        "divider_height": 35
+      }
+    },
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da": {
       "type": "collapsible-content",
       "blocks": {
@@ -587,56 +637,6 @@
       ],
       "settings": {
         "logo": "shopify://shop_images/lulla_doll_logo_white.png"
-      }
-    },
-    "f859c100-07cd-40ac-b216-645261b9e0b3": {
-      "type": "as-seen-in",
-      "blocks": {
-        "c2194b40-4f1b-4248-8dcb-9dc4f763338c": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/today_d3d782ed-02ba-4fd9-aac2-fe6f96c1148a.png",
-            "alt": "Logo"
-          }
-        },
-        "5ab48408-dbc2-4d56-a247-28d475904fd3": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/vogue_747f5631-71b9-4fb2-9257-5d9e8e84e914.png",
-            "alt": "Logo"
-          }
-        },
-        "89e82b71-86d4-4943-8b7c-7ab8d5464d66": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/mashable_06250178-98c0-4cbe-9763-ffe83242b5be.png",
-            "alt": "Logo"
-          }
-        },
-        "e6edcd52-dabd-4a43-8d2c-f568283fd536": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/babyology_cd25ad0f-5ca8-4715-816c-6f7844f9a72a.png",
-            "alt": "Logo"
-          }
-        }
-      },
-      "block_order": [
-        "c2194b40-4f1b-4248-8dcb-9dc4f763338c",
-        "5ab48408-dbc2-4d56-a247-28d475904fd3",
-        "89e82b71-86d4-4943-8b7c-7ab8d5464d66",
-        "e6edcd52-dabd-4a43-8d2c-f568283fd536"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "As Featured In",
-        "swiper_enabled": false,
-        "max_height": "auto",
-        "image_aspect_ratio": "auto",
-        "color_scheme": "inverse",
-        "divider_enabled": true,
-        "divider_color": "#ffffff",
-        "divider_height": 35
       }
     },
     "ffe13799-affb-4b7f-aeda-8a0ccd1d477c": {
@@ -1285,11 +1285,11 @@
     "a940e4cc-1ee3-4f05-8c80-2244e675b44b",
     "main",
     "4bfa457c-bce8-4e12-a0b0-c98eb5a83ccf",
+    "f859c100-07cd-40ac-b216-645261b9e0b3",
     "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
     "373bec9c-66ab-4762-b9df-513d6946b341",
     "45114005-ad48-4a0d-a1e9-1327aceac9de",
     "5be49576-2d8f-4e8d-8440-0bd9c453e5ed",
-    "f859c100-07cd-40ac-b216-645261b9e0b3",
     "ffe13799-affb-4b7f-aeda-8a0ccd1d477c",
     "related-products",
     "f698cc71-350b-42bd-a78f-2f131c289fc4",
