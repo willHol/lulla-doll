@@ -102,7 +102,7 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false,
-            "add_to_cart_text": "GET LULLA DOLL",
+            "add_to_cart_text": "CLAIM OFFER & SAVE 52%",
             "add_to_checkout": true,
             "has_arrow": true
           }
@@ -231,7 +231,8 @@
       ],
       "custom_css": [
         ".product__text {margin-bottom: 3rem;}",
-        ".icon-with-text__item {margin-bottom: 1rem;}"
+        ".icon-with-text__item {margin-bottom: 1rem;}",
+        "#discount-list {display: none !important;}"
       ],
       "settings": {
         "enable_sticky_info": false,
