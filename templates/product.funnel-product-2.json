@@ -515,6 +515,7 @@
       "block_order": [
         "template--16236965560507__373bec9c-66ab-4762-b9df-513d6946b341-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -575,6 +576,7 @@
         "b59b1f1f-6c90-4af6-ba53-bdb6e980b4fa",
         "template--16253133291707__45114005-ad48-4a0d-a1e9-1327aceac9de-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/pink_0209fc2c-0066-4fb0-8b05-682ef63f92f7.jpg",
         "height": "adapt",
