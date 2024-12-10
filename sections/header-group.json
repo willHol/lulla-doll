@@ -35,7 +35,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "<b>🎁 BLACK FRIDAY SALE 🎁</b> Lowest Prices of the Year",
+            "text": "🎄 CHRISTMAS SALE 🎁 Lowest Prices of the Year",
             "link": "",
             "discount_icon": false
           }
