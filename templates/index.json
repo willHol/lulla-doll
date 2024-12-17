@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -6,28 +15,22 @@
         "a3be3a78-4178-4fb6-ae56-687543d4c180": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>You Sleep <\/strong><em><strong>All Night<\/strong><\/em><strong> When They Sleep With <\/strong><em><strong>Lulla Doll<\/strong><\/em>",
+            "heading": "<strong>You Sleep </strong><em><strong>All Night</strong></em><strong> When They Sleep With </strong><em><strong>Lulla Doll</strong></em>",
             "heading_size": "h1"
           }
         },
         "b416147b-c923-45a3-9370-0716b0cb7d2e": {
           "type": "text",
           "settings": {
-            "text": "The sleeping companion <strong>scientifically engineered<\/strong> to help kids 0-36+ months get a <em>full night<\/em> of <strong>uninterrupted rest by <\/strong>'Self-Soothing'.",
+            "text": "The sleeping companion <strong>scientifically engineered</strong> to help kids 0-36+ months get a <em>full night</em> of <strong>uninterrupted rest by </strong>'Self-Soothing'.",
             "text_style": "body"
-          }
-        },
-        "8bf93514-469d-4d1b-a86c-9e4d9b24ed29": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": ""
           }
         },
         "ea198600-48de-4569-85e8-34f4ca8e3f73": {
           "type": "buttons",
           "settings": {
             "button_label_1": "RESTORE YOUR SLEEP",
-            "button_link_1": "shopify:\/\/collections\/the-lulla-doll-collection",
+            "button_link_1": "shopify://collections/the-lulla-doll-collection",
             "button_data_attribute_1": "",
             "button_style_secondary_1": false,
             "button_has_arrow_1": true,
@@ -38,19 +41,17 @@
         },
         "0df32206-8d2a-4761-8fd2-6794b10df673": {
           "type": "value_statements",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "a3be3a78-4178-4fb6-ae56-687543d4c180",
         "b416147b-c923-45a3-9370-0716b0cb7d2e",
-        "8bf93514-469d-4d1b-a86c-9e4d9b24ed29",
         "ea198600-48de-4569-85e8-34f4ca8e3f73",
         "0df32206-8d2a-4761-8fd2-6794b10df673"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/doll-header.webp",
+        "image": "shopify://shop_images/doll-header.webp",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -70,28 +71,28 @@
         "a8bdd32d-859f-44f3-a262-29f5d0a0b2b7": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/vogue_747f5631-71b9-4fb2-9257-5d9e8e84e914.png",
+            "logo_image": "shopify://shop_images/vogue_747f5631-71b9-4fb2-9257-5d9e8e84e914.png",
             "alt": "Logo"
           }
         },
         "e876dfa0-638c-4ee6-bf0a-e7c9cca59366": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/today_d3d782ed-02ba-4fd9-aac2-fe6f96c1148a.png",
+            "logo_image": "shopify://shop_images/today_d3d782ed-02ba-4fd9-aac2-fe6f96c1148a.png",
             "alt": "Logo"
           }
         },
         "7b3eaa57-9db7-4b70-817b-f6d2db888c19": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/mashable_06250178-98c0-4cbe-9763-ffe83242b5be.png",
+            "logo_image": "shopify://shop_images/mashable_06250178-98c0-4cbe-9763-ffe83242b5be.png",
             "alt": "Logo"
           }
         },
         "892dcfd2-167f-4314-b01c-cdf17d00d4b3": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/babyology_cd25ad0f-5ca8-4715-816c-6f7844f9a72a.png",
+            "logo_image": "shopify://shop_images/babyology_cd25ad0f-5ca8-4715-816c-6f7844f9a72a.png",
             "alt": "Logo"
           }
         }
@@ -147,9 +148,9 @@
         "1605a444-4ae7-4743-834c-f41849561214": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "<span id=\"more-info\">Safety Information<\/span>",
+            "heading": "<span id=\"more-info\">Safety Information</span>",
             "icon": "heart",
-            "row_content": "<p>For baby's safety, always follow <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">SIDS guidelines<\/a>. Keep soft toys out of the crib for babies under 7 months. Use the provided strap to secure Lulla away from baby's reach. Lulla's audio and visual features will still offer comfort. Use only under direct supervision - <a href=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https:\/\/www.healthdirect.gov.au\/sudden-infant-death-syndrome-sids\">See Guidelines<\/a><\/p>",
+            "row_content": "<p>For baby's safety, always follow <a href=\"https://www.healthdirect.gov.au/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https://www.healthdirect.gov.au/sudden-infant-death-syndrome-sids\">SIDS guidelines</a>. Keep soft toys out of the crib for babies under 7 months. Use the provided strap to secure Lulla away from baby's reach. Lulla's audio and visual features will still offer comfort. Use only under direct supervision - <a href=\"https://www.healthdirect.gov.au/sudden-infant-death-syndrome-sids\" target=\"_blank\" title=\"https://www.healthdirect.gov.au/sudden-infant-death-syndrome-sids\">See Guidelines</a></p>",
             "page": ""
           }
         },
@@ -158,7 +159,7 @@
           "settings": {
             "heading": "What ages is Lulla suitable for?",
             "icon": "question_mark",
-            "row_content": "<p>Lulla was made for babies 0-36+ months, but we also see great results for children up to ages 7+. <\/p><p>For guidance tailored to your child's age, consult the sleep success guide included in the sleepy baby bundle. The guide features advice from sleep specialist Amanda Bude on the best way to introduce Lulla at their current age.<\/p>",
+            "row_content": "<p>Lulla was made for babies 0-36+ months, but we also see great results for children up to ages 7+. </p><p>For guidance tailored to your child's age, consult the sleep success guide included in the sleepy baby bundle. The guide features advice from sleep specialist Amanda Bude on the best way to introduce Lulla at their current age.</p>",
             "page": ""
           }
         },
@@ -167,7 +168,7 @@
           "settings": {
             "heading": "Does Lulla need batteries?",
             "icon": "question_mark",
-            "row_content": "<p>Lulla takes 2 x AA batteries. We recommend using rechargeable batteries to help protect our environment. Good-quality batteries will last for 280 hours of playback or 35 nights of 8-hour sleeps.<\/p>",
+            "row_content": "<p>Lulla takes 2 x AA batteries. We recommend using rechargeable batteries to help protect our environment. Good-quality batteries will last for 280 hours of playback or 35 nights of 8-hour sleeps.</p>",
             "page": ""
           }
         },
@@ -176,7 +177,7 @@
           "settings": {
             "heading": "Is Lulla machine washable?",
             "icon": "question_mark",
-            "row_content": "<p>Yes! Lulla's soundbox can be removed so you can wash your baby's doll in case of any yucky accidents.<\/p>",
+            "row_content": "<p>Yes! Lulla's soundbox can be removed so you can wash your baby's doll in case of any yucky accidents.</p>",
             "page": ""
           }
         },
@@ -185,7 +186,7 @@
           "settings": {
             "heading": "Is Lulla's fabric hypoallergenic?",
             "icon": "question_mark",
-            "row_content": "<p>Yes! Lulla's outer layer is made from soft, hypoallergenic natural cotton, while its filling consists of ultra-fine microfiber, also hypoallergenic in nature.<\/p>",
+            "row_content": "<p>Yes! Lulla's outer layer is made from soft, hypoallergenic natural cotton, while its filling consists of ultra-fine microfiber, also hypoallergenic in nature.</p>",
             "page": ""
           }
         },
@@ -194,7 +195,7 @@
           "settings": {
             "heading": "Are the electronics in Lulla secured for child safety?",
             "icon": "question_mark",
-            "row_content": "<p>Yes! Lulla is safety tested and certified according to European, US and Australian\/New Zealand standards. <\/p><p>The sound box is safely secured inside the back of the Doll. The sound has three volume variations, the highest at 65 dB, making it safe for prolonged use for babies sensitive hearing.<\/p>",
+            "row_content": "<p>Yes! Lulla is safety tested and certified according to European, US and Australian/New Zealand standards. </p><p>The sound box is safely secured inside the back of the Doll. The sound has three volume variations, the highest at 65 dB, making it safe for prolonged use for babies sensitive hearing.</p>",
             "page": ""
           }
         },
@@ -203,7 +204,7 @@
           "settings": {
             "heading": "What sets Lulla apart from other sleep aids?",
             "icon": "question_mark",
-            "row_content": "<ol><li>Lulla is the only comforter on the market that plays real-life heartbeat and breathing continuously for 12 hours. Other popular sleep toys switch off after just 20 minutes.<\/li><li>Lulla is the only sleep comforter backed by 3 years of scientific research.<\/li><li>We also know from scientific research that babies respond and engage with human features more than any other animal.<\/li><li>Lulla is the only doll to truly replicate sleeping in your arms or co-sleeping.<\/li><li>Many sleep toys activate through sound or motion, but by then, your little one has already fully awakened, making it difficult to restore a calm state afterwards.<\/li><\/ol>",
+            "row_content": "<ol><li>Lulla is the only comforter on the market that plays real-life heartbeat and breathing continuously for 12 hours. Other popular sleep toys switch off after just 20 minutes.</li><li>Lulla is the only sleep comforter backed by 3 years of scientific research.</li><li>We also know from scientific research that babies respond and engage with human features more than any other animal.</li><li>Lulla is the only doll to truly replicate sleeping in your arms or co-sleeping.</li><li>Many sleep toys activate through sound or motion, but by then, your little one has already fully awakened, making it difficult to restore a calm state afterwards.</li></ol>",
             "page": ""
           }
         },
@@ -212,7 +213,7 @@
           "settings": {
             "heading": "What is the 30-day guarantee?",
             "icon": "question_mark",
-            "row_content": "<p>Our guarantee makes trying Lulla Doll 100% risk free! If you're not satisfied within the first 30 days, simply return the item in its original condition for a full refund. See the <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Full Policy Here.<\/a><\/p>",
+            "row_content": "<p>Our guarantee makes trying Lulla Doll 100% risk free! If you're not satisfied within the first 30 days, simply return the item in its original condition for a full refund. See the <a href=\"/policies/refund-policy\" title=\"Refund Policy\">Full Policy Here.</a></p>",
             "page": ""
           }
         },
@@ -221,7 +222,7 @@
           "settings": {
             "heading": "What are the shipping times?",
             "icon": "question_mark",
-            "row_content": "<p>3-5 days across all states of Australia.<\/p>",
+            "row_content": "<p>3-5 days across all states of Australia.</p>",
             "page": ""
           }
         },
@@ -231,7 +232,7 @@
           "settings": {
             "heading": "How does Lulla help children sleep better?",
             "icon": "question_mark",
-            "row_content": "<p>Lulla plays a continuous 12-hour breathing and heartbeat sounds designed to help them soothe themselves to sleep without your assistance. The sounds of human breathing and heartbeats soothe babies when they awaken during the night.<\/p>",
+            "row_content": "<p>Lulla plays a continuous 12-hour breathing and heartbeat sounds designed to help them soothe themselves to sleep without your assistance. The sounds of human breathing and heartbeats soothe babies when they awaken during the night.</p>",
             "page": ""
           }
         }
@@ -265,12 +266,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
     }
   },
   "order": [
     "image_banner",
     "992b131d-0c42-4237-b97d-87eed7586c2e",
     "featured_collection",
-    "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da"
+    "7fee1aef-4f0a-4d3a-bda9-e109b1a2c5da",
+    "pagefly-home"
   ]
 }
