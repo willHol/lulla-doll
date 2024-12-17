@@ -146,6 +146,20 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "pagefly-page-builder": {
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
+      },
+      "733389323033596483": {
+        "type": "shopify://apps/okendo/blocks/theme-settings/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -245,13 +259,6 @@
           "secondary_button_label": "#121212",
           "shadow": "#ad4574"
         }
-      }
-    },
-    "blocks": {
-      "pagefly-page-builder": {
-        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
