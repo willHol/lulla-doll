@@ -222,7 +222,7 @@
           "settings": {
             "heading": "What are the shipping times?",
             "icon": "question_mark",
-            "row_content": "<p>3-5 days across all states of Australia.</p>",
+            "row_content": "<p>3-5 days across all of the UK.</p>",
             "page": ""
           }
         },
@@ -269,6 +269,7 @@
     },
     "pagefly-home": {
       "type": "pagefly-home",
+      "disabled": true,
       "settings": {}
     }
   },
