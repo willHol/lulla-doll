@@ -61,12 +61,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "fec06aa8-a151-47d8-9d04-42b7fdad67a1": {
-          "type": "shopify://apps/okendo/blocks/star-rating/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": ""
-          }
-        },
         "title": {
           "type": "title",
           "disabled": true,
@@ -210,7 +204,6 @@
         }
       },
       "block_order": [
-        "fec06aa8-a151-47d8-9d04-42b7fdad67a1",
         "title",
         "price",
         "4689dae8-2826-4359-86a0-5a64788e7cda",
@@ -266,12 +259,6 @@
             "text_style": "body"
           }
         },
-        "f8d9f246-afa8-4bd3-b8a0-6a60145121e8": {
-          "type": "shopify://apps/okendo/blocks/star-rating/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": ""
-          }
-        },
         "63c9abbc-b5d9-4785-ad31-2909ed878b98": {
           "type": "buttons",
           "settings": {
@@ -293,13 +280,11 @@
       "block_order": [
         "703f7608-0c82-4cf0-b6f3-ea8e3b904c37",
         "6f73d2eb-44ec-4087-adae-1293c11c3b1f",
-        "f8d9f246-afa8-4bd3-b8a0-6a60145121e8",
         "63c9abbc-b5d9-4785-ad31-2909ed878b98",
         "f5790309-753f-4cd0-9879-f83ff4219740"
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/headr4.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -393,7 +378,7 @@
           "settings": {
             "heading": "What are the shipping times?",
             "icon": "question_mark",
-            "row_content": "<p>3-5 days across all states of Australia.</p>",
+            "row_content": "<p>3-5 days across all of the UK.</p>",
             "page": ""
           }
         },
@@ -1210,7 +1195,6 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/bundle.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -1264,18 +1248,6 @@
     },
     "1692621038513382cd": {
       "type": "apps",
-      "blocks": {
-        "bc341b12-9a8b-4ef3-951c-cec399a30716": {
-          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": "lulla-sleepy-baby-bundle",
-            "widget_type": "reviews_widget"
-          }
-        }
-      },
-      "block_order": [
-        "bc341b12-9a8b-4ef3-951c-cec399a30716"
-      ],
       "settings": {
         "include_margins": true
       }
