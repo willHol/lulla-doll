@@ -1090,7 +1090,8 @@
       ],
       "custom_css": [
         ".product__text {margin-bottom: 3rem;}",
-        ".icon-with-text__item {margin-bottom: 1rem;}"
+        ".icon-with-text__item {margin-bottom: 1rem;}",
+        "#discount--advertisement {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": false,
